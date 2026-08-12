@@ -1,0 +1,1650 @@
+{
+  "set": 82,
+  "difficulty": 9,
+  "questions": [
+    {
+      "id": "A01",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Tugas kumpulan tidak seimbang. Apakah tindakan terbaik semasa sebelum pembentangan?",
+      "options": [
+        "Bergaduh",
+        "Tinggalkan kumpulan",
+        "Biarkan seorang buat semuanya",
+        "Bincang semula pembahagian tugas"
+      ],
+      "weights": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A02",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Rakan kelihatan kecewa selepas mendapat markah rendah. Apakah tindakan paling sesuai?",
+      "options": [
+        "Membiarkannya",
+        "Menyebarkan keputusannya",
+        "Mengejeknya",
+        "Memberi galakan dan menawarkan bantuan"
+      ],
+      "weights": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A03",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Rakan anda berjaya dalam sesuatu yang anda belum kuasai. Apakah respons terbaik?",
+      "options": [
+        "Mengejek kejayaannya",
+        "Ucap tahniah dan belajar daripadanya",
+        "Mengelakkan rakan itu",
+        "Cemburu"
+      ],
+      "weights": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A04",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Anda mempunyai dua tugasan dengan tarikh akhir berbeza. Apakah tindakan paling berkesan semasa semasa tugasan kelas?",
+      "options": [
+        "Tunggu hingga malam terakhir",
+        "Susun keutamaan berdasarkan tarikh dan keperluan",
+        "Serahkan kedua-duanya kepada rakan",
+        "Buat yang paling mudah sahaja"
+      ],
+      "weights": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A05",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Anda lewat menyiapkan bahagian tugasan kerana kurang merancang. Apakah tindakan terbaik?",
+      "options": [
+        "Beri alasan palsu",
+        "Salahkan ahli lain",
+        "Tidak perlu siapkan",
+        "Akui kelewatan dan susun semula kerja"
+      ],
+      "weights": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A06",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Seorang ahli kumpulan jarang bercakap. Apakah tindakan yang membantu?",
+      "options": [
+        "Abaikan",
+        "Beri ruang untuk menyampaikan pandangan",
+        "Paksa dia bercakap panjang",
+        "Buat keputusan tanpa dia"
+      ],
+      "weights": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A07",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Tugas kumpulan tidak seimbang. Apakah tindakan terbaik semasa semasa bekerja dalam kumpulan?",
+      "options": [
+        "Bergaduh",
+        "Tinggalkan kumpulan",
+        "Bincang semula pembahagian tugas",
+        "Biarkan seorang buat semuanya"
+      ],
+      "weights": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A08",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Rakan kelihatan kecewa selepas mendapat markah rendah. Apakah tindakan paling sesuai?",
+      "options": [
+        "Memberi galakan dan menawarkan bantuan",
+        "Membiarkannya",
+        "Menyebarkan keputusannya",
+        "Mengejeknya"
+      ],
+      "weights": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A09",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Rakan anda berjaya dalam sesuatu yang anda belum kuasai. Apakah respons terbaik?",
+      "options": [
+        "Mengejek kejayaannya",
+        "Ucap tahniah dan belajar daripadanya",
+        "Cemburu",
+        "Mengelakkan rakan itu"
+      ],
+      "weights": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A10",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Anda mempunyai dua tugasan dengan tarikh akhir berbeza. Apakah tindakan paling berkesan semasa ketika aktiviti kokurikulum?",
+      "options": [
+        "Susun keutamaan berdasarkan tarikh dan keperluan",
+        "Tunggu hingga malam terakhir",
+        "Buat yang paling mudah sahaja",
+        "Serahkan kedua-duanya kepada rakan"
+      ],
+      "weights": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A11",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Anda lewat menyiapkan bahagian tugasan kerana kurang merancang. Apakah tindakan terbaik?",
+      "options": [
+        "Akui kelewatan dan susun semula kerja",
+        "Beri alasan palsu",
+        "Salahkan ahli lain",
+        "Tidak perlu siapkan"
+      ],
+      "weights": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A12",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Seorang ahli kumpulan jarang bercakap. Apakah tindakan yang membantu?",
+      "options": [
+        "Abaikan",
+        "Buat keputusan tanpa dia",
+        "Paksa dia bercakap panjang",
+        "Beri ruang untuk menyampaikan pandangan"
+      ],
+      "weights": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A13",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Tugas kumpulan tidak seimbang. Apakah tindakan terbaik semasa ketika berada di pusat sumber?",
+      "options": [
+        "Biarkan seorang buat semuanya",
+        "Tinggalkan kumpulan",
+        "Bergaduh",
+        "Bincang semula pembahagian tugas"
+      ],
+      "weights": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A14",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Rakan kelihatan kecewa selepas mendapat markah rendah. Apakah tindakan paling sesuai?",
+      "options": [
+        "Membiarkannya",
+        "Mengejeknya",
+        "Menyebarkan keputusannya",
+        "Memberi galakan dan menawarkan bantuan"
+      ],
+      "weights": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A15",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Rakan anda berjaya dalam sesuatu yang anda belum kuasai. Apakah respons terbaik?",
+      "options": [
+        "Mengejek kejayaannya",
+        "Mengelakkan rakan itu",
+        "Cemburu",
+        "Ucap tahniah dan belajar daripadanya"
+      ],
+      "weights": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A16",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Anda mempunyai dua tugasan dengan tarikh akhir berbeza. Apakah tindakan paling berkesan semasa sebelum pembentangan?",
+      "options": [
+        "Buat yang paling mudah sahaja",
+        "Susun keutamaan berdasarkan tarikh dan keperluan",
+        "Tunggu hingga malam terakhir",
+        "Serahkan kedua-duanya kepada rakan"
+      ],
+      "weights": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A17",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Anda lewat menyiapkan bahagian tugasan kerana kurang merancang. Apakah tindakan terbaik?",
+      "options": [
+        "Beri alasan palsu",
+        "Salahkan ahli lain",
+        "Tidak perlu siapkan",
+        "Akui kelewatan dan susun semula kerja"
+      ],
+      "weights": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A18",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Seorang ahli kumpulan jarang bercakap. Apakah tindakan yang membantu?",
+      "options": [
+        "Beri ruang untuk menyampaikan pandangan",
+        "Abaikan",
+        "Buat keputusan tanpa dia",
+        "Paksa dia bercakap panjang"
+      ],
+      "weights": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A19",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Tugas kumpulan tidak seimbang. Apakah tindakan terbaik semasa semasa tugasan kelas?",
+      "options": [
+        "Tinggalkan kumpulan",
+        "Bincang semula pembahagian tugas",
+        "Biarkan seorang buat semuanya",
+        "Bergaduh"
+      ],
+      "weights": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A20",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Rakan kelihatan kecewa selepas mendapat markah rendah. Apakah tindakan paling sesuai?",
+      "options": [
+        "Membiarkannya",
+        "Mengejeknya",
+        "Memberi galakan dan menawarkan bantuan",
+        "Menyebarkan keputusannya"
+      ],
+      "weights": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A21",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Rakan anda berjaya dalam sesuatu yang anda belum kuasai. Apakah respons terbaik?",
+      "options": [
+        "Cemburu",
+        "Mengejek kejayaannya",
+        "Ucap tahniah dan belajar daripadanya",
+        "Mengelakkan rakan itu"
+      ],
+      "weights": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A22",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Anda mempunyai dua tugasan dengan tarikh akhir berbeza. Apakah tindakan paling berkesan semasa semasa bekerja dalam kumpulan?",
+      "options": [
+        "Susun keutamaan berdasarkan tarikh dan keperluan",
+        "Serahkan kedua-duanya kepada rakan",
+        "Tunggu hingga malam terakhir",
+        "Buat yang paling mudah sahaja"
+      ],
+      "weights": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A23",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Anda lewat menyiapkan bahagian tugasan kerana kurang merancang. Apakah tindakan terbaik?",
+      "options": [
+        "Tidak perlu siapkan",
+        "Akui kelewatan dan susun semula kerja",
+        "Beri alasan palsu",
+        "Salahkan ahli lain"
+      ],
+      "weights": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A24",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Seorang ahli kumpulan jarang bercakap. Apakah tindakan yang membantu?",
+      "options": [
+        "Beri ruang untuk menyampaikan pandangan",
+        "Buat keputusan tanpa dia",
+        "Paksa dia bercakap panjang",
+        "Abaikan"
+      ],
+      "weights": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A25",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Tugas kumpulan tidak seimbang. Apakah tindakan terbaik semasa ketika aktiviti kokurikulum?",
+      "options": [
+        "Biarkan seorang buat semuanya",
+        "Bergaduh",
+        "Bincang semula pembahagian tugas",
+        "Tinggalkan kumpulan"
+      ],
+      "weights": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A26",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Rakan kelihatan kecewa selepas mendapat markah rendah. Apakah tindakan paling sesuai?",
+      "options": [
+        "Menyebarkan keputusannya",
+        "Memberi galakan dan menawarkan bantuan",
+        "Membiarkannya",
+        "Mengejeknya"
+      ],
+      "weights": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A27",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Rakan anda berjaya dalam sesuatu yang anda belum kuasai. Apakah respons terbaik?",
+      "options": [
+        "Cemburu",
+        "Ucap tahniah dan belajar daripadanya",
+        "Mengejek kejayaannya",
+        "Mengelakkan rakan itu"
+      ],
+      "weights": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A28",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Anda mempunyai dua tugasan dengan tarikh akhir berbeza. Apakah tindakan paling berkesan semasa ketika berada di pusat sumber?",
+      "options": [
+        "Tunggu hingga malam terakhir",
+        "Serahkan kedua-duanya kepada rakan",
+        "Buat yang paling mudah sahaja",
+        "Susun keutamaan berdasarkan tarikh dan keperluan"
+      ],
+      "weights": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A29",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Anda lewat menyiapkan bahagian tugasan kerana kurang merancang. Apakah tindakan terbaik?",
+      "options": [
+        "Salahkan ahli lain",
+        "Beri alasan palsu",
+        "Tidak perlu siapkan",
+        "Akui kelewatan dan susun semula kerja"
+      ],
+      "weights": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A30",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Seorang ahli kumpulan jarang bercakap. Apakah tindakan yang membantu?",
+      "options": [
+        "Beri ruang untuk menyampaikan pandangan",
+        "Abaikan",
+        "Paksa dia bercakap panjang",
+        "Buat keputusan tanpa dia"
+      ],
+      "weights": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "B01",
+      "section": "BAHAGIAN B",
+      "category": "Matematik",
+      "question": "Semasa projek alam sekitar di padang, di kantin, sebuah kotak minuman berbentuk segi empat tepat mempunyai panjang 16 cm dan lebar 9 cm. Berapakah perimeter?",
+      "options": [
+        "52",
+        "68",
+        "48",
+        "50"
+      ],
+      "answer": 3,
+      "explanation": "Perimeter = 2 × (16 + 9) = 50 cm.",
+      "type": "objective",
+      "visual": "s82_b01_rect.svg"
+    },
+    {
+      "id": "B02",
+      "section": "BAHAGIAN B",
+      "category": "Matematik",
+      "question": "Semasa aktiviti kokurikulum di taman sekolah, di pusat sumber, sebuah majalah berbentuk segi empat sama dengan sisi 18 cm. Berapakah luasnya?",
+      "options": [
+        "342",
+        "322",
+        "36",
+        "324"
+      ],
+      "answer": 3,
+      "explanation": "Luas = 18 × 18 = 324 cm².",
+      "type": "objective",
+      "visual": "s82_b02_square.svg"
+    },
+    {
+      "id": "B03",
+      "section": "BAHAGIAN B",
+      "category": "Matematik",
+      "question": "Semasa hari sukan di bengkel, seorang murid mengukur satu sudut pada garis lurus dan mendapat 162°. Berapakah sudut bersebelahan?",
+      "options": [
+        "162",
+        "18",
+        "28",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "Sudut pada garis lurus berjumlah 180°. 180 − 162 = 18°.",
+      "type": "objective",
+      "visual": "s82_b03_angle.svg"
+    },
+    {
+      "id": "B04",
+      "section": "BAHAGIAN B",
+      "category": "Matematik",
+      "question": "Semasa aktiviti kemahiran di perpustakaan, sebuah segi tiga mempunyai dua sudut 50° dan 72°. Berapakah sudut yang belum diketahui?",
+      "options": [
+        "90",
+        "58",
+        "53",
+        "63"
+      ],
+      "answer": 1,
+      "explanation": "180° − 50° − 72° = 58°.",
+      "type": "objective",
+      "visual": "s82_b04_tri.svg"
+    },
+    {
+      "id": "B05",
+      "section": "BAHAGIAN B",
+      "category": "Matematik",
+      "question": "Semasa pameran pendidikan di kelas, sebuah kelas mempunyai 50 murid. Sebanyak 10% menyertai satu aktiviti. Berapakah bilangannya?",
+      "options": [
+        "0",
+        "25",
+        "5",
+        "10"
+      ],
+      "answer": 2,
+      "explanation": "10% × 50 = 5.",
+      "type": "objective"
+    },
+    {
+      "id": "B06",
+      "section": "BAHAGIAN B",
+      "category": "Matematik",
+      "question": "Semasa projek alam sekitar di pusat sumber, harga asal sebuah barang ialah RM160. Kedai memberi diskaun 20%. Berapakah harga selepas diskaun?",
+      "options": [
+        "RM140",
+        "RM138",
+        "RM118",
+        "RM128"
+      ],
+      "answer": 3,
+      "explanation": "Harga akhir = RM160 − 20% daripada RM160 = RM128.",
+      "type": "objective"
+    },
+    {
+      "id": "B07",
+      "section": "BAHAGIAN B",
+      "category": "Matematik",
+      "question": "Semasa aktiviti kokurikulum di makmal, bilangan pen biru dan merah adalah dalam nisbah 5:5. Jika jumlah pen ialah 30, berapakah bilangan pen biru?",
+      "options": [
+        "15",
+        "18",
+        "21",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "Jumlah bahagian = 10. Satu bahagian = 3. Biru = 5 × 3 = 15.",
+      "type": "objective"
+    },
+    {
+      "id": "B08",
+      "section": "BAHAGIAN B",
+      "category": "Matematik",
+      "question": "Semasa hari sukan di koperasi, empat bacaan ialah 21, 16, 20 dan 27. Berapakah purata?",
+      "options": [
+        "22",
+        "21",
+        "19",
+        "25"
+      ],
+      "answer": 1,
+      "explanation": "Jumlah 84 ÷ 4 = 21.",
+      "type": "objective"
+    },
+    {
+      "id": "B09",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Semasa aktiviti kemahiran di kantin, bas sekolah bergerak sejauh 190 km dalam 6 jam. Berapakah purata laju?",
+      "options": [
+        "41 km/j",
+        "31 km/j",
+        "21 km/j",
+        "62 km/j"
+      ],
+      "answer": 1,
+      "explanation": "Laju = 190 ÷ 6 = 31 km/j.",
+      "type": "objective"
+    },
+    {
+      "id": "B10",
+      "section": "BAHAGIAN B",
+      "category": "Matematik",
+      "question": "Semasa pameran pendidikan di dewan sekolah, 2/3 daripada 21 buku digunakan. Berapakah bilangan buku yang digunakan?",
+      "options": [
+        "17",
+        "20",
+        "12",
+        "14"
+      ],
+      "answer": 3,
+      "explanation": "2/3 × 21 = 14.",
+      "type": "objective"
+    },
+    {
+      "id": "B11",
+      "section": "BAHAGIAN B",
+      "category": "Matematik",
+      "question": "Semasa projek alam sekitar di padang, sebuah kotak mempunyai panjang 6 cm, lebar 9 cm dan tinggi 6 cm. Berapakah isipadu?",
+      "options": [
+        "334",
+        "330",
+        "315",
+        "324"
+      ],
+      "answer": 3,
+      "explanation": "6 × 9 × 6 = 324 cm³.",
+      "type": "objective"
+    },
+    {
+      "id": "B12",
+      "section": "BAHAGIAN B",
+      "category": "IQ / Pola",
+      "question": "Bayangkan Danish sedang menyertai aktiviti kokurikulum di taman sekolah. Apakah nombor seterusnya dalam pola 8, 17, 26, 35, ...?",
+      "options": [
+        "71",
+        "44",
+        "53",
+        "62"
+      ],
+      "answer": 2,
+      "explanation": "Pola bertambah 9 setiap kali. Jawapan = 53.",
+      "type": "objective"
+    },
+    {
+      "id": "B13",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Semasa hari sukan di bengkel, sebuah nombor ialah 24. Tolak 16, kemudian tambah 7. Apakah hasilnya?",
+      "options": [
+        "1",
+        "17",
+        "47",
+        "15"
+      ],
+      "answer": 3,
+      "explanation": "24 − 16 + 7 = 15.",
+      "type": "objective"
+    },
+    {
+      "id": "B14",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Semasa aktiviti kemahiran di perpustakaan, seorang murid memulakan perjalanan pada 7:45 pagi. Perjalanan mengambil masa 40 minit. Pukul berapakah dia tiba?",
+      "options": [
+        "7:35 pagi",
+        "8:40 pagi",
+        "8:45 pagi",
+        "8:25 pagi"
+      ],
+      "answer": 3,
+      "explanation": "7:45 + 40 minit = 8:25 pagi.",
+      "type": "objective"
+    },
+    {
+      "id": "B15",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Ketika Amir menjalankan pameran pendidikan di kelas, apakah pemboleh ubah yang sengaja diubah dalam eksperimen dalam situasi harian?",
+      "options": [
+        "Pemboleh ubah dimanipulasikan",
+        "Keputusan akhir",
+        "Kesimpulan",
+        "Pemerhatian"
+      ],
+      "answer": 0,
+      "explanation": "Konsep yang diuji: Pemboleh ubah dimanipulasikan.",
+      "type": "objective"
+    },
+    {
+      "id": "B16",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Ketika Nadia menjalankan projek alam sekitar di pusat sumber, apakah fungsi akar pada kebanyakan tumbuhan semasa pemerhatian di kebun sekolah?",
+      "options": [
+        "Menghasilkan cahaya",
+        "Menghasilkan bunyi",
+        "Menyerap air dan memegang tumbuhan",
+        "Menghasilkan biji tanpa daun"
+      ],
+      "answer": 2,
+      "explanation": "Konsep yang diuji: Menyerap air dan memegang tumbuhan.",
+      "type": "objective"
+    },
+    {
+      "id": "B17",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Ketika Haziq menjalankan aktiviti kokurikulum di makmal, apakah sumber tenaga utama bagi panel solar dalam eksperimen makmal?",
+      "options": [
+        "Cahaya matahari",
+        "Angin sahaja",
+        "Tanah",
+        "Air laut"
+      ],
+      "answer": 0,
+      "explanation": "Konsep yang diuji: Cahaya matahari.",
+      "type": "objective"
+    },
+    {
+      "id": "B18",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Ketika Sofia menjalankan hari sukan di koperasi, apakah yang biasanya berlaku apabila objek didekatkan kepada sumber cahaya ketika aktiviti sains?",
+      "options": [
+        "Bayang-bayang menjadi lebih besar",
+        "Tiada perubahan",
+        "Objek menjadi lutsinar",
+        "Bayang-bayang hilang"
+      ],
+      "answer": 0,
+      "explanation": "Konsep yang diuji: Bayang-bayang menjadi lebih besar.",
+      "type": "objective"
+    },
+    {
+      "id": "B19",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Ketika Aina menjalankan aktiviti kemahiran di kantin, apakah organ yang membantu pertukaran gas dalam badan manusia semasa ulang kaji?",
+      "options": [
+        "Kulit sahaja",
+        "Perut",
+        "Paru-paru",
+        "Jantung"
+      ],
+      "answer": 2,
+      "explanation": "Konsep yang diuji: Paru-paru.",
+      "type": "objective"
+    },
+    {
+      "id": "B20",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Ketika Hakim menjalankan pameran pendidikan di dewan sekolah, apakah keadaan jirim yang mempunyai isipadu tetap tetapi tiada bentuk tetap dalam situasi harian?",
+      "options": [
+        "Pepejal",
+        "Plasma sahaja",
+        "Gas",
+        "Cecair"
+      ],
+      "answer": 3,
+      "explanation": "Konsep yang diuji: Cecair.",
+      "type": "objective"
+    },
+    {
+      "id": "B21",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Ketika Farah menjalankan projek alam sekitar di padang, mengapa tumbuhan memerlukan cahaya semasa pemerhatian di kebun sekolah?",
+      "options": [
+        "Untuk menguatkan akar sahaja",
+        "Untuk mengubah warna daun",
+        "Untuk menjalankan fotosintesis",
+        "Untuk menghasilkan bunyi"
+      ],
+      "answer": 2,
+      "explanation": "Konsep yang diuji: Untuk menjalankan fotosintesis.",
+      "type": "objective"
+    },
+    {
+      "id": "B22",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Ketika Danish menjalankan aktiviti kokurikulum di taman sekolah, apakah yang berlaku apabila ais menerima haba yang mencukupi dalam eksperimen makmal?",
+      "options": [
+        "Ais bertambah keras",
+        "Ais menjadi gas serta-merta",
+        "Ais menghasilkan garam",
+        "Ais mencair menjadi air"
+      ],
+      "answer": 3,
+      "explanation": "Konsep yang diuji: Ais mencair menjadi air.",
+      "type": "objective"
+    },
+    {
+      "id": "B23",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Ketika Sara menjalankan hari sukan di bengkel, apakah fungsi utama sensor dalam sistem automatik ketika aktiviti sains?",
+      "options": [
+        "Menggantikan bateri",
+        "Mengesan perubahan persekitaran",
+        "Menghasilkan semua tenaga",
+        "Mencetak dokumen"
+      ],
+      "answer": 1,
+      "explanation": "Konsep yang diuji: Mengesan perubahan persekitaran.",
+      "type": "objective"
+    },
+    {
+      "id": "B24",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Ketika Iman menjalankan aktiviti kemahiran di perpustakaan, apakah yang menyebabkan bunyi terhasil semasa ulang kaji?",
+      "options": [
+        "Getaran",
+        "Magnet sahaja",
+        "Cahaya",
+        "Bayang-bayang"
+      ],
+      "answer": 0,
+      "explanation": "Konsep yang diuji: Getaran.",
+      "type": "objective"
+    },
+    {
+      "id": "B25",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Ketika Amir menjalankan pameran pendidikan di kelas, mengapa bayang-bayang boleh terbentuk dalam situasi harian?",
+      "options": [
+        "Objek menghasilkan cahaya",
+        "Bunyi membentuk bentuk",
+        "Cahaya dihalang oleh objek legap",
+        "Air menyerap semua cahaya"
+      ],
+      "answer": 2,
+      "explanation": "Konsep yang diuji: Cahaya dihalang oleh objek legap.",
+      "type": "objective"
+    },
+    {
+      "id": "B26",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Ketika Nadia menjalankan projek alam sekitar di pusat sumber, apakah fungsi jantung semasa pemerhatian di kebun sekolah?",
+      "options": [
+        "Mencerna makanan",
+        "Menapis udara",
+        "Mengepam darah",
+        "Menghasilkan tulang"
+      ],
+      "answer": 2,
+      "explanation": "Konsep yang diuji: Mengepam darah.",
+      "type": "objective"
+    },
+    {
+      "id": "B27",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Ketika Haziq menjalankan aktiviti kokurikulum di makmal, apakah perubahan apabila wap air menjadi titisan dalam eksperimen makmal?",
+      "options": [
+        "Penyejatan",
+        "Pemejalan",
+        "Pembakaran",
+        "Pemeluwapan"
+      ],
+      "answer": 3,
+      "explanation": "Konsep yang diuji: Pemeluwapan.",
+      "type": "objective"
+    },
+    {
+      "id": "B28",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Ketika Sofia menjalankan hari sukan di koperasi, apakah kesan apabila kutub magnet yang sama didekatkan ketika aktiviti sains?",
+      "options": [
+        "Saling menarik",
+        "Hilang",
+        "Menjadi panas",
+        "Saling menolak"
+      ],
+      "answer": 3,
+      "explanation": "Konsep yang diuji: Saling menolak.",
+      "type": "objective"
+    },
+    {
+      "id": "B29",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Ketika Aina menjalankan aktiviti kemahiran di kantin, apakah peranan tumbuhan dalam rantai makanan semasa ulang kaji?",
+      "options": [
+        "Pengurai sahaja",
+        "Pengguna sekunder",
+        "Pemangsa",
+        "Pengeluar"
+      ],
+      "answer": 3,
+      "explanation": "Konsep yang diuji: Pengeluar.",
+      "type": "objective"
+    },
+    {
+      "id": "B30",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Ketika Hakim menjalankan pameran pendidikan di dewan sekolah, apakah pemboleh ubah yang sengaja diubah dalam eksperimen dalam situasi harian?",
+      "options": [
+        "Kesimpulan",
+        "Pemboleh ubah dimanipulasikan",
+        "Keputusan akhir",
+        "Pemerhatian"
+      ],
+      "answer": 1,
+      "explanation": "Konsep yang diuji: Pemboleh ubah dimanipulasikan.",
+      "type": "objective"
+    },
+    {
+      "id": "B31",
+      "section": "BAHAGIAN B",
+      "category": "Bahasa Melayu",
+      "question": "Sebagai sebahagian daripada projek alam sekitar, pilih perkataan yang paling hampir maksudnya dengan “marah”?",
+      "options": [
+        "berang",
+        "gagah",
+        "cuai",
+        "dukacita"
+      ],
+      "answer": 0,
+      "explanation": "“berang” hampir sama maksud dengan “marah”.",
+      "type": "objective"
+    },
+    {
+      "id": "B32",
+      "section": "BAHAGIAN B",
+      "category": "Bahasa Melayu",
+      "question": "Sebagai sebahagian daripada aktiviti kokurikulum, apakah antonim bagi “kuat”?",
+      "options": [
+        "lemah",
+        "jauh",
+        "indah",
+        "gelap"
+      ],
+      "answer": 0,
+      "explanation": "Antonim bagi “kuat” ialah “lemah”.",
+      "type": "objective"
+    },
+    {
+      "id": "B33",
+      "section": "BAHAGIAN B",
+      "category": "Bahasa Melayu",
+      "question": "Sebagai sebahagian daripada hari sukan, pilih ayat yang gramatis.",
+      "options": [
+        "Murid-murid berkunjung ke perpustakaan.",
+        "Murid-murid berkunjung dengan perpustakaan.",
+        "Murid-murid berkunjung di perpustakaan.",
+        "Murid-murid berkunjung kepada perpustakaan."
+      ],
+      "answer": 0,
+      "explanation": "Ayat pilihan menggunakan struktur tatabahasa yang tepat.",
+      "type": "objective"
+    },
+    {
+      "id": "B34",
+      "section": "BAHAGIAN B",
+      "category": "Bahasa Melayu",
+      "question": "Sebagai sebahagian daripada aktiviti kemahiran, pilih perkataan yang paling hampir maksudnya dengan “sukar”?",
+      "options": [
+        "ikhlas",
+        "cuai",
+        "senang",
+        "susah"
+      ],
+      "answer": 3,
+      "explanation": "“susah” hampir sama maksud dengan “sukar”.",
+      "type": "objective"
+    },
+    {
+      "id": "B35",
+      "section": "BAHAGIAN B",
+      "category": "Bahasa Melayu",
+      "question": "Sebagai sebahagian daripada pameran pendidikan, apakah antonim bagi “penuh”?",
+      "options": [
+        "indah",
+        "kosong",
+        "rendah",
+        "sempit"
+      ],
+      "answer": 1,
+      "explanation": "Antonim bagi “penuh” ialah “kosong”.",
+      "type": "objective"
+    },
+    {
+      "id": "B36",
+      "section": "BAHAGIAN B",
+      "category": "Bahasa Melayu",
+      "question": "Sebagai sebahagian daripada projek alam sekitar, pilih ayat yang gramatis.",
+      "options": [
+        "Adik saya berkunjung di kepada guru.",
+        "Adik saya berkunjung kepada kepada guru.",
+        "Adik saya berkunjung dengan kepada guru.",
+        "Adik saya berkunjung kepada guru."
+      ],
+      "answer": 3,
+      "explanation": "Ayat pilihan menggunakan struktur tatabahasa yang tepat.",
+      "type": "objective"
+    },
+    {
+      "id": "B37",
+      "section": "BAHAGIAN B",
+      "category": "Bahasa Melayu",
+      "question": "Sebagai sebahagian daripada aktiviti kokurikulum, pilih perkataan yang paling hampir maksudnya dengan “rapi”?",
+      "options": [
+        "cuai",
+        "pintar",
+        "diam",
+        "kemas"
+      ],
+      "answer": 3,
+      "explanation": "“kemas” hampir sama maksud dengan “rapi”.",
+      "type": "objective"
+    },
+    {
+      "id": "B38",
+      "section": "BAHAGIAN B",
+      "category": "Bahasa Melayu",
+      "question": "Sebagai sebahagian daripada hari sukan, apakah antonim bagi “rajin”?",
+      "options": [
+        "indah",
+        "malas",
+        "lewat",
+        "lambat"
+      ],
+      "answer": 1,
+      "explanation": "Antonim bagi “rajin” ialah “malas”.",
+      "type": "objective"
+    },
+    {
+      "id": "B39",
+      "section": "BAHAGIAN B",
+      "category": "Bahasa Melayu",
+      "question": "Sebagai sebahagian daripada aktiviti kemahiran, pilih ayat yang gramatis.",
+      "options": [
+        "Murid-murid berkunjung kepada perpustakaan.",
+        "Murid-murid berkunjung dengan perpustakaan.",
+        "Murid-murid berkunjung ke perpustakaan.",
+        "Murid-murid berkunjung di perpustakaan."
+      ],
+      "answer": 2,
+      "explanation": "Ayat pilihan menggunakan struktur tatabahasa yang tepat.",
+      "type": "objective"
+    },
+    {
+      "id": "B40",
+      "section": "BAHAGIAN B",
+      "category": "Bahasa Melayu",
+      "question": "Sebagai sebahagian daripada pameran pendidikan, pilih perkataan yang paling hampir maksudnya dengan “aman”?",
+      "options": [
+        "cuai",
+        "tekun",
+        "damai",
+        "terbilang"
+      ],
+      "answer": 2,
+      "explanation": "“damai” hampir sama maksud dengan “aman”.",
+      "type": "objective"
+    },
+    {
+      "id": "B41",
+      "section": "BAHAGIAN B",
+      "category": "English",
+      "question": "Sebagai sebahagian daripada projek alam sekitar, choose the correct verb: Ali ___ to school every day.",
+      "options": [
+        "study",
+        "studying",
+        "studyed",
+        "studies"
+      ],
+      "answer": 3,
+      "explanation": "The singular subject “Ali” takes “studies”.",
+      "type": "objective"
+    },
+    {
+      "id": "B42",
+      "section": "BAHAGIAN B",
+      "category": "English",
+      "question": "Sebagai sebahagian daripada aktiviti kokurikulum, choose the correct past tense of “go”.",
+      "options": [
+        "gos",
+        "go",
+        "went",
+        "going"
+      ],
+      "answer": 2,
+      "explanation": "The past tense of “go” is “went”.",
+      "type": "objective"
+    },
+    {
+      "id": "B43",
+      "section": "BAHAGIAN B",
+      "category": "English",
+      "question": "Sebagai sebahagian daripada hari sukan, choose the word closest in meaning to “purchase”.",
+      "options": [
+        "answer",
+        "help",
+        "buy",
+        "heavy"
+      ],
+      "answer": 2,
+      "explanation": "“buy” is closest in meaning to “purchase”.",
+      "type": "objective"
+    },
+    {
+      "id": "B44",
+      "section": "BAHAGIAN B",
+      "category": "English",
+      "question": "Sebagai sebahagian daripada aktiviti kemahiran, choose the correct verb: Aina ___ to school every day.",
+      "options": [
+        "teach",
+        "teaching",
+        "teached",
+        "teaches"
+      ],
+      "answer": 3,
+      "explanation": "The singular subject “Aina” takes “teaches”.",
+      "type": "objective"
+    },
+    {
+      "id": "B45",
+      "section": "BAHAGIAN B",
+      "category": "English",
+      "question": "Sebagai sebahagian daripada pameran pendidikan, choose the correct past tense of “take”.",
+      "options": [
+        "takeing",
+        "took",
+        "take",
+        "takes"
+      ],
+      "answer": 1,
+      "explanation": "The past tense of “take” is “took”.",
+      "type": "objective"
+    },
+    {
+      "id": "B46",
+      "section": "BAHAGIAN B",
+      "category": "English",
+      "question": "Sebagai sebahagian daripada projek alam sekitar, choose the word closest in meaning to “brave”.",
+      "options": [
+        "furious",
+        "heavy",
+        "courageous",
+        "glad"
+      ],
+      "answer": 2,
+      "explanation": "“courageous” is closest in meaning to “brave”.",
+      "type": "objective"
+    },
+    {
+      "id": "B47",
+      "section": "BAHAGIAN B",
+      "category": "English",
+      "question": "Sebagai sebahagian daripada aktiviti kokurikulum, choose the correct verb: Ali ___ to school every day.",
+      "options": [
+        "readed",
+        "reading",
+        "read",
+        "reads"
+      ],
+      "answer": 3,
+      "explanation": "The singular subject “Ali” takes “reads”.",
+      "type": "objective"
+    },
+    {
+      "id": "B48",
+      "section": "BAHAGIAN B",
+      "category": "English",
+      "question": "Sebagai sebahagian daripada hari sukan, choose the correct past tense of “give”.",
+      "options": [
+        "gave",
+        "giveing",
+        "give",
+        "gives"
+      ],
+      "answer": 0,
+      "explanation": "The past tense of “give” is “gave”.",
+      "type": "objective"
+    },
+    {
+      "id": "B49",
+      "section": "BAHAGIAN B",
+      "category": "English",
+      "question": "Sebagai sebahagian daripada aktiviti kemahiran, choose the word closest in meaning to “large”.",
+      "options": [
+        "quick",
+        "complete",
+        "big",
+        "heavy"
+      ],
+      "answer": 2,
+      "explanation": "“big” is closest in meaning to “large”.",
+      "type": "objective"
+    },
+    {
+      "id": "B50",
+      "section": "BAHAGIAN B",
+      "category": "English",
+      "question": "Sebagai sebahagian daripada pameran pendidikan, choose the correct verb: Aina ___ to school every day.",
+      "options": [
+        "carries",
+        "carryed",
+        "carry",
+        "carrying"
+      ],
+      "answer": 0,
+      "explanation": "The singular subject “Aina” takes “carries”.",
+      "type": "objective"
+    },
+    {
+      "id": "B51",
+      "section": "BAHAGIAN B",
+      "category": "IQ / Operasi",
+      "question": "Bayangkan Farah sedang menyertai projek alam sekitar di padang. If 8 groups each contain 6 objects, how many objects are there?",
+      "options": [
+        "56",
+        "48",
+        "53",
+        "42"
+      ],
+      "answer": 1,
+      "explanation": "8 × 6 = 48.",
+      "type": "objective"
+    },
+    {
+      "id": "B52",
+      "section": "BAHAGIAN B",
+      "category": "IQ / Klasifikasi",
+      "question": "Bayangkan Danish sedang menyertai aktiviti kokurikulum di taman sekolah. Which item does not belong with apples, oranges, mangoes?",
+      "options": [
+        "oranges",
+        "tree",
+        "mangoes",
+        "apples"
+      ],
+      "answer": 1,
+      "explanation": "tree is from a different category.",
+      "type": "objective"
+    },
+    {
+      "id": "B53",
+      "section": "BAHAGIAN B",
+      "category": "IQ / Operasi",
+      "question": "Bayangkan Sara sedang menyertai hari sukan di bengkel. If x = 13 and y = 3, what is x + 2y?",
+      "options": [
+        "21",
+        "19",
+        "16",
+        "29"
+      ],
+      "answer": 1,
+      "explanation": "13 + 2(3) = 19.",
+      "type": "objective"
+    },
+    {
+      "id": "B54",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Semasa aktiviti kemahiran di perpustakaan, a number is 23. Subtract 3. What is the result?",
+      "options": [
+        "20",
+        "26",
+        "-20",
+        "22"
+      ],
+      "answer": 0,
+      "explanation": "23 − 3 = 20.",
+      "type": "objective"
+    },
+    {
+      "id": "B55",
+      "section": "BAHAGIAN B",
+      "category": "IQ / Pola",
+      "question": "Bayangkan Amir sedang menyertai pameran pendidikan di kelas. What number comes next? 7, 10, 13, 16, ...",
+      "options": [
+        "22",
+        "16",
+        "25",
+        "19"
+      ],
+      "answer": 3,
+      "explanation": "The pattern increases by 3.",
+      "type": "objective"
+    },
+    {
+      "id": "B56",
+      "section": "BAHAGIAN B",
+      "category": "IQ / Urutan",
+      "question": "Bayangkan Nadia sedang menyertai projek alam sekitar di pusat sumber. Aina is older than Bina. Bina is older than Citra. Citra is older than Dina. Who is youngest?",
+      "options": [
+        "Dina",
+        "Citra",
+        "Bina",
+        "Aina"
+      ],
+      "answer": 0,
+      "explanation": "Dina is the youngest.",
+      "type": "objective"
+    },
+    {
+      "id": "B57",
+      "section": "BAHAGIAN B",
+      "category": "IQ / Operasi",
+      "question": "Bayangkan Haziq sedang menyertai aktiviti kokurikulum di makmal. If 6 groups each contain 9 objects, how many objects are there?",
+      "options": [
+        "60",
+        "54",
+        "59",
+        "45"
+      ],
+      "answer": 1,
+      "explanation": "6 × 9 = 54.",
+      "type": "objective"
+    },
+    {
+      "id": "B58",
+      "section": "BAHAGIAN B",
+      "category": "IQ / Klasifikasi",
+      "question": "Bayangkan Sofia sedang menyertai hari sukan di koperasi. Which item does not belong with apples, oranges, mangoes?",
+      "options": [
+        "mangoes",
+        "oranges",
+        "book",
+        "apples"
+      ],
+      "answer": 2,
+      "explanation": "book is from a different category.",
+      "type": "objective"
+    },
+    {
+      "id": "B59",
+      "section": "BAHAGIAN B",
+      "category": "IQ / Operasi",
+      "question": "Bayangkan Aina sedang menyertai aktiviti kemahiran di kantin. If x = 7 and y = 8, what is x + 2y?",
+      "options": [
+        "22",
+        "15",
+        "23",
+        "25"
+      ],
+      "answer": 2,
+      "explanation": "7 + 2(8) = 23.",
+      "type": "objective"
+    },
+    {
+      "id": "B60",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Semasa pameran pendidikan di dewan sekolah, a number is 29. Subtract 3. What is the result?",
+      "options": [
+        "28",
+        "32",
+        "-26",
+        "26"
+      ],
+      "answer": 3,
+      "explanation": "29 − 3 = 26.",
+      "type": "objective"
+    },
+    {
+      "id": "B61",
+      "section": "BAHAGIAN B",
+      "category": "Pengetahuan Am",
+      "question": "Bayangkan Farah sedang menyertai projek alam sekitar di padang. Dalam kuiz pengetahuan am, apakah mata wang Malaysia?",
+      "options": [
+        "Rupiah",
+        "Ringgit Malaysia",
+        "Yen",
+        "Baht"
+      ],
+      "answer": 1,
+      "explanation": "Jawapan tepat ialah Ringgit Malaysia.",
+      "type": "objective"
+    },
+    {
+      "id": "B62",
+      "section": "BAHAGIAN B",
+      "category": "Pengetahuan Am",
+      "question": "Bayangkan Danish sedang menyertai aktiviti kokurikulum di taman sekolah. Semasa ulang kaji, di negeri manakah Gunung Kinabalu terletak?",
+      "options": [
+        "Pahang",
+        "Perak",
+        "Sarawak",
+        "Sabah"
+      ],
+      "answer": 3,
+      "explanation": "Jawapan tepat ialah Sabah.",
+      "type": "objective"
+    },
+    {
+      "id": "B63",
+      "section": "BAHAGIAN B",
+      "category": "Pengetahuan Am",
+      "question": "Bayangkan Sara sedang menyertai hari sukan di bengkel. Berdasarkan pengetahuan asas, apakah ibu negara Malaysia?",
+      "options": [
+        "Putrajaya",
+        "Kuala Lumpur",
+        "Johor Bahru",
+        "Ipoh"
+      ],
+      "answer": 1,
+      "explanation": "Jawapan tepat ialah Kuala Lumpur.",
+      "type": "objective"
+    },
+    {
+      "id": "B64",
+      "section": "BAHAGIAN B",
+      "category": "Pengetahuan Am",
+      "question": "Bayangkan Iman sedang menyertai aktiviti kemahiran di perpustakaan. Pilih jawapan yang tepat: apakah unit asas masa?",
+      "options": [
+        "Saat",
+        "Kilogram",
+        "Liter",
+        "Meter"
+      ],
+      "answer": 0,
+      "explanation": "Jawapan tepat ialah Saat.",
+      "type": "objective"
+    },
+    {
+      "id": "B65",
+      "section": "BAHAGIAN B",
+      "category": "Pengetahuan Am",
+      "question": "Bayangkan Amir sedang menyertai pameran pendidikan di kelas. Dalam kuiz pengetahuan am, apakah alat untuk mengukur suhu?",
+      "options": [
+        "Ammeter",
+        "Barometer",
+        "Speedometer",
+        "Termometer"
+      ],
+      "answer": 3,
+      "explanation": "Jawapan tepat ialah Termometer.",
+      "type": "objective"
+    },
+    {
+      "id": "B66",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Semasa projek alam sekitar di pusat sumber, ali mempunyai 5 kad. Dia menerima 9 lagi dan kemudian mendapat 2 lagi. Berapa jumlah kad?",
+      "options": [
+        "16",
+        "18",
+        "7",
+        "14"
+      ],
+      "answer": 0,
+      "explanation": "5+9+2=16.",
+      "type": "objective"
+    },
+    {
+      "id": "B67",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Semasa aktiviti kokurikulum di makmal, sebuah rak mempunyai 6 baris dengan 11 buku pada setiap baris. Berapa buku semuanya?",
+      "options": [
+        "66",
+        "64",
+        "55",
+        "68"
+      ],
+      "answer": 0,
+      "explanation": "6×11=66.",
+      "type": "objective"
+    },
+    {
+      "id": "B68",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Semasa hari sukan di koperasi, daripada 7 item, 13 telah digunakan. Berapa yang tinggal?",
+      "options": [
+        "-6",
+        "1",
+        "-8",
+        "-4"
+      ],
+      "answer": 0,
+      "explanation": "7−13=-6.",
+      "type": "objective"
+    },
+    {
+      "id": "B69",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Semasa aktiviti kemahiran di kantin, sebuah mesin menghasilkan 8 unit pada waktu pagi dan dua kali ganda jumlah itu pada waktu petang, kemudian 2 unit tambahan. Berapa unit semuanya?",
+      "options": [
+        "20",
+        "15",
+        "16",
+        "18"
+      ],
+      "answer": 3,
+      "explanation": "8+8×2+2=18.",
+      "type": "objective"
+    },
+    {
+      "id": "B70",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Semasa pameran pendidikan di dewan sekolah, setiap kotak mengandungi 9 barang. Terdapat 5 kotak. Berapa barang semuanya?",
+      "options": [
+        "43",
+        "47",
+        "40",
+        "45"
+      ],
+      "answer": 3,
+      "explanation": "9×5=45.",
+      "type": "objective"
+    }
+  ],
+  "writing": [
+    {
+      "id": "C01",
+      "title": "Pengurusan masa",
+      "prompt": "Huraikan cara murid mengurus masa antara pembelajaran, tanggungjawab dan rehat.",
+      "min_words": 100
+    },
+    {
+      "id": "C02",
+      "title": "Amalan hidup sihat",
+      "prompt": "Huraikan langkah yang boleh dilakukan oleh murid untuk menjaga kesihatan diri.",
+      "min_words": 100
+    },
+    {
+      "id": "C03",
+      "title": "Semangat kejiranan",
+      "prompt": "Huraikan cara murid boleh memupuk hubungan baik dengan jiran.",
+      "min_words": 100
+    }
+  ]
+}
