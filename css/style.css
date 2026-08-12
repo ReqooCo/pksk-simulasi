@@ -21,3 +21,24 @@ html{background:var(--bg)}body{background:linear-gradient(180deg,#f8fafc 0,#eef3
 @media(max-width:760px){.start-card{padding:28px 22px}.sequence{grid-template-columns:1fr}.arrow{display:none}.stats{grid-template-columns:repeat(2,1fr)!important}}
 
 .review-list{display:grid;gap:12px}.review-item{background:#fff;border:1px solid #dbe3ed;border-radius:14px;padding:16px}.review-item.good{border-left:5px solid #208a70}.review-item.bad{border-left:5px solid #bd4b4b}.review-item.skip{border-left:5px solid #9aa9bb}.review-top{display:flex;justify-content:space-between;gap:12px;align-items:center}.review-answer{margin-top:8px;display:grid;gap:5px}.review-explain{margin-top:10px;padding:10px 12px;background:#f5f8fb;border-radius:10px}.progress-wrap{background:#fff;border:1px solid #dbe3ed;border-radius:14px;padding:16px}.progress-row{display:grid;grid-template-columns:70px 1fr 55px;gap:10px;align-items:center;margin:10px 0}.progress-bar{height:10px;background:#e8eef4;border-radius:99px;overflow:hidden}.progress-bar i{display:block;height:100%;background:#178f8a;border-radius:99px}.a-note{background:#f3f7fb;border:1px solid #dbe3ed;border-radius:12px;padding:14px;margin-bottom:14px}.a-index-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.a-index{background:#fff;border:1px solid #dbe3ed;border-radius:12px;padding:14px}.a-index b{display:block;font-size:22px;color:#10233f}@media(max-width:760px){.a-index-grid{grid-template-columns:1fr}.progress-row{grid-template-columns:58px 1fr 45px}.review-top{align-items:flex-start;flex-direction:column}}
+
+.question-visual{margin:16px 0 20px;text-align:center;background:#fff;border:1px solid #dbe3ed;border-radius:14px;padding:12px;overflow:hidden}
+.question-visual img{display:block;max-width:100%;height:auto;max-height:330px;margin:0 auto}
+@media(max-width:760px){.question-visual{padding:8px;margin:12px 0 16px}.question-visual img{max-height:260px}}
+
+/* V10 typography — clean, lighter exam interface */
+html,body,button,input,textarea,select{
+  font-family:"Segoe UI",Arial,sans-serif;
+  font-weight:400;
+}
+h1,h2,h3,h4,.title,.brand,.exam-title,.question-title{
+  font-weight:600 !important;
+  letter-spacing:-.01em;
+}
+p,small,.note,.muted,.voice-status,.topic span,.opt span{
+  font-weight:400 !important;
+}
+.opt b,.review-item strong,.stat b,.a-index b{
+  font-weight:600 !important;
+}
+button{font-weight:500 !important}
