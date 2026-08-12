@@ -1,0 +1,1656 @@
+{
+  "set": 22,
+  "difficulty": 3,
+  "questions": [
+    {
+      "id": "A01",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Tersilap mengambil barang orang lain. Apakah tindakan betul?",
+      "options": [
+        "Simpan",
+        "Pulangkan kepada pemilik",
+        "Buang",
+        "Tukar"
+      ],
+      "weights": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A02",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Anda meminjam buku perpustakaan. Apakah tindakan bertanggungjawab?",
+      "options": [
+        "Pulangkan mengikut tarikh",
+        "Rosakkan",
+        "Berikan kepada orang lain",
+        "Simpan"
+      ],
+      "weights": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A03",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Peraturan keselamatan makmal perlu dipatuhi. Anda patut...",
+      "options": [
+        "Abaikan",
+        "Ikut arahan",
+        "Uji sesuka hati",
+        "Bergurau"
+      ],
+      "weights": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A04",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Dua ahli kumpulan tidak bersetuju. Apakah tindakan terbaik?",
+      "options": [
+        "Paksa",
+        "Keluar",
+        "Sebarkan",
+        "Bincang dan cari persetujuan"
+      ],
+      "weights": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A05",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Seorang ahli kurang yakin bercakap. Anda patut...",
+      "options": [
+        "Ejek",
+        "Beri peluang dan sokongan",
+        "Abaikan",
+        "Buat semua"
+      ],
+      "weights": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A06",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Rakan melakukan kesilapan. Apakah respons sesuai?",
+      "options": [
+        "Salahkan",
+        "Malukan",
+        "Bantu membetulkan",
+        "Tinggalkan"
+      ],
+      "weights": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A07",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Kumpulan memilih satu idea. Apakah cara terbaik?",
+      "options": [
+        "Rawak",
+        "Bandingkan idea berdasarkan keperluan",
+        "Pilih kawan",
+        "Tolak semua"
+      ],
+      "weights": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A08",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Ahli lambat menyiapkan tugas. Apakah tindakan wajar?",
+      "options": [
+        "Marah",
+        "Tanya masalah dan bantu susun kerja",
+        "Sebarkan",
+        "Buang"
+      ],
+      "weights": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A09",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Anda menerima kritikan terhadap hasil kerja. Apakah respons paling matang?",
+      "options": [
+        "Salahkan orang lain",
+        "Marah",
+        "Abaikan",
+        "Dengar dan baiki kelemahan"
+      ],
+      "weights": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A10",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Rakan kelihatan sedih selepas ujian. Apakah tindakan sesuai?",
+      "options": [
+        "Ejek",
+        "Biarkan",
+        "Sebarkan keputusan",
+        "Tanya khabar dan tawarkan bantuan"
+      ],
+      "weights": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A11",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Anda gagal dalam latihan. Apakah tindakan terbaik?",
+      "options": [
+        "Salahkan soalan",
+        "Sembunyikan keputusan",
+        "Kenal pasti kesilapan dan cuba lagi",
+        "Berhenti"
+      ],
+      "weights": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A12",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Rakan mendapat markah lebih tinggi. Apakah respons matang?",
+      "options": [
+        "Dengki",
+        "Sembunyikan keputusan",
+        "Ucap tahniah dan belajar daripadanya",
+        "Ejek"
+      ],
+      "weights": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A13",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Rancangan berubah secara tiba-tiba. Apakah tindakan terbaik?",
+      "options": [
+        "Marah",
+        "Tenang dan cari pilihan lain",
+        "Berhenti",
+        "Rosakkan tugasan"
+      ],
+      "weights": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A14",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Anda ternampak sampah di sekolah. Apakah tindakan wajar?",
+      "options": [
+        "Salahkan orang berhampiran",
+        "Buang ke tempat sesuai",
+        "Biarkan",
+        "Tunggu orang lain"
+      ],
+      "weights": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A15",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Tugasan perlu siap esok. Apakah tindakan terbaik?",
+      "options": [
+        "Lupa tarikh",
+        "Serah kepada orang lain",
+        "Buat jadual dan utamakan tugasan",
+        "Tangguh"
+      ],
+      "weights": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A16",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Tersilap mengambil barang orang lain. Apakah tindakan betul?",
+      "options": [
+        "Pulangkan kepada pemilik",
+        "Buang",
+        "Simpan",
+        "Tukar"
+      ],
+      "weights": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A17",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Anda meminjam buku perpustakaan. Apakah tindakan bertanggungjawab?",
+      "options": [
+        "Berikan kepada orang lain",
+        "Rosakkan",
+        "Pulangkan mengikut tarikh",
+        "Simpan"
+      ],
+      "weights": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A18",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Peraturan keselamatan makmal perlu dipatuhi. Anda patut...",
+      "options": [
+        "Uji sesuka hati",
+        "Ikut arahan",
+        "Abaikan",
+        "Bergurau"
+      ],
+      "weights": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A19",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Dua ahli kumpulan tidak bersetuju. Apakah tindakan terbaik?",
+      "options": [
+        "Bincang dan cari persetujuan",
+        "Paksa",
+        "Sebarkan",
+        "Keluar"
+      ],
+      "weights": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A20",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Seorang ahli kurang yakin bercakap. Anda patut...",
+      "options": [
+        "Beri peluang dan sokongan",
+        "Ejek",
+        "Abaikan",
+        "Buat semua"
+      ],
+      "weights": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A21",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Rakan melakukan kesilapan. Apakah respons sesuai?",
+      "options": [
+        "Bantu membetulkan",
+        "Tinggalkan",
+        "Malukan",
+        "Salahkan"
+      ],
+      "weights": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A22",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Kumpulan memilih satu idea. Apakah cara terbaik?",
+      "options": [
+        "Rawak",
+        "Tolak semua",
+        "Pilih kawan",
+        "Bandingkan idea berdasarkan keperluan"
+      ],
+      "weights": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A23",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Ahli lambat menyiapkan tugas. Apakah tindakan wajar?",
+      "options": [
+        "Sebarkan",
+        "Buang",
+        "Marah",
+        "Tanya masalah dan bantu susun kerja"
+      ],
+      "weights": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A24",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Anda menerima kritikan terhadap hasil kerja. Apakah respons paling matang?",
+      "options": [
+        "Abaikan",
+        "Dengar dan baiki kelemahan",
+        "Salahkan orang lain",
+        "Marah"
+      ],
+      "weights": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A25",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Rakan kelihatan sedih selepas ujian. Apakah tindakan sesuai?",
+      "options": [
+        "Tanya khabar dan tawarkan bantuan",
+        "Sebarkan keputusan",
+        "Biarkan",
+        "Ejek"
+      ],
+      "weights": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A26",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Anda gagal dalam latihan. Apakah tindakan terbaik?",
+      "options": [
+        "Kenal pasti kesilapan dan cuba lagi",
+        "Salahkan soalan",
+        "Berhenti",
+        "Sembunyikan keputusan"
+      ],
+      "weights": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A27",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Rakan mendapat markah lebih tinggi. Apakah respons matang?",
+      "options": [
+        "Sembunyikan keputusan",
+        "Dengki",
+        "Ejek",
+        "Ucap tahniah dan belajar daripadanya"
+      ],
+      "weights": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A28",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Rancangan berubah secara tiba-tiba. Apakah tindakan terbaik?",
+      "options": [
+        "Marah",
+        "Rosakkan tugasan",
+        "Berhenti",
+        "Tenang dan cari pilihan lain"
+      ],
+      "weights": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A29",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Anda ternampak sampah di sekolah. Apakah tindakan wajar?",
+      "options": [
+        "Salahkan orang berhampiran",
+        "Tunggu orang lain",
+        "Biarkan",
+        "Buang ke tempat sesuai"
+      ],
+      "weights": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A30",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Tugasan perlu siap esok. Apakah tindakan terbaik?",
+      "options": [
+        "Serah kepada orang lain",
+        "Buat jadual dan utamakan tugasan",
+        "Lupa tarikh",
+        "Tangguh"
+      ],
+      "weights": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "B01",
+      "section": "BAHAGIAN B",
+      "category": "Matematik",
+      "question": "Rajah menunjukkan segi empat tepat dengan panjang 16 cm dan lebar 7 cm. Berapakah perimeter?",
+      "options": [
+        "46",
+        "56",
+        "50",
+        "42"
+      ],
+      "answer": 0,
+      "explanation": "2 × (16+7) = 46 cm.",
+      "type": "objective",
+      "visual": "s22_00_rect.svg",
+      "visualType": "rectangle"
+    },
+    {
+      "id": "B02",
+      "section": "BAHAGIAN B",
+      "category": "Matematik",
+      "question": "Rajah menunjukkan segi empat sama dengan sisi 8 cm. Berapakah luas?",
+      "options": [
+        "72",
+        "64",
+        "16",
+        "62"
+      ],
+      "answer": 1,
+      "explanation": "8 × 8 = 64 cm².",
+      "type": "objective",
+      "visual": "s22_01_square.svg",
+      "visualType": "square"
+    },
+    {
+      "id": "B03",
+      "section": "BAHAGIAN B",
+      "category": "Matematik",
+      "question": "Rajah menunjukkan garis lurus. Satu sudut ialah 134°. Berapakah sudut yang satu lagi?",
+      "options": [
+        "46",
+        "36",
+        "90",
+        "56"
+      ],
+      "answer": 0,
+      "explanation": "180° − 134° = 46°.",
+      "type": "objective",
+      "visual": "s22_02_angle.svg",
+      "visualType": "angle"
+    },
+    {
+      "id": "B04",
+      "section": "BAHAGIAN B",
+      "category": "Matematik",
+      "question": "Rajah menunjukkan segi tiga dengan sudut 45° dan 57°. Berapakah sudut ketiga?",
+      "options": [
+        "73",
+        "83",
+        "90",
+        "78"
+      ],
+      "answer": 3,
+      "explanation": "180° − 45° − 57° = 78°.",
+      "type": "objective",
+      "visual": "s22_03_tri.svg",
+      "visualType": "triangle"
+    },
+    {
+      "id": "B05",
+      "section": "BAHAGIAN B",
+      "category": "Matematik",
+      "question": "15% daripada 60 orang murid ialah berapakah bilangannya?",
+      "options": [
+        "9",
+        "45",
+        "4",
+        "14"
+      ],
+      "answer": 0,
+      "explanation": "15/100 × 60 = 9.",
+      "type": "objective"
+    },
+    {
+      "id": "B06",
+      "section": "BAHAGIAN B",
+      "category": "Matematik",
+      "question": "Harga RM140 diberi diskaun 25%. Harga selepas diskaun?",
+      "options": [
+        "RM95",
+        "RM105",
+        "RM115",
+        "Pilihan lain"
+      ],
+      "answer": 1,
+      "explanation": "RM140 × 75% = RM105.",
+      "type": "objective"
+    },
+    {
+      "id": "B07",
+      "section": "BAHAGIAN B",
+      "category": "Matematik",
+      "question": "Pensel merah:biru = 2:7. Jumlah 63. Berapa pensel biru?",
+      "options": [
+        "49",
+        "56",
+        "63",
+        "42"
+      ],
+      "answer": 0,
+      "explanation": "Satu bahagian = 7. Biru = 7 × 7 = 49.",
+      "type": "objective"
+    },
+    {
+      "id": "B08",
+      "section": "BAHAGIAN B",
+      "category": "Matematik",
+      "question": "Purata bagi 13, 15, 22, 24 ialah?",
+      "options": [
+        "20",
+        "16",
+        "18",
+        "22"
+      ],
+      "answer": 2,
+      "explanation": "Jumlah 74 ÷ 4 = 18.",
+      "type": "objective"
+    },
+    {
+      "id": "B09",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Jarak 120 km ditempuh dalam 4 jam. Purata laju?",
+      "options": [
+        "30 km/j",
+        "50 km/j",
+        "10 km/j",
+        "60 km/j"
+      ],
+      "answer": 0,
+      "explanation": "120 ÷ 4 = 30 km/j.",
+      "type": "objective"
+    },
+    {
+      "id": "B10",
+      "section": "BAHAGIAN B",
+      "category": "Matematik",
+      "question": "4/5 daripada 30 objek digunakan. Berapa objek?",
+      "options": [
+        "Pilihan lain",
+        "20",
+        "24",
+        "29"
+      ],
+      "answer": 2,
+      "explanation": "4/5 × 30 = 24.",
+      "type": "objective"
+    },
+    {
+      "id": "B11",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Apakah sumber tenaga utama untuk fotosintesis?",
+      "options": [
+        "Bunyi",
+        "Magnet",
+        "Geseran",
+        "Cahaya matahari"
+      ],
+      "answer": 3,
+      "explanation": "Tumbuhan hijau menggunakan tenaga cahaya.",
+      "type": "objective"
+    },
+    {
+      "id": "B12",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Apakah proses air cecair menjadi gas akibat haba?",
+      "options": [
+        "Pembekuan",
+        "Pemejalan",
+        "Penyejatan",
+        "Pemeluwapan"
+      ],
+      "answer": 2,
+      "explanation": "Cecair menjadi gas melalui penyejatan.",
+      "type": "objective"
+    },
+    {
+      "id": "B13",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Apakah fungsi utama rangka manusia?",
+      "options": [
+        "Menghasilkan makanan",
+        "Menyokong badan dan melindungi organ",
+        "Menghasilkan cahaya",
+        "Menghasilkan bunyi"
+      ],
+      "answer": 1,
+      "explanation": "Rangka menyokong badan dan melindungi organ.",
+      "type": "objective"
+    },
+    {
+      "id": "B14",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Apakah salah satu kesan daya?",
+      "options": [
+        "Menghapuskan jisim",
+        "Menghasilkan makanan",
+        "Mengubah warna",
+        "Mengubah gerakan objek"
+      ],
+      "answer": 3,
+      "explanation": "Daya boleh mengubah gerakan.",
+      "type": "objective"
+    },
+    {
+      "id": "B15",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Siapakah pengeluar dalam rantai makanan?",
+      "options": [
+        "Cacing",
+        "Kulat",
+        "Tumbuhan hijau",
+        "Harimau"
+      ],
+      "answer": 2,
+      "explanation": "Tumbuhan hijau menghasilkan makanan sendiri.",
+      "type": "objective"
+    },
+    {
+      "id": "B16",
+      "section": "BAHAGIAN B",
+      "category": "Teknologi / Elektrik",
+      "question": "Mengapa mentol boleh menyala dalam rajah?",
+      "options": [
+        "Mentol menghasilkan tenaga sendiri",
+        "Litar lengkap membolehkan arus mengalir",
+        "Wayar memutuskan arus",
+        "Bateri tidak diperlukan"
+      ],
+      "answer": 1,
+      "explanation": "Litar lengkap menyediakan laluan tertutup untuk arus.",
+      "type": "objective",
+      "visual": "s22_15_circuit.svg",
+      "visualType": "circuit"
+    },
+    {
+      "id": "B17",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Wap air menyejuk menjadi titisan air melalui proses...",
+      "options": [
+        "Penyejatan",
+        "Pembakaran",
+        "Pemeluwapan",
+        "Peleburan"
+      ],
+      "answer": 2,
+      "explanation": "Wap yang menyejuk mengalami pemeluwapan.",
+      "type": "objective"
+    },
+    {
+      "id": "B18",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Kutub magnet yang berbeza akan...",
+      "options": [
+        "Hilang",
+        "Saling menolak",
+        "Tidak bergerak",
+        "Saling menarik"
+      ],
+      "answer": 3,
+      "explanation": "Kutub berbeza saling menarik.",
+      "type": "objective"
+    },
+    {
+      "id": "B19",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Organ yang mengepam darah ialah...",
+      "options": [
+        "Perut",
+        "Jantung",
+        "Paru-paru",
+        "Kulit"
+      ],
+      "answer": 1,
+      "explanation": "Jantung mengepam darah.",
+      "type": "objective"
+    },
+    {
+      "id": "B20",
+      "section": "BAHAGIAN B",
+      "category": "Sains",
+      "question": "Tujuan eksperimen sains ialah...",
+      "options": [
+        "Mengelak pemerhatian",
+        "Mengubah keputusan",
+        "Meneka tanpa bukti",
+        "Menguji idea berdasarkan bukti"
+      ],
+      "answer": 3,
+      "explanation": "Eksperimen menguji idea melalui bukti.",
+      "type": "objective"
+    },
+    {
+      "id": "B21",
+      "section": "BAHAGIAN B",
+      "category": "Bahasa Melayu",
+      "question": "Sinonim bagi “gigih”?",
+      "options": [
+        "lemah",
+        "leka",
+        "malas",
+        "tekun"
+      ],
+      "answer": 3,
+      "explanation": "Tekun hampir sama maksud dengan gigih.",
+      "type": "objective"
+    },
+    {
+      "id": "B22",
+      "section": "BAHAGIAN B",
+      "category": "Bahasa Melayu",
+      "question": "Antonim bagi “luas”?",
+      "options": [
+        "panjang",
+        "cerah",
+        "tinggi",
+        "sempit"
+      ],
+      "answer": 3,
+      "explanation": "Sempit ialah lawan bagi luas.",
+      "type": "objective"
+    },
+    {
+      "id": "B23",
+      "section": "BAHAGIAN B",
+      "category": "Bahasa Melayu",
+      "question": "Maksud “bagai aur dengan tebing”?",
+      "options": [
+        "Bekerja sendirian",
+        "Suka bertengkar",
+        "Saling membantu",
+        "Tidak bekerjasama"
+      ],
+      "answer": 2,
+      "explanation": "Peribahasa itu menggambarkan saling membantu.",
+      "type": "objective"
+    },
+    {
+      "id": "B24",
+      "section": "BAHAGIAN B",
+      "category": "Bahasa Melayu",
+      "question": "Pilih ayat gramatis.",
+      "options": [
+        "Murid-murid sedang membaca buku di perpustakaan.",
+        "Murid-murid sedang membaca buku pada perpustakaan.",
+        "Murid-murid membaca buku kepada perpustakaan.",
+        "Murid-murid sedang baca buku di perpustakaan."
+      ],
+      "answer": 0,
+      "explanation": "Ayat pertama menggunakan struktur dan kata sendi yang tepat.",
+      "type": "objective"
+    },
+    {
+      "id": "B25",
+      "section": "BAHAGIAN B",
+      "category": "Bahasa Melayu",
+      "question": "Maksud “buah tangan”?",
+      "options": [
+        "Hadiah atau cenderamata",
+        "Makanan utama",
+        "Alat tulis",
+        "Pakaian seragam"
+      ],
+      "answer": 0,
+      "explanation": "Buah tangan ialah hadiah atau cenderamata.",
+      "type": "objective"
+    },
+    {
+      "id": "B26",
+      "section": "BAHAGIAN B",
+      "category": "Bahasa Melayu",
+      "question": "Antonim bagi “rajin”?",
+      "options": [
+        "cekap",
+        "malas",
+        "pantas",
+        "jujur"
+      ],
+      "answer": 1,
+      "explanation": "Malas ialah lawan bagi rajin.",
+      "type": "objective"
+    },
+    {
+      "id": "B27",
+      "section": "BAHAGIAN B",
+      "category": "Bahasa Melayu",
+      "question": "Sinonim bagi “cekap”?",
+      "options": [
+        "mahir",
+        "lambat",
+        "lemah",
+        "cuai"
+      ],
+      "answer": 0,
+      "explanation": "Mahir hampir sama maksud dengan cekap.",
+      "type": "objective"
+    },
+    {
+      "id": "B28",
+      "section": "BAHAGIAN B",
+      "category": "Bahasa Melayu",
+      "question": "Lengkapkan: “Murid-murid ___ arahan guru.”",
+      "options": [
+        "mematuhi dengan",
+        "mematuhi kepada",
+        "mematuhi",
+        "mematuhi di"
+      ],
+      "answer": 2,
+      "explanation": "Kata kerja yang tepat ialah mematuhi.",
+      "type": "objective"
+    },
+    {
+      "id": "B29",
+      "section": "BAHAGIAN B",
+      "category": "Bahasa Melayu",
+      "question": "Maksud “ringan tulang”?",
+      "options": [
+        "Rajin membantu",
+        "Tidak suka bekerja",
+        "Suka tidur",
+        "Cepat marah"
+      ],
+      "answer": 0,
+      "explanation": "Ringan tulang bermaksud rajin membantu.",
+      "type": "objective"
+    },
+    {
+      "id": "B30",
+      "section": "BAHAGIAN B",
+      "category": "Bahasa Melayu",
+      "question": "Pilih ayat yang betul.",
+      "options": [
+        "Kami akan pergi kepada muzium esok.",
+        "Kami akan pergi muzium ke esok.",
+        "Kami akan pergi ke muzium esok.",
+        "Kami akan pergi di muzium esok."
+      ],
+      "answer": 2,
+      "explanation": "Kata sendi ke digunakan dengan tepat.",
+      "type": "objective"
+    },
+    {
+      "id": "B31",
+      "section": "BAHAGIAN B",
+      "category": "English",
+      "question": "Choose the correct word: She ___ to school every day.",
+      "options": [
+        "went",
+        "go",
+        "going",
+        "goes"
+      ],
+      "answer": 3,
+      "explanation": "A singular subject uses goes in the simple present.",
+      "type": "objective"
+    },
+    {
+      "id": "B32",
+      "section": "BAHAGIAN B",
+      "category": "English",
+      "question": "Past tense of “write”?",
+      "options": [
+        "writing",
+        "wrote",
+        "write",
+        "writes"
+      ],
+      "answer": 1,
+      "explanation": "The past tense is wrote.",
+      "type": "objective"
+    },
+    {
+      "id": "B33",
+      "section": "BAHAGIAN B",
+      "category": "English",
+      "question": "Closest meaning to “rapid”?",
+      "options": [
+        "quiet",
+        "quick",
+        "late",
+        "heavy"
+      ],
+      "answer": 1,
+      "explanation": "Quick is closest in meaning to rapid.",
+      "type": "objective"
+    },
+    {
+      "id": "B34",
+      "section": "BAHAGIAN B",
+      "category": "English",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "He played football every Saturday every.",
+        "He play football every Saturday.",
+        "He plays football every Saturday.",
+        "He playing football every Saturday."
+      ],
+      "answer": 2,
+      "explanation": "He takes plays in the simple present.",
+      "type": "objective"
+    },
+    {
+      "id": "B35",
+      "section": "BAHAGIAN B",
+      "category": "English",
+      "question": "They ___ finished the work.",
+      "options": [
+        "having",
+        "had been",
+        "has",
+        "have"
+      ],
+      "answer": 3,
+      "explanation": "They takes have.",
+      "type": "objective"
+    },
+    {
+      "id": "B36",
+      "section": "BAHAGIAN B",
+      "category": "English",
+      "question": "Opposite of “difficult”?",
+      "options": [
+        "early",
+        "easy",
+        "heavy",
+        "slow"
+      ],
+      "answer": 1,
+      "explanation": "Easy is the opposite of difficult.",
+      "type": "objective"
+    },
+    {
+      "id": "B37",
+      "section": "BAHAGIAN B",
+      "category": "English",
+      "question": "The book is ___ the table.",
+      "options": [
+        "at",
+        "from",
+        "on",
+        "to"
+      ],
+      "answer": 2,
+      "explanation": "On the table is correct.",
+      "type": "objective"
+    },
+    {
+      "id": "B38",
+      "section": "BAHAGIAN B",
+      "category": "English",
+      "question": "Comparative form of “tall”?",
+      "options": [
+        "talling",
+        "more tall",
+        "taller",
+        "tallest"
+      ],
+      "answer": 2,
+      "explanation": "The comparative form is taller.",
+      "type": "objective"
+    },
+    {
+      "id": "B39",
+      "section": "BAHAGIAN B",
+      "category": "English",
+      "question": "Closest meaning to “tiny”?",
+      "options": [
+        "wide",
+        "loud",
+        "strong",
+        "small"
+      ],
+      "answer": 3,
+      "explanation": "Small is closest to tiny.",
+      "type": "objective"
+    },
+    {
+      "id": "B40",
+      "section": "BAHAGIAN B",
+      "category": "English",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "We going to the museum yesterday.",
+        "We goes to the museum yesterday.",
+        "We went to the museum yesterday.",
+        "We go to the museum yesterday."
+      ],
+      "answer": 2,
+      "explanation": "Went correctly marks the past tense.",
+      "type": "objective"
+    },
+    {
+      "id": "B41",
+      "section": "BAHAGIAN B",
+      "category": "IQ / Pola",
+      "question": "Pola: 7, 15, 23, 31, ... Nombor seterusnya?",
+      "options": [
+        "47",
+        "39",
+        "55",
+        "31"
+      ],
+      "answer": 1,
+      "explanation": "Pola bertambah 8; jawapan 39.",
+      "type": "objective"
+    },
+    {
+      "id": "B42",
+      "section": "BAHAGIAN B",
+      "category": "IQ / Urutan",
+      "question": "Bina lebih tua daripada Dina, Dina lebih tua daripada Citra, Citra lebih tua daripada Aina. Siapa paling muda?",
+      "options": [
+        "Bina",
+        "Aina",
+        "Citra",
+        "Dina"
+      ],
+      "answer": 1,
+      "explanation": "Aina paling muda.",
+      "type": "objective"
+    },
+    {
+      "id": "B43",
+      "section": "BAHAGIAN B",
+      "category": "IQ / Klasifikasi",
+      "question": "Yang manakah paling berbeza: merah, biru, hijau?",
+      "options": [
+        "biru",
+        "hijau",
+        "kilogram",
+        "merah"
+      ],
+      "answer": 2,
+      "explanation": "kilogram bukan dalam kategori yang sama.",
+      "type": "objective"
+    },
+    {
+      "id": "B44",
+      "section": "BAHAGIAN B",
+      "category": "IQ / Operasi",
+      "question": "Jika n = 5, berapakah 2n + 3?",
+      "options": [
+        "11",
+        "8",
+        "15",
+        "13"
+      ],
+      "answer": 3,
+      "explanation": "2 × 5 + 3 = 13.",
+      "type": "objective"
+    },
+    {
+      "id": "B45",
+      "section": "BAHAGIAN B",
+      "category": "IQ / Analogi",
+      "question": "Pensel : Menulis :: Buku : ?",
+      "options": [
+        "Melukis",
+        "Menulis",
+        "Mengira",
+        "Membaca"
+      ],
+      "answer": 3,
+      "explanation": "Pensel digunakan untuk menulis; buku digunakan untuk membaca.",
+      "type": "objective"
+    },
+    {
+      "id": "B46",
+      "section": "BAHAGIAN B",
+      "category": "IQ / Visual",
+      "question": "Yang manakah mempunyai tepat tiga sisi?",
+      "options": [
+        "Segi lima",
+        "Segi tiga",
+        "Bulatan",
+        "Segi empat"
+      ],
+      "answer": 1,
+      "explanation": "Segi tiga mempunyai tiga sisi.",
+      "type": "objective"
+    },
+    {
+      "id": "B47",
+      "section": "BAHAGIAN B",
+      "category": "IQ / Operasi",
+      "question": "Jika x = 10, apakah x²?",
+      "options": [
+        "110",
+        "100",
+        "12",
+        "20"
+      ],
+      "answer": 1,
+      "explanation": "10² = 100.",
+      "type": "objective"
+    },
+    {
+      "id": "B48",
+      "section": "BAHAGIAN B",
+      "category": "IQ / Operasi",
+      "question": "Apakah hasil 6 + 4?",
+      "options": [
+        "10",
+        "24",
+        "2",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "6 + 4 = 10.",
+      "type": "objective"
+    },
+    {
+      "id": "B49",
+      "section": "BAHAGIAN B",
+      "category": "IQ / Urutan",
+      "question": "Jika hari ini Isnin, apakah hari selepas esok?",
+      "options": [
+        "Jumaat",
+        "Khamis",
+        "Selasa",
+        "Rabu"
+      ],
+      "answer": 3,
+      "explanation": "Selepas esok ialah Rabu.",
+      "type": "objective"
+    },
+    {
+      "id": "B50",
+      "section": "BAHAGIAN B",
+      "category": "IQ / Nisbah",
+      "question": "12 buku dibahagi sama rata ke dalam 3 kotak. Berapa buku setiap kotak?",
+      "options": [
+        "4",
+        "6",
+        "5",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "12 ÷ 3 = 4.",
+      "type": "objective"
+    },
+    {
+      "id": "B51",
+      "section": "BAHAGIAN B",
+      "category": "Pengetahuan Am",
+      "question": "Apakah nama bendera Malaysia?",
+      "options": [
+        "Jalur Gemilang",
+        "Sang Saka",
+        "Jalur Perpaduan",
+        "Panji Malaysia"
+      ],
+      "answer": 0,
+      "explanation": "Jawapan tepat ialah Jalur Gemilang.",
+      "type": "objective"
+    },
+    {
+      "id": "B52",
+      "section": "BAHAGIAN B",
+      "category": "Pengetahuan Am",
+      "question": "Gunung Kinabalu terletak di negeri mana?",
+      "options": [
+        "Sabah",
+        "Sarawak",
+        "Pahang",
+        "Perak"
+      ],
+      "answer": 0,
+      "explanation": "Jawapan tepat ialah Sabah.",
+      "type": "objective"
+    },
+    {
+      "id": "B53",
+      "section": "BAHAGIAN B",
+      "category": "Pengetahuan Am",
+      "question": "Apakah bahasa kebangsaan Malaysia?",
+      "options": [
+        "Bahasa Jepun",
+        "Bahasa Melayu",
+        "Bahasa Arab",
+        "Bahasa Perancis"
+      ],
+      "answer": 1,
+      "explanation": "Jawapan tepat ialah Bahasa Melayu.",
+      "type": "objective"
+    },
+    {
+      "id": "B54",
+      "section": "BAHAGIAN B",
+      "category": "Pengetahuan Am",
+      "question": "Berapakah prinsip Rukun Negara?",
+      "options": [
+        "Enam",
+        "Lima",
+        "Tiga",
+        "Empat"
+      ],
+      "answer": 1,
+      "explanation": "Jawapan tepat ialah Lima.",
+      "type": "objective"
+    },
+    {
+      "id": "B55",
+      "section": "BAHAGIAN B",
+      "category": "Pengetahuan Am",
+      "question": "Apakah ibu negara Malaysia?",
+      "options": [
+        "Kuala Lumpur",
+        "Johor Bahru",
+        "Ipoh",
+        "Putrajaya"
+      ],
+      "answer": 0,
+      "explanation": "Jawapan tepat ialah Kuala Lumpur.",
+      "type": "objective"
+    },
+    {
+      "id": "B56",
+      "section": "BAHAGIAN B",
+      "category": "Pengetahuan Am",
+      "question": "Laut apakah antara Semenanjung Malaysia dengan Sabah dan Sarawak?",
+      "options": [
+        "Laut Andaman",
+        "Laut Sulu",
+        "Laut Jawa",
+        "Laut China Selatan"
+      ],
+      "answer": 3,
+      "explanation": "Jawapan tepat ialah Laut China Selatan.",
+      "type": "objective"
+    },
+    {
+      "id": "B57",
+      "section": "BAHAGIAN B",
+      "category": "Pengetahuan Am",
+      "question": "Unit asas panjang dalam sistem metrik ialah?",
+      "options": [
+        "Meter",
+        "Liter",
+        "Kilogram",
+        "Saat"
+      ],
+      "answer": 0,
+      "explanation": "Jawapan tepat ialah Meter.",
+      "type": "objective"
+    },
+    {
+      "id": "B58",
+      "section": "BAHAGIAN B",
+      "category": "Pengetahuan Am",
+      "question": "Planet yang dikenali sebagai Planet Merah ialah?",
+      "options": [
+        "Bumi",
+        "Marikh",
+        "Musytari",
+        "Zuhal"
+      ],
+      "answer": 1,
+      "explanation": "Jawapan tepat ialah Marikh.",
+      "type": "objective"
+    },
+    {
+      "id": "B59",
+      "section": "BAHAGIAN B",
+      "category": "Pengetahuan Am",
+      "question": "Apakah mata wang Malaysia?",
+      "options": [
+        "Ringgit Malaysia",
+        "Baht",
+        "Rupiah",
+        "Yen"
+      ],
+      "answer": 0,
+      "explanation": "Jawapan tepat ialah Ringgit Malaysia.",
+      "type": "objective"
+    },
+    {
+      "id": "B60",
+      "section": "BAHAGIAN B",
+      "category": "Pengetahuan Am",
+      "question": "Apakah bunga kebangsaan Malaysia?",
+      "options": [
+        "Melur",
+        "Bunga raya",
+        "Orkid",
+        "Mawar"
+      ],
+      "answer": 1,
+      "explanation": "Jawapan tepat ialah Bunga raya.",
+      "type": "objective"
+    },
+    {
+      "id": "B61",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Ali membeli barang RM8 dan RM6. Dia membayar RM40. Berapakah baki?",
+      "options": [
+        "RM32",
+        "RM24",
+        "RM28",
+        "RM26"
+      ],
+      "answer": 3,
+      "explanation": "RM40 − RM14 = RM26.",
+      "type": "objective"
+    },
+    {
+      "id": "B62",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Ali membeli barang RM9 dan RM8. Dia membayar RM50. Berapakah baki?",
+      "options": [
+        "RM41",
+        "RM35",
+        "RM33",
+        "RM31"
+      ],
+      "answer": 2,
+      "explanation": "RM50 − RM17 = RM33.",
+      "type": "objective"
+    },
+    {
+      "id": "B63",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Ali membeli barang RM10 dan RM10. Dia membayar RM20. Berapakah baki?",
+      "options": [
+        "RM2",
+        "RM10",
+        "RM-2",
+        "RM0"
+      ],
+      "answer": 3,
+      "explanation": "RM20 − RM20 = RM0.",
+      "type": "objective"
+    },
+    {
+      "id": "B64",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Ali membeli barang RM11 dan RM5. Dia membayar RM30. Berapakah baki?",
+      "options": [
+        "RM14",
+        "RM16",
+        "RM12",
+        "RM19"
+      ],
+      "answer": 0,
+      "explanation": "RM30 − RM16 = RM14.",
+      "type": "objective"
+    },
+    {
+      "id": "B65",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Ali membeli barang RM12 dan RM7. Dia membayar RM40. Berapakah baki?",
+      "options": [
+        "RM19",
+        "RM23",
+        "RM28",
+        "RM21"
+      ],
+      "answer": 3,
+      "explanation": "RM40 − RM19 = RM21.",
+      "type": "objective"
+    },
+    {
+      "id": "B66",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Sebuah tangki menerima 5 liter air setiap minit. Berapa liter dalam 13 minit?",
+      "options": [
+        "75",
+        "60",
+        "65",
+        "70"
+      ],
+      "answer": 2,
+      "explanation": "5 × 13 = 65 liter.",
+      "type": "objective"
+    },
+    {
+      "id": "B67",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Sebuah tangki menerima 6 liter air setiap minit. Berapa liter dalam 14 minit?",
+      "options": [
+        "78",
+        "90",
+        "84",
+        "94"
+      ],
+      "answer": 2,
+      "explanation": "6 × 14 = 84 liter.",
+      "type": "objective"
+    },
+    {
+      "id": "B68",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Sebuah tangki menerima 7 liter air setiap minit. Berapa liter dalam 15 minit?",
+      "options": [
+        "105",
+        "98",
+        "112",
+        "115"
+      ],
+      "answer": 0,
+      "explanation": "7 × 15 = 105 liter.",
+      "type": "objective"
+    },
+    {
+      "id": "B69",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Sebuah tangki menerima 3 liter air setiap minit. Berapa liter dalam 10 minit?",
+      "options": [
+        "33",
+        "40",
+        "30",
+        "27"
+      ],
+      "answer": 2,
+      "explanation": "3 × 10 = 30 liter.",
+      "type": "objective"
+    },
+    {
+      "id": "B70",
+      "section": "BAHAGIAN B",
+      "category": "Penyelesaian Masalah",
+      "question": "Sebuah tangki menerima 4 liter air setiap minit. Berapa liter dalam 11 minit?",
+      "options": [
+        "54",
+        "44",
+        "40",
+        "48"
+      ],
+      "answer": 1,
+      "explanation": "4 × 11 = 44 liter.",
+      "type": "objective"
+    }
+  ],
+  "writing": [
+    {
+      "id": "C01",
+      "title": "Kepentingan mengurus masa",
+      "prompt": "Huraikan cara murid mengurus masa dengan baik.",
+      "min_words": 100
+    },
+    {
+      "id": "C02",
+      "title": "Amalan hidup sihat",
+      "prompt": "Huraikan langkah yang boleh dilakukan untuk menjaga kesihatan diri.",
+      "min_words": 100
+    },
+    {
+      "id": "C03",
+      "title": "Semangat kejiranan",
+      "prompt": "Huraikan cara murid memupuk semangat kejiranan.",
+      "min_words": 100
+    }
+  ]
+}
