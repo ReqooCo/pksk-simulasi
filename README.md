@@ -1,21 +1,19 @@
-# PKSK Simulasi Set 01 — V8
+# PKSK Simulasi — 100 Set
 
-## Locked prototype
-- Bahagian A + B: 90 minit
-- Bahagian C: 45 minit
-- Audio pengawas menggunakan fail M4A asal yang dibekalkan
-- Audio tamat -> jeda -> countdown -> timer bermula
-- Navigasi jawapan disimpan semasa sesi
-- Status navigasi: semasa / dijawab / belum dijawab
-- Bahagian A: 30 item, dilapor sebagai indeks/konstruk (bukan betul/salah)
-- Bahagian B: 70 item, semakan setiap soalan dengan jawapan betul dan penerangan
-- Bahagian C: analisis panjang, relevan, struktur, penanda wacana, isi dan dakwaan fakta
-- Rekod perkembangan disediakan untuk Set 01 -> Set 100
-- UI responsive: phone-first, PC-friendly
-- Soalan B mempunyai agihan jawapan A/B/C/D terkawal
+Versi ini menyediakan Set 01 hingga Set 100 dalam satu aplikasi responsive.
+
+## Struktur
+- A: 30 item Kecerdasan Insaniah (EQ, SQ, SSQ), respons bergred.
+- B: 70 item Kecerdasan Intelek: IQ, Pengetahuan Am dan Penyelesaian Masalah, dengan campuran Matematik, Sains, Bahasa Melayu, English, logik dan teknologi.
+- C: 3 tajuk, pilih 1, minimum 100 patah perkataan.
+- Set 01 ialah master yang telah disemak manual.
+- Set 02–100 dijana daripada bank berstruktur dengan kesukaran bertingkat.
+- Jawapan B diagihkan 18/18/17/17 bagi A/B/C/D untuk setiap set.
+- Soalan visual menggunakan SVG yang dijana daripada nilai soalan; fail visual dan data berada dalam repositori.
+- UI mobile-first dan PC-friendly.
+- Audio pengawas menggunakan fail M4A asal.
 
 ## GitHub Pages
-Upload the contents of this folder to the repository root.
-Do not rename the `audio`, `data`, `css` or `js` folders.
+Upload keseluruhan kandungan folder ini ke root repository. Jangan ubah nama folder `audio`, `css`, `js`, `data` atau `assets`.
 
-For testing, open the GitHub Pages URL rather than opening `index.html` directly from Files, because the app loads `data/set01.json`.
+Laman perlu dibuka melalui GitHub Pages kerana aplikasi memuatkan JSON menggunakan fetch.
