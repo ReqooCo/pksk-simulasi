@@ -1,0 +1,49 @@
+{
+  "version": "grouped-100set-upgraded",
+  "sets": 100,
+  "questions_per_set": 100,
+  "groups": 10,
+  "sets_per_group": 10,
+  "difficulty_bands": [
+    {
+      "sets": "01-10",
+      "level": 1
+    },
+    {
+      "sets": "11-20",
+      "level": 2
+    },
+    {
+      "sets": "21-30",
+      "level": 3
+    },
+    {
+      "sets": "31-40",
+      "level": 4
+    },
+    {
+      "sets": "41-50",
+      "level": 5
+    },
+    {
+      "sets": "51-60",
+      "level": 6
+    },
+    {
+      "sets": "61-70",
+      "level": 7
+    },
+    {
+      "sets": "71-80",
+      "level": 8
+    },
+    {
+      "sets": "81-90",
+      "level": 9
+    },
+    {
+      "sets": "91-100",
+      "level": 10
+    }
+  ]
+}
