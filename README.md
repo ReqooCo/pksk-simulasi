@@ -1,26 +1,21 @@
-# PKSK Simulasi — Set 01 Final
+# PKSK Simulasi Set 01 — V8
 
-## Flow
-1. Bahagian A + B — 90 minit
-2. Arahan pengawas audio → jeda → countdown → timer
-3. Bahagian C — 45 minit
-4. Rumusan prestasi
+## Locked prototype
+- Bahagian A + B: 90 minit
+- Bahagian C: 45 minit
+- Audio pengawas menggunakan fail M4A asal yang dibekalkan
+- Audio tamat -> jeda -> countdown -> timer bermula
+- Navigasi jawapan disimpan semasa sesi
+- Status navigasi: semasa / dijawab / belum dijawab
+- Bahagian A: 30 item, dilapor sebagai indeks/konstruk (bukan betul/salah)
+- Bahagian B: 70 item, semakan setiap soalan dengan jawapan betul dan penerangan
+- Bahagian C: analisis panjang, relevan, struktur, penanda wacana, isi dan dakwaan fakta
+- Rekod perkembangan disediakan untuk Set 01 -> Set 100
+- UI responsive: phone-first, PC-friendly
+- Soalan B mempunyai agihan jawapan A/B/C/D terkawal
 
-## Kandungan
-- A: 30 item — EQ, SQ, SSQ
-- B: 70 item — IQ/logik, bahasa, penyelesaian masalah/Matematik, Sains, Teknologi dan Pengetahuan Am
-- C: 3 tajuk — pilih 1, minimum 100 patah perkataan
+## GitHub Pages
+Upload the contents of this folder to the repository root.
+Do not rename the `audio`, `data`, `css` or `js` folders.
 
-## Kawalan kualiti
-- 100 item objektif
-- 4 pilihan jawapan
-- Agihan jawapan B: A=17, B=18, C=17, D=18
-- Tiada 3 jawapan sama berturut-turut
-- Tiada pilihan duplicate
-- Semua jawapan disimpan dalam data set
-- Audio arahan disertakan sebagai fail M4A yang diberikan untuk projek ini
-
-## Nota penting
-PKSK rasmi mempunyai tiga komponen: Bahagian A Kecerdasan Insaniah (EQ, SQ, SSQ), Bahagian B Kecerdasan Intelek (IQ, Pengetahuan Am, Penyelesaian Masalah), dan Bahagian C Artikulasi Penulisan. Soalan dalam projek ini ialah soalan latihan original dan tidak mendakwa sebagai soalan sebenar KPM.
-
-Sumber rasmi: https://www.moe.gov.my/
+For testing, open the GitHub Pages URL rather than opening `index.html` directly from Files, because the app loads `data/set01.json`.
