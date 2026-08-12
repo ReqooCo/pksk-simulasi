@@ -38,7 +38,7 @@ function renderTimer(){const m=Math.floor(timer/60).toString().padStart(2,"0"),s
 function saveTime(){if(qStarted){times[qidx]=(times[qidx]||0)+(Date.now()-qStarted);qStarted=Date.now();persistSession();}}
 function renderQ(){
  const q=qs[qidx];$("sectionPill").textContent=q.section;$("cat").textContent=q.category;$("qnum").textContent=`Soalan ${qidx+1} daripada ${qs.length}`;
- $("qtext").textContent=q.question;$("answeredCount").textContent=`${Object.keys(answers).length} / ${qs.length}`;
+ $("qvisual").innerHTML=q.visual?`<div class="question-visual"><img src="assets/visuals/${q.visual}" alt="Rajah soalan"></div>`:"";$("qtext").textContent=q.question;$("answeredCount").textContent=`${Object.keys(answers).length} / ${qs.length}`;
  $("opts").innerHTML=q.options.map((o,i)=>`<label class="opt ${answers[q.id]===i?"selected":""}"><input type="radio" name="opt" ${answers[q.id]===i?"checked":""} onchange="answer(${i})"><span><b>${String.fromCharCode(65+i)}.</b> ${escapeHtml(o)}</span></label>`).join("");
  $("prevBtn").disabled=qidx===0;$("nextBtn").textContent=qidx===qs.length-1?"HANTAR A + B →":"SETERUSNYA →";
  $("grid").innerHTML=qs.map((x,i)=>`<button class="${answers[x.id]!==undefined?"done ":""}${i===qidx?"current":""}" onclick="gotoQ(${i})">${i+1}</button>`).join("");
