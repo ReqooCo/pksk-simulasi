@@ -582,7 +582,8 @@
         "72"
       ],
       "answer": 1,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Pola berganda 2: setiap nombor didarab 2. 4 × 2 = 8, 8 × 2 = 16, 16 × 2 = 32, jadi nombor seterusnya ialah 32 × 2 = 64."
     },
     {
       "id": "B02",
@@ -596,7 +597,8 @@
         "47"
       ],
       "answer": 3,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Setiap nombor didarab 2 kemudian ditambah 3: 2×2+1=5, 5×2+1=11, 11×2+1=23. Jadi 23×2+1 = 47."
     },
     {
       "id": "B03",
@@ -610,7 +612,8 @@
         "Mengukur"
       ],
       "answer": 0,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Buku digunakan untuk membaca; pensel digunakan untuk menulis. Jadi jawapan yang sepadan ialah Menulis."
     },
     {
       "id": "B04",
@@ -624,7 +627,8 @@
         "Mawar berwarna merah"
       ],
       "answer": 1,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Diberitahu semua bunga dalam pasu itu berwarna putih dan mawar ialah bunga dalam pasu tersebut. Maka mawar juga berwarna putih."
     },
     {
       "id": "B05",
@@ -638,7 +642,8 @@
         "Citra"
       ],
       "answer": 3,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Jika Aina lebih tua daripada Bina dan Bina lebih tua daripada Citra, urutannya Aina, Bina, Citra. Jadi Citra paling muda."
     },
     {
       "id": "B06",
@@ -652,7 +657,8 @@
         "DQMB"
       ],
       "answer": 2,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Setiap huruf digerakkan satu kedudukan ke hadapan: B→C, O→P, L→M, A→B. Maka BOLA menjadi CPMB."
     },
     {
       "id": "B07",
@@ -666,7 +672,8 @@
         "Segi empat"
       ],
       "answer": 2,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Bulat mempunyai bentuk melengkung tanpa sisi lurus, manakala pilihan lain ialah bentuk yang mempunyai sisi/struktur garis lurus. Oleh itu Bulatan paling berbeza."
     },
     {
       "id": "B08",
@@ -680,7 +687,8 @@
         "Isnin"
       ],
       "answer": 0,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Pola bergerak dua hari sekali: Isnin, Rabu, Jumaat, Ahad. Dua hari selepas Ahad ialah Selasa."
     },
     {
       "id": "B09",
@@ -694,7 +702,8 @@
         "19"
       ],
       "answer": 3,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Gantikan nilai simbol: 6 × 4 − 5 = 24 − 5 = 19."
     },
     {
       "id": "B10",
@@ -708,7 +717,8 @@
         "Q"
       ],
       "answer": 0,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Jika P>Q>R>S dari segi berat, S berada paling bawah dalam susunan dan merupakan kotak paling ringan."
     },
     {
       "id": "B11",
@@ -722,7 +732,8 @@
         "16"
       ],
       "answer": 2,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "35% daripada 40 = 0.35 × 40 = 14 orang."
     },
     {
       "id": "B12",
@@ -736,7 +747,8 @@
         "RM74"
       ],
       "answer": 1,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Diskaun 15% daripada RM80 ialah RM12. Harga selepas diskaun = RM80 − RM12 = RM68."
     },
     {
       "id": "B13",
@@ -750,7 +762,8 @@
         "18"
       ],
       "answer": 1,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Jumlah bahagian nisbah 3+5=8. Satu bahagian = 32÷8=4. Pensel biru = 5×4=20."
     },
     {
       "id": "B14",
@@ -758,13 +771,14 @@
       "category": "Matematik",
       "question": "Siti mempunyai RM50. Dia membeli buku RM18.50 dan alat tulis RM7.80. Berapakah baki wangnya?",
       "options": [
-        "RM22.70",
         "RM23.70",
+        "RM22.70",
         "RM24.70",
         "RM21.70"
       ],
       "answer": 0,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Jumlah belanja = RM18.50 + RM7.80 = RM26.30. Baki = RM50.00 − RM26.30 = RM23.70."
     },
     {
       "id": "B15",
@@ -778,7 +792,8 @@
         "19 cm"
       ],
       "answer": 0,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Perimeter segi empat tepat = 2(panjang + lebar) = 2(12+7) = 38 cm."
     },
     {
       "id": "B16",
@@ -792,7 +807,8 @@
         "72 cm²"
       ],
       "answer": 2,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Luas segi empat sama = sisi × sisi = 9×9 = 81 cm²."
     },
     {
       "id": "B17",
@@ -806,7 +822,8 @@
         "1.50 L"
       ],
       "answer": 1,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "2.5 L = 2500 mL. Baki = 2500 − 750 = 1750 mL = 1.75 L."
     },
     {
       "id": "B18",
@@ -820,7 +837,8 @@
         "2 jam 30 minit"
       ],
       "answer": 1,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Dari 7:35 hingga 8:35 = 1 jam, dan 8:35 hingga 9:05 = 30 minit. Jumlah = 1 jam 30 minit."
     },
     {
       "id": "B19",
@@ -833,8 +851,9 @@
         "16",
         "16.5"
       ],
-      "answer": 3,
-      "type": "dichotomous"
+      "answer": 2,
+      "type": "dichotomous",
+      "explanation": "Jumlah = 12+15+18+19 = 64. Purata = 64÷4 = 16. Jadi jawapan ialah 16."
     },
     {
       "id": "B20",
@@ -848,7 +867,8 @@
         "65°"
       ],
       "answer": 2,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Sudut pada garis lurus berjumlah 180°. Sudut bersebelahan = 180°−125° = 55°."
     },
     {
       "id": "B21",
@@ -861,8 +881,9 @@
         "57°",
         "67°"
       ],
-      "answer": 1,
-      "type": "dichotomous"
+      "answer": 3,
+      "type": "dichotomous",
+      "explanation": "Jumlah sudut segi tiga 180°. Sudut ketiga = 180°−65°−48° = 67°. Jadi jawapan ialah 67°."
     },
     {
       "id": "B22",
@@ -876,7 +897,8 @@
         "120°"
       ],
       "answer": 1,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Satu bulatan penuh ialah 360°. 25% = 1/4. Sudut sektor = 360°×25% = 90°."
     },
     {
       "id": "B23",
@@ -889,8 +911,9 @@
         "38",
         "40"
       ],
-      "answer": 2,
-      "type": "dichotomous"
+      "answer": 0,
+      "type": "dichotomous",
+      "explanation": "Jumlah gula-gula = 5×8 = 40. Selepas 12 diberi, baki = 40−12 = 28. Jadi jawapan ialah 28."
     },
     {
       "id": "B24",
@@ -904,7 +927,8 @@
         "1,000 m"
       ],
       "answer": 1,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Kadar = 600÷4 = 150 m/minit. Dalam 7 minit: 150×7 = 1050 m."
     },
     {
       "id": "B25",
@@ -918,7 +942,8 @@
         "60 L"
       ],
       "answer": 0,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "18 L dalam 6 minit bermaksud 3 L/minit. Dalam 15 minit: 3×15 = 45 L."
     },
     {
       "id": "B26",
@@ -932,7 +957,8 @@
         "45"
       ],
       "answer": 2,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Nombor +17 = 52. Jadi nombor = 52−17 = 35."
     },
     {
       "id": "B27",
@@ -946,7 +972,8 @@
         "35"
       ],
       "answer": 2,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "3/5 daripada 50 = (50÷5)×3 = 10×3 = 30 orang."
     },
     {
       "id": "B28",
@@ -960,7 +987,8 @@
         "35%"
       ],
       "answer": 1,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Kenaikan = RM150−RM120 = RM30. Peratus kenaikan = 30÷120×100% = 25%."
     },
     {
       "id": "B29",
@@ -974,7 +1002,8 @@
         "Tekun"
       ],
       "answer": 3,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Gigih bermaksud rajin dan tekun dalam melakukan sesuatu. Jadi perkataan paling hampir ialah Tekun."
     },
     {
       "id": "B30",
@@ -988,7 +1017,8 @@
         "Mereka sedang berbincang mengenai tentang pertandingan itu."
       ],
       "answer": 2,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Ayat “Mereka sedang berbincang tentang pertandingan itu” menggunakan struktur dan kata sendi yang tepat."
     },
     {
       "id": "B31",
@@ -1002,7 +1032,8 @@
         "Sempit"
       ],
       "answer": 3,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Antonim bermaksud perkataan yang berlawanan makna. Lawan bagi luas ialah sempit."
     },
     {
       "id": "B32",
@@ -1016,7 +1047,8 @@
         "Bekerja seorang diri"
       ],
       "answer": 1,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "“Bagai aur dengan tebing” menggambarkan hubungan yang saling membantu dan bekerjasama."
     },
     {
       "id": "B33",
@@ -1030,7 +1062,8 @@
         "mematuhi"
       ],
       "answer": 3,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Kata kerja yang sesuai ialah “mematuhi”: murid-murid itu mematuhi arahan guru."
     },
     {
       "id": "B34",
@@ -1044,7 +1077,8 @@
         "Hadiah yang dibawa ketika berkunjung"
       ],
       "answer": 3,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Buah tangan ialah hadiah atau cenderamata yang dibawa ketika berkunjung."
     },
     {
       "id": "B35",
@@ -1058,7 +1092,8 @@
         "Kami membeli makanan terhadap kantin."
       ],
       "answer": 2,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Ayat itu menggunakan “terhadap” untuk menunjukkan sasaran perhatian, iaitu penerangan guru."
     },
     {
       "id": "B36",
@@ -1072,7 +1107,8 @@
         "Besar kepala"
       ],
       "answer": 0,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "“Ringan tulang” bermaksud suka menolong atau rajin membantu."
     },
     {
       "id": "B37",
@@ -1086,7 +1122,8 @@
         "She going to school every day."
       ],
       "answer": 2,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "“She goes to school every day” betul kerana subjek tunggal “She” menggunakan kata kerja “goes” bagi simple present."
     },
     {
       "id": "B38",
@@ -1100,7 +1137,8 @@
         "Slow"
       ],
       "answer": 0,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Rapid bermaksud berlaku dengan cepat. Perkataan paling hampir ialah Quick."
     },
     {
       "id": "B39",
@@ -1114,7 +1152,8 @@
         "They had been sleeping."
       ],
       "answer": 1,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Mereka letih kerana telah berjalan selama dua jam. Pilihan itu mengulang sebab yang dinyatakan dalam ayat."
     },
     {
       "id": "B40",
@@ -1128,7 +1167,8 @@
         "tallest"
       ],
       "answer": 1,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Perbandingan dua orang menggunakan comparative adjective: tall menjadi taller."
     },
     {
       "id": "B41",
@@ -1142,7 +1182,8 @@
         "Aina wrote a letter."
       ],
       "answer": 3,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "“Wrote” ialah bentuk lampau bagi “write”, jadi ayat itu menggunakan past tense."
     },
     {
       "id": "B42",
@@ -1156,7 +1197,8 @@
         "To buy something cheaply"
       ],
       "answer": 2,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Borrow bermaksud mengambil atau menggunakan sesuatu buat sementara dan memulangkannya kemudian."
     },
     {
       "id": "B43",
@@ -1170,7 +1212,8 @@
         "stay"
       ],
       "answer": 1,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Dalam first conditional, “If it rains” diikuti “will + verb”: we will stay indoors."
     },
     {
       "id": "B44",
@@ -1184,7 +1227,8 @@
         "Carefully"
       ],
       "answer": 2,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Teacher ialah kata nama (noun) kerana menamakan seseorang."
     },
     {
       "id": "B45",
@@ -1198,7 +1242,8 @@
         "Fotosintesis"
       ],
       "answer": 3,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Tumbuhan menggunakan cahaya untuk fotosintesis, iaitu proses menghasilkan makanan."
     },
     {
       "id": "B46",
@@ -1212,7 +1257,8 @@
         "Sentiasa hilang"
       ],
       "answer": 0,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Apabila objek didekatkan kepada sumber cahaya, bayang-bayang biasanya menjadi lebih besar pada skrin kerana objek menghalang lebih banyak laluan cahaya."
     },
     {
       "id": "B47",
@@ -1226,7 +1272,8 @@
         "Tenaga suria"
       ],
       "answer": 3,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Tenaga suria ialah sumber tenaga boleh diperbaharui kerana datang daripada cahaya Matahari yang berterusan."
     },
     {
       "id": "B48",
@@ -1240,7 +1287,8 @@
         "Mengalirkan darah"
       ],
       "answer": 0,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Rangka menyokong bentuk badan dan melindungi organ dalaman seperti otak dan jantung."
     },
     {
       "id": "B49",
@@ -1254,7 +1302,8 @@
         "Penyejatan"
       ],
       "answer": 3,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Perubahan cecair kepada gas dipanggil penyejatan."
     },
     {
       "id": "B50",
@@ -1268,7 +1317,8 @@
         "Wayar menjadi magnet"
       ],
       "answer": 0,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Litar lengkap menyediakan laluan tertutup supaya arus elektrik dapat mengalir melalui mentol."
     },
     {
       "id": "B51",
@@ -1282,7 +1332,8 @@
         "Buah pinggang"
       ],
       "answer": 1,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Jantung mengepam darah ke seluruh badan melalui sistem peredaran darah."
     },
     {
       "id": "B52",
@@ -1296,7 +1347,8 @@
         "Menyimpan air"
       ],
       "answer": 1,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Gear digunakan untuk memindahkan gerakan dan daya serta boleh mengubah kelajuan atau arah putaran."
     },
     {
       "id": "B53",
@@ -1310,7 +1362,8 @@
         "Batu granit"
       ],
       "answer": 0,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Kadbod ringan dan mudah dipotong, jadi sesuai untuk menghasilkan model ringkas."
     },
     {
       "id": "B54",
@@ -1324,7 +1377,8 @@
         "Membantu merancang rupa dan ciri produk"
       ],
       "answer": 3,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Lakaran awal membantu merancang rupa, susunan dan ciri produk sebelum produk sebenar dibuat."
     },
     {
       "id": "B55",
@@ -1338,7 +1392,8 @@
         "Mewarnakan produk"
       ],
       "answer": 0,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Sensor mengesan perubahan atau keadaan persekitaran seperti cahaya, suhu atau jarak dan menghantar maklumat kepada sistem."
     },
     {
       "id": "B56",
@@ -1352,7 +1407,8 @@
         "Mengikut arahan keselamatan dan mengendalikan dengan cermat"
       ],
       "answer": 3,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Alatan tajam perlu digunakan dengan cermat dan mengikut arahan keselamatan bagi mengelakkan kecederaan."
     },
     {
       "id": "B57",
@@ -1366,7 +1422,8 @@
         "Membolehkan reka bentuk diuji dan diperbaiki"
       ],
       "answer": 3,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Prototaip membolehkan reka bentuk diuji, kelemahan dikenal pasti dan penambahbaikan dibuat sebelum pengeluaran sebenar."
     },
     {
       "id": "B58",
@@ -1380,7 +1437,8 @@
         "Kuching"
       ],
       "answer": 2,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Kuala Lumpur ialah ibu negara Malaysia."
     },
     {
       "id": "B59",
@@ -1394,7 +1452,8 @@
         "Bunga raya"
       ],
       "answer": 3,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Bunga raya ialah bunga kebangsaan Malaysia."
     },
     {
       "id": "B60",
@@ -1408,7 +1467,8 @@
         "11"
       ],
       "answer": 0,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Malaysia mempunyai 13 negeri. Tiga wilayah persekutuan tidak termasuk dalam kiraan negeri."
     },
     {
       "id": "B61",
@@ -1422,7 +1482,8 @@
         "Laut Andaman"
       ],
       "answer": 1,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Laut China Selatan terletak antara Semenanjung Malaysia dengan Sabah dan Sarawak."
     },
     {
       "id": "B62",
@@ -1436,7 +1497,8 @@
         "Peso"
       ],
       "answer": 1,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Mata wang Malaysia ialah Ringgit Malaysia (RM)."
     },
     {
       "id": "B63",
@@ -1450,7 +1512,8 @@
         "3"
       ],
       "answer": 0,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Rukun Negara mempunyai lima prinsip."
     },
     {
       "id": "B64",
@@ -1464,7 +1527,8 @@
         "Kuning"
       ],
       "answer": 2,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Warna merah pada Jalur Gemilang melambangkan keberanian."
     },
     {
       "id": "B65",
@@ -1478,7 +1542,8 @@
         "Asia Tenggara"
       ],
       "answer": 3,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Malaysia terletak di rantau Asia Tenggara."
     },
     {
       "id": "B66",
@@ -1492,7 +1557,8 @@
         "Istana Budaya"
       ],
       "answer": 2,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Istana Negara ialah kediaman rasmi Yang di-Pertuan Agong."
     },
     {
       "id": "B67",
@@ -1506,7 +1572,8 @@
         "Bahasa Mandarin"
       ],
       "answer": 2,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Bahasa Melayu ialah bahasa kebangsaan Malaysia."
     },
     {
       "id": "B68",
@@ -1520,7 +1587,8 @@
         "Jalur Gemilang"
       ],
       "answer": 3,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Bendera Malaysia dikenali sebagai Jalur Gemilang."
     },
     {
       "id": "B69",
@@ -1534,7 +1602,8 @@
         "Perak"
       ],
       "answer": 0,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Gunung Kinabalu terletak di Sabah."
     },
     {
       "id": "B70",
@@ -1548,7 +1617,8 @@
         "69"
       ],
       "answer": 0,
-      "type": "dichotomous"
+      "type": "dichotomous",
+      "explanation": "Jumlah kapasiti = 6×14 = 84 buku. Jika 17 ruang masih kosong, buku yang telah diletakkan = 84−17 = 67."
     }
   ],
   "writing": [
