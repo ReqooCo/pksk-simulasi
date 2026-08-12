@@ -42,3 +42,9 @@ p,small,.note,.muted,.voice-status,.topic span,.opt span{
   font-weight:600 !important;
 }
 button{font-weight:500 !important}
+
+.set-picker{display:grid;grid-template-columns:auto 180px 1fr;gap:10px;align-items:center;margin:20px 0 4px;padding:12px 14px;background:#f5f8fb;border:1px solid #dbe3ed;border-radius:10px}
+.set-picker label{font-size:10px;letter-spacing:.1em;color:#66758a;font-weight:600}
+.set-picker select{padding:9px 11px;border:1px solid #cfd8e3;border-radius:7px;background:#fff;color:#172234;font:inherit;font-size:13px}
+.set-picker span{font-size:11px;color:#66758a}
+@media(max-width:760px){.set-picker{grid-template-columns:1fr}.set-picker select{width:100%}}
