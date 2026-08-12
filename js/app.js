@@ -1,23 +1,36 @@
 // Audio pengawas: fail M4A dalam folder audio.
 let bank=null,qs=[],writing=[],setNo=1,phase="idle",qidx=0,answers={},times={},qStarted=0,timer=5400,wTimer=2700,interval=null,winterval=null,selectedTopic=0,abStartedAt=null,cStartedAt=null;
 const $=id=>document.getElementById(id);
+let loadToken=0;
 async function load(n=setNo){
- setNo=Math.max(1,Math.min(100,Number(n)||1));
- const r=await fetch(`data/sets/set${String(setNo).padStart(2,"0")}.json`);
- if(!r.ok) throw new Error("Set tidak dapat dimuat");
- bank=await r.json();qs=bank.questions;writing=bank.writing;
+ const requested=Math.max(1,Math.min(100,Number(n)||1));
+ const token=++loadToken;
+ const r=await fetch(`data/sets/set${String(requested).padStart(2,"0")}.json`);
+ if(!r.ok) throw new Error(`Set ${requested} tidak dapat dimuat`);
+ const data=await r.json();
+ // If another set was selected while this request was loading,
+ // ignore the older response so it cannot switch the app back.
+ if(token!==loadToken) return false;
+ setNo=requested;
+ bank=data;qs=bank.questions;writing=bank.writing;
  updateSetUI();
+ return true;
 }
 function updateSetUI(){
  const label=`Set ${String(setNo).padStart(2,"0")}`;
  document.querySelectorAll(".set-label").forEach(el=>el.textContent=label);
  const sel=$("setSelect"); if(sel) sel.value=String(setNo);
+ const next=$("nextSetLabel");
+ if(next) next.textContent=setNo<100?`SET ${String(setNo+1).padStart(2,"0")} →`:"KEMBALI KE SENARAI SET";
 }
 async function selectSet(n){
  clearInterval(interval); clearInterval(winterval);
  phase="idle";qidx=0;answers={};times={};timer=5400;wTimer=2700;selectedTopic=0;
- await load(n);
- show("start");
+ const ok=await load(n);
+ if(ok){
+   localStorage.setItem("pksk-selected-set",String(setNo));
+   show("start");
+ }
 }
 function show(id){["start","briefing","exam","writing","result"].forEach(x=>$(x).classList.add("hidden"));$(id).classList.remove("hidden")}
 function audio(name){const a=new Audio("audio/"+name);a.preload="auto";return a}
@@ -145,6 +158,18 @@ function essayAnalysis(c){
  <div class="essay-item"><b>Fakta / dakwaan</b><p>${factMsg}</p></div>
  </div>`
 }
+function goHome(){
+ clearInterval(interval); clearInterval(winterval);
+ phase="idle";
+ show("start");
+ updateSetUI();
+ window.scrollTo({top:0,behavior:"smooth"});
+}
+async function nextSet(){
+ if(setNo>=100){ goHome(); return; }
+ await selectSet(setNo+1);
+ window.scrollTo({top:0,behavior:"smooth"});
+}
 function buildResult(c){
  const a=qs.filter(q=>q.section==="BAHAGIAN A"),b=qs.filter(q=>q.section==="BAHAGIAN B");
  const aAnswered=a.filter(q=>answers[q.id]!==undefined).length;
@@ -180,4 +205,5 @@ function buildResult(c){
  localStorage.setItem(`pksk-set${String(setNo).padStart(2,"0")}-result`,JSON.stringify({answers,times,c,bCorrect,bPct,aIndex}));
  localStorage.removeItem(`pksk-set${String(setNo).padStart(2,"0")}-session`);
 }
-load(1).catch(e=>console.error(e));
+const initialSet=Number(localStorage.getItem("pksk-selected-set")||1);
+load(initialSet).then(()=>updateSetUI()).catch(e=>console.error(e));

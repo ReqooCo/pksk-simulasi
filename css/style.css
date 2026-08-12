@@ -48,3 +48,6 @@ button{font-weight:500 !important}
 .set-picker select{padding:9px 11px;border:1px solid #cfd8e3;border-radius:7px;background:#fff;color:#172234;font:inherit;font-size:13px}
 .set-picker span{font-size:11px;color:#66758a}
 @media(max-width:760px){.set-picker{grid-template-columns:1fr}.set-picker select{width:100%}}
+
+.result-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.result-actions button{min-width:150px}
