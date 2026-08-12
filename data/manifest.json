@@ -1,8 +1,17 @@
 {
+  "version": "grouped-100set",
+  "groups": [
+    "SET 01-10",
+    "SET 11-20",
+    "SET 21-30",
+    "SET 31-40",
+    "SET 41-50",
+    "SET 51-60",
+    "SET 61-70",
+    "SET 71-80",
+    "SET 81-90",
+    "SET 91-100"
+  ],
   "sets": 100,
-  "questions_per_set": 100,
-  "A": 30,
-  "B": 70,
-  "C": 3,
-  "visuals": 503
+  "sets_per_group": 10
 }
