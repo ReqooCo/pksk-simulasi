@@ -11,3 +11,6 @@ Set 01 mengandungi 30 item Bahagian A + 70 item Bahagian B + 3 pilihan tajuk Bah
 
 Sumber rasmi KPM:
 https://www.moe.gov.my/soalan-lazim-faq-pksk-tahun-2027
+
+
+Audio: aplikasi menggunakan Web Speech API dan akan memilih suara ms-MY lelaki yang tersedia. Google Cloud menyenaraikan ms-MY-Standard-B/D dan ms-MY-Wavenet-B/D sebagai suara lelaki Melayu Malaysia; Web Speech API tidak menjamin voice tersebut terpasang pada setiap komputer.
