@@ -5,7 +5,10 @@ let loadToken=0;
 async function load(n=setNo){
  const requested=Math.max(1,Math.min(100,Number(n)||1));
  const token=++loadToken;
- const r=await fetch(`data/sets/set${String(requested).padStart(2,"0")}.json`);
+ const groupStart=Math.floor((requested-1)/10)*10+1;
+const groupEnd=groupStart+9;
+const group=`SET ${String(groupStart).padStart(2,"0")}-${String(groupEnd).padStart(2,"0")}`;
+const r=await fetch(`sets/${encodeURIComponent(group)}/data/set${String(requested).padStart(2,"0")}.json`);
  if(!r.ok) throw new Error(`Set ${requested} tidak dapat dimuat`);
  const data=await r.json();
  // If another set was selected while this request was loading,
@@ -68,7 +71,10 @@ function renderTimer(){const m=Math.floor(timer/60).toString().padStart(2,"0"),s
 function saveTime(){if(qStarted){times[qidx]=(times[qidx]||0)+(Date.now()-qStarted);qStarted=Date.now();persistSession();}}
 function renderQ(){
  const q=qs[qidx];$("sectionPill").textContent=q.section;$("cat").textContent=q.category;$("qnum").textContent=`Soalan ${qidx+1} daripada ${qs.length}`;
- $("qvisual").innerHTML=q.visual?`<div class="question-visual"><img src="assets/visuals/${q.visual}" alt="Rajah soalan"></div>`:"";$("qtext").textContent=q.question;$("answeredCount").textContent=`${Object.keys(answers).length} / ${qs.length}`;
+ const qGroupStart=Math.floor((setNo-1)/10)*10+1;
+const qGroupEnd=qGroupStart+9;
+const qGroup=`SET ${String(qGroupStart).padStart(2,"0")}-${String(qGroupEnd).padStart(2,"0")}`;
+$("qvisual").innerHTML=q.visual?`<div class="question-visual"><img src="sets/${encodeURIComponent(qGroup)}/assets/visuals/${q.visual}" alt="Rajah soalan"></div>`:"";$("qtext").textContent=q.question;$("answeredCount").textContent=`${Object.keys(answers).length} / ${qs.length}`;
  $("opts").innerHTML=q.options.map((o,i)=>`<label class="opt ${answers[q.id]===i?"selected":""}"><input type="radio" name="opt" ${answers[q.id]===i?"checked":""} onchange="answer(${i})"><span><b>${String.fromCharCode(65+i)}.</b> ${escapeHtml(o)}</span></label>`).join("");
  $("prevBtn").disabled=qidx===0;$("nextBtn").textContent=qidx===qs.length-1?"HANTAR A + B →":"SETERUSNYA →";
  $("grid").innerHTML=qs.map((x,i)=>`<button class="${answers[x.id]!==undefined?"done ":""}${i===qidx?"current":""}" onclick="gotoQ(${i})">${i+1}</button>`).join("");
