@@ -784,7 +784,7 @@
       "id": "B15",
       "section": "BAHAGIAN B",
       "category": "Matematik",
-      "question": "Sebuah segi empat tepat mempunyai panjang 12 cm dan lebar 7 cm. Berapakah perimeter?",
+      "question": "Rajah menunjukkan sebuah segi empat tepat dengan panjang 12 cm dan lebar 7 cm. Berapakah perimeter bentuk itu?",
       "options": [
         "38 cm",
         "84 cm",
@@ -793,13 +793,14 @@
       ],
       "answer": 0,
       "type": "dichotomous",
-      "explanation": "Perimeter segi empat tepat = 2(panjang + lebar) = 2(12+7) = 38 cm."
+      "explanation": "Perimeter segi empat tepat = 2(panjang + lebar) = 2(12+7) = 38 cm.",
+      "visual": "b15_rectangle.svg"
     },
     {
       "id": "B16",
       "section": "BAHAGIAN B",
       "category": "Matematik",
-      "question": "Sebuah segi empat sama mempunyai sisi 9 cm. Berapakah luasnya?",
+      "question": "Rajah menunjukkan sebuah segi empat sama. Setiap sisinya 9 cm. Berapakah luasnya?",
       "options": [
         "18 cm²",
         "36 cm²",
@@ -808,7 +809,8 @@
       ],
       "answer": 2,
       "type": "dichotomous",
-      "explanation": "Luas segi empat sama = sisi × sisi = 9×9 = 81 cm²."
+      "explanation": "Luas segi empat sama = sisi × sisi = 9×9 = 81 cm².",
+      "visual": "b16_square.svg"
     },
     {
       "id": "B17",
@@ -859,7 +861,7 @@
       "id": "B20",
       "section": "BAHAGIAN B",
       "category": "Matematik",
-      "question": "Sebuah sudut pada garis lurus ialah 125°. Berapakah sudut yang bersebelahan dengannya?",
+      "question": "Rajah menunjukkan dua sudut bersebelahan pada satu garis lurus. Salah satu sudut ialah 125°. Berapakah sudut yang satu lagi?",
       "options": [
         "45°",
         "75°",
@@ -868,13 +870,14 @@
       ],
       "answer": 2,
       "type": "dichotomous",
-      "explanation": "Sudut pada garis lurus berjumlah 180°. Sudut bersebelahan = 180°−125° = 55°."
+      "explanation": "Sudut pada garis lurus berjumlah 180°. Sudut bersebelahan = 180°−125° = 55°.",
+      "visual": "b20_straight_angle.svg"
     },
     {
       "id": "B21",
       "section": "BAHAGIAN B",
       "category": "Matematik",
-      "question": "Jumlah tiga sudut dalam sebuah segi tiga ialah 180°. Jika dua sudut ialah 65° dan 48°, sudut ketiga ialah…",
+      "question": "Rajah menunjukkan sebuah segi tiga dengan dua sudut 65° dan 48°. Berapakah nilai sudut yang ditandakan dengan tanda soal?",
       "options": [
         "87°",
         "77°",
@@ -883,13 +886,14 @@
       ],
       "answer": 3,
       "type": "dichotomous",
-      "explanation": "Jumlah sudut segi tiga 180°. Sudut ketiga = 180°−65°−48° = 67°. Jadi jawapan ialah 67°."
+      "explanation": "Jumlah sudut segi tiga 180°. Sudut ketiga = 180°−65°−48° = 67°. Jadi jawapan ialah 67°.",
+      "visual": "b21_triangle.svg"
     },
     {
       "id": "B22",
       "section": "BAHAGIAN B",
       "category": "Matematik",
-      "question": "Dalam sebuah carta pai, 25% daripada data mewakili murid yang memilih kelab Sains. Berapakah sudut sektor itu?",
+      "question": "Rajah carta pai menunjukkan 25% data mewakili murid yang memilih Kelab Sains. Berapakah sudut sektor Kelab Sains?",
       "options": [
         "60°",
         "90°",
@@ -898,7 +902,8 @@
       ],
       "answer": 1,
       "type": "dichotomous",
-      "explanation": "Satu bulatan penuh ialah 360°. 25% = 1/4. Sudut sektor = 360°×25% = 90°."
+      "explanation": "Satu bulatan penuh ialah 360°. 25% = 1/4. Sudut sektor = 360°×25% = 90°.",
+      "visual": "b22_pie25.svg"
     },
     {
       "id": "B23",
@@ -1249,7 +1254,7 @@
       "id": "B46",
       "section": "BAHAGIAN B",
       "category": "Sains",
-      "question": "Apakah yang berlaku kepada bayang-bayang apabila objek didekatkan kepada sumber cahaya?",
+      "question": "Rajah menunjukkan objek berada di antara sumber cahaya dan skrin. Apakah yang biasanya berlaku kepada bayang-bayang apabila objek didekatkan kepada sumber cahaya?",
       "options": [
         "Biasanya menjadi lebih besar",
         "Tidak berubah langsung",
@@ -1258,7 +1263,8 @@
       ],
       "answer": 0,
       "type": "dichotomous",
-      "explanation": "Apabila objek didekatkan kepada sumber cahaya, bayang-bayang biasanya menjadi lebih besar pada skrin kerana objek menghalang lebih banyak laluan cahaya."
+      "explanation": "Apabila objek didekatkan kepada sumber cahaya, bayang-bayang biasanya menjadi lebih besar pada skrin kerana objek menghalang lebih banyak laluan cahaya.",
+      "visual": "b46_shadow.svg"
     },
     {
       "id": "B47",
@@ -1309,7 +1315,7 @@
       "id": "B50",
       "section": "BAHAGIAN B",
       "category": "Sains",
-      "question": "Apabila litar elektrik lengkap, mentol menyala kerana…",
+      "question": "Rajah menunjukkan satu litar elektrik yang lengkap. Mengapakah mentol boleh menyala?",
       "options": [
         "Arus elektrik dapat mengalir",
         "Tiada arus mengalir",
@@ -1318,7 +1324,8 @@
       ],
       "answer": 0,
       "type": "dichotomous",
-      "explanation": "Litar lengkap menyediakan laluan tertutup supaya arus elektrik dapat mengalir melalui mentol."
+      "explanation": "Litar lengkap menyediakan laluan tertutup supaya arus elektrik dapat mengalir melalui mentol.",
+      "visual": "b50_circuit.svg"
     },
     {
       "id": "B51",
@@ -1384,7 +1391,7 @@
       "id": "B55",
       "section": "BAHAGIAN B",
       "category": "Teknologi",
-      "question": "Dalam sistem automasi, sensor digunakan untuk…",
+      "question": "Rajah menunjukkan sensor menghantar maklumat kepada sistem. Apakah fungsi utama sensor dalam sistem automasi?",
       "options": [
         "Mengesan perubahan atau keadaan persekitaran",
         "Menambah berat produk",
@@ -1393,7 +1400,8 @@
       ],
       "answer": 0,
       "type": "dichotomous",
-      "explanation": "Sensor mengesan perubahan atau keadaan persekitaran seperti cahaya, suhu atau jarak dan menghantar maklumat kepada sistem."
+      "explanation": "Sensor mengesan perubahan atau keadaan persekitaran seperti cahaya, suhu atau jarak dan menghantar maklumat kepada sistem.",
+      "visual": "b55_sensor.svg"
     },
     {
       "id": "B56",
