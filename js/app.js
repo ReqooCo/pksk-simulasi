@@ -1,7 +1,24 @@
 // Audio pengawas: fail M4A dalam folder audio.
-let bank=null,qs=[],writing=[],phase="idle",qidx=0,answers={},times={},qStarted=0,timer=5400,wTimer=2700,interval=null,winterval=null,selectedTopic=0,abStartedAt=null,cStartedAt=null;
+let bank=null,qs=[],writing=[],setNo=1,phase="idle",qidx=0,answers={},times={},qStarted=0,timer=5400,wTimer=2700,interval=null,winterval=null,selectedTopic=0,abStartedAt=null,cStartedAt=null;
 const $=id=>document.getElementById(id);
-async function load(){const r=await fetch("data/set01.json");bank=await r.json();qs=bank.questions;writing=bank.writing}
+async function load(n=setNo){
+ setNo=Math.max(1,Math.min(100,Number(n)||1));
+ const r=await fetch(`data/sets/set${String(setNo).padStart(2,"0")}.json`);
+ if(!r.ok) throw new Error("Set tidak dapat dimuat");
+ bank=await r.json();qs=bank.questions;writing=bank.writing;
+ updateSetUI();
+}
+function updateSetUI(){
+ const label=`Set ${String(setNo).padStart(2,"0")}`;
+ document.querySelectorAll(".set-label").forEach(el=>el.textContent=label);
+ const sel=$("setSelect"); if(sel) sel.value=String(setNo);
+}
+async function selectSet(n){
+ clearInterval(interval); clearInterval(winterval);
+ phase="idle";qidx=0;answers={};times={};timer=5400;wTimer=2700;selectedTopic=0;
+ await load(n);
+ show("start");
+}
 function show(id){["start","briefing","exam","writing","result"].forEach(x=>$(x).classList.add("hidden"));$(id).classList.remove("hidden")}
 function audio(name){const a=new Audio("audio/"+name);a.preload="auto";return a}
 const audioFiles={ab:audio("arahan-ab.m4a"),c:audio("arahan-c.m4a"),ten:audio("amaran-10-minit.m4a"),five:audio("amaran-5-minit.m4a"),end:audio("masa-tamat.m4a")};
@@ -25,7 +42,7 @@ function beginABBriefing(){
 }
 function startAB(){
  phase="ab";qidx=0;answers={};times={};timer=5400;
- const saved=JSON.parse(localStorage.getItem("pksk-set01-session")||"null");
+ const saved=JSON.parse(localStorage.getItem(`pksk-set${String(setNo).padStart(2,"0")}-session`)||"null");
  if(saved){answers=saved.answers||{};times=saved.times||{};timer=typeof saved.timer==="number"?saved.timer:5400;}qStarted=Date.now();abStartedAt=Date.now();show("exam");renderTimer();renderQ();
  clearInterval(interval);interval=setInterval(()=>{timer--;renderTimer();
   if(timer===600)playAudioOnly("ten");
@@ -44,7 +61,7 @@ function renderQ(){
  $("grid").innerHTML=qs.map((x,i)=>`<button class="${answers[x.id]!==undefined?"done ":""}${i===qidx?"current":""}" onclick="gotoQ(${i})">${i+1}</button>`).join("");
 }
 function escapeHtml(s){return s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
-function persistSession(){localStorage.setItem("pksk-set01-session",JSON.stringify({answers,times,timer}));}
+function persistSession(){localStorage.setItem(`pksk-set${String(setNo).padStart(2,"0")}-session`,JSON.stringify({answers,times,timer}));}
 function answer(i){answers[qs[qidx].id]=i;persistSession();renderQ()}
 function gotoQ(i){saveTime();qidx=i;renderQ()}
 function nextQ(){saveTime();if(qidx<qs.length-1){qidx++;renderQ()}else confirmFinish()}
@@ -103,7 +120,7 @@ function reviewB(){
 }
 function progressHistory(score){
  let h=JSON.parse(localStorage.getItem("pksk-progress")||"[]");
- const found=h.find(x=>x.set===1); if(found)found.score=score; else h.push({set:1,score});
+ const found=h.find(x=>x.set===setNo); if(found)found.score=score; else h.push({set:setNo,score});
  h.sort((a,b)=>a.set-b.set);localStorage.setItem("pksk-progress",JSON.stringify(h));
  const rows=h.map(x=>`<div class="progress-row"><b>Set ${String(x.set).padStart(2,"0")}</b><div class="progress-bar"><i style="width:${x.score}%"></i></div><span>${x.score}%</span></div>`).join("");
  return `<div class="progress-wrap">${rows||"<p>Belum ada rekod.</p>"}<p class="note">Set seterusnya akan ditambah ke graf ini apabila keputusan Set 02–100 tersedia.</p></div>`;
@@ -160,7 +177,7 @@ function buildResult(c){
  $("conclusion").textContent=`Anda menjawab ${Object.keys(answers).length} daripada 100 soalan A+B. Bahagian B mencatat ${bCorrect} betul, ${bWrong} salah dan ${bSkip} tidak dijawab. ${weak?`Bidang dengan ketepatan paling rendah dalam jawapan yang sempat dibuat ialah ${weak[0]}. Gunakan semakan setiap soalan untuk ulang kaji.`:"Semak setiap bidang dan ulang soalan yang mengambil masa paling lama."} Bahagian A dilaporkan sebagai indeks dan konsistensi respons, bukan betul/salah.`;
  $("progress").innerHTML=progressHistory(bPct);
  show("result");
- localStorage.setItem("pksk-set01-result",JSON.stringify({answers,times,c,bCorrect,bPct,aIndex}));
- localStorage.removeItem("pksk-set01-session");
+ localStorage.setItem(`pksk-set${String(setNo).padStart(2,"0")}-result`,JSON.stringify({answers,times,c,bCorrect,bPct,aIndex}));
+ localStorage.removeItem(`pksk-set${String(setNo).padStart(2,"0")}-session`);
 }
-load();
+load(1).catch(e=>console.error(e));
