@@ -1,3 +1,4 @@
+// Audio pengawas: fail M4A dalam folder audio.
 let bank=null,qs=[],writing=[],phase="idle",qidx=0,answers={},times={},qStarted=0,timer=5400,wTimer=2700,interval=null,winterval=null,selectedTopic=0,abStartedAt=null,cStartedAt=null;
 const $=id=>document.getElementById(id);
 async function load(){const r=await fetch("data/set01.json");bank=await r.json();qs=bank.questions;writing=bank.writing}
