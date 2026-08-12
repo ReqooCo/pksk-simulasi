@@ -24,7 +24,9 @@ function beginABBriefing(){
  playAnnouncement("ab",()=>countdown(startAB));
 }
 function startAB(){
- phase="ab";qidx=0;answers={};times={};timer=5400;qStarted=Date.now();abStartedAt=Date.now();show("exam");renderTimer();renderQ();
+ phase="ab";qidx=0;answers={};times={};timer=5400;
+ const saved=JSON.parse(localStorage.getItem("pksk-set01-session")||"null");
+ if(saved){answers=saved.answers||{};times=saved.times||{};timer=typeof saved.timer==="number"?saved.timer:5400;}qStarted=Date.now();abStartedAt=Date.now();show("exam");renderTimer();renderQ();
  clearInterval(interval);interval=setInterval(()=>{timer--;renderTimer();
   if(timer===600)playAudioOnly("ten");
   if(timer===300)playAudioOnly("five");
@@ -33,7 +35,7 @@ function startAB(){
 }
 function playAudioOnly(key){const a=audioFiles[key];a.currentTime=0;a.play().catch(()=>{})}
 function renderTimer(){const m=Math.floor(timer/60).toString().padStart(2,"0"),s=(timer%60).toString().padStart(2,"0");$("timer").textContent=`${m}:${s}`}
-function saveTime(){if(qStarted){times[qidx]=(times[qidx]||0)+(Date.now()-qStarted);qStarted=Date.now()}}
+function saveTime(){if(qStarted){times[qidx]=(times[qidx]||0)+(Date.now()-qStarted);qStarted=Date.now();persistSession();}}
 function renderQ(){
  const q=qs[qidx];$("sectionPill").textContent=q.section;$("cat").textContent=q.category;$("qnum").textContent=`Soalan ${qidx+1} daripada ${qs.length}`;
  $("qtext").textContent=q.question;$("answeredCount").textContent=`${Object.keys(answers).length} / ${qs.length}`;
@@ -42,7 +44,8 @@ function renderQ(){
  $("grid").innerHTML=qs.map((x,i)=>`<button class="${answers[x.id]!==undefined?"done ":""}${i===qidx?"current":""}" onclick="gotoQ(${i})">${i+1}</button>`).join("");
 }
 function escapeHtml(s){return s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
-function answer(i){answers[qs[qidx].id]=i;renderQ()}
+function persistSession(){localStorage.setItem("pksk-set01-session",JSON.stringify({answers,times,timer}));}
+function answer(i){answers[qs[qidx].id]=i;persistSession();renderQ()}
 function gotoQ(i){saveTime();qidx=i;renderQ()}
 function nextQ(){saveTime();if(qidx<qs.length-1){qidx++;renderQ()}else confirmFinish()}
 function prevQ(){if(qidx>0){saveTime();qidx--;renderQ()}}
@@ -69,12 +72,41 @@ function finishWriting(auto=false){if(phase!=="c")return;clearInterval(winterval
 function pct(a,b){return b?Math.round(a/b*100):0}
 function bar(p){return `<div class="meter"><i style="width:${Math.min(100,p)}%"></i></div>`}
 function tableA(){
- const groups={};qs.filter(q=>q.section==="BAHAGIAN A").forEach(q=>{groups[q.category]??={n:0,score:0,max:0};groups[q.category].n++;groups[q.category].max+=Math.max(...q.weights);if(answers[q.id]!==undefined)groups[q.category].score+=q.weights[answers[q.id]]});
- return `<div class="table"><div class="row head"><div>Konstruk</div><div>Item</div><div>Skor</div><div>Maks.</div><div>Prestasi</div></div>`+Object.entries(groups).map(([k,v])=>{let p=pct(v.score,v.max);return `<div class="row"><div><b>${k}</b></div><div>${v.n}</div><div>${v.score}</div><div>${v.max}</div><div>${p}%${bar(p)}</div></div>`}).join("")+"</div>"
+ const groups={};
+ qs.filter(q=>q.section==="BAHAGIAN A").forEach(q=>{
+   groups[q.category]??={n:0,score:0,max:0};
+   groups[q.category].n++;
+   groups[q.category].max+=Math.max(...q.weights);
+   if(answers[q.id]!==undefined)groups[q.category].score+=q.weights[answers[q.id]];
+ });
+ const items=Object.entries(groups).map(([k,v])=>{
+   const p=pct(v.score,v.max);
+   return `<div class="a-index"><b>${p}%</b><strong>${k}</strong><span>${v.n} item</span></div>`;
+ }).join("");
+ const answered=qs.filter(q=>q.section==="BAHAGIAN A"&&answers[q.id]!==undefined).length;
+ return `<div class="a-note"><b>Skor item Bahagian A: ${answered}/30 dijawab</b><p>Bahagian A ialah respons bergred. Tiada paparan “betul/salah” untuk item psikometrik. Indeks di bawah menunjukkan kecenderungan respons mengikut konstruk.</p></div><div class="a-index-grid">${items}</div>`;
 }
 function tableB(){
  const groups={};qs.filter(q=>q.section==="BAHAGIAN B").forEach(q=>{groups[q.category]??={n:0,ans:0,correct:0};groups[q.category].n++;if(answers[q.id]!==undefined){groups[q.category].ans++;if(answers[q.id]===q.answer)groups[q.category].correct++}});
  return `<div class="table"><div class="row head"><div>Bidang</div><div>Item</div><div>Jawab</div><div>Betul</div><div>Ketepatan</div></div>`+Object.entries(groups).map(([k,v])=>{let p=pct(v.correct,v.ans);return `<div class="row"><div><b>${k}</b></div><div>${v.n}</div><div>${v.ans}</div><div>${v.correct}</div><div>${p}%${bar(p)}</div></div>`}).join("")+"</div>"
+}
+function reviewB(){
+ const b=qs.filter(q=>q.section==="BAHAGIAN B");
+ return `<div class="review-list">`+b.map((q,i)=>{
+   const a=answers[q.id], status=a===undefined?"skip":(a===q.answer?"good":"bad");
+   const label=status==="good"?"✓ BETUL":status==="bad"?"✕ SALAH":"○ TIDAK DIJAWAB";
+   const your=a===undefined?"—":`${String.fromCharCode(65+a)}. ${escapeHtml(q.options[a])}`;
+   const correct=`${String.fromCharCode(65+q.answer)}. ${escapeHtml(q.options[q.answer])}`;
+   const explain=escapeHtml(q.explanation||"Semak langkah penyelesaian dan sebab jawapan ini paling tepat.");
+   return `<article class="review-item ${status}"><div class="review-top"><b>${i+1}. ${escapeHtml(q.question)}</b><strong>${label}</strong></div><div class="review-answer"><span><b>Jawapan anda:</b> ${your}</span><span><b>Jawapan betul:</b> ${correct}</span></div><div class="review-explain"><b>Penerangan:</b> ${explain}</div></article>`;
+ }).join("")+"</div>";
+}
+function progressHistory(score){
+ let h=JSON.parse(localStorage.getItem("pksk-progress")||"[]");
+ const found=h.find(x=>x.set===1); if(found)found.score=score; else h.push({set:1,score});
+ h.sort((a,b)=>a.set-b.set);localStorage.setItem("pksk-progress",JSON.stringify(h));
+ const rows=h.map(x=>`<div class="progress-row"><b>Set ${String(x.set).padStart(2,"0")}</b><div class="progress-bar"><i style="width:${x.score}%"></i></div><span>${x.score}%</span></div>`).join("");
+ return `<div class="progress-wrap">${rows||"<p>Belum ada rekod.</p>"}<p class="note">Set seterusnya akan ditambah ke graf ini apabila keputusan Set 02–100 tersedia.</p></div>`;
 }
 function essayAnalysis(c){
  const t=c.text,low=t.toLowerCase(),sent=t.split(/[.!?]+/).map(x=>x.trim()).filter(Boolean),paras=t.split(/\n\s*\n/).map(x=>x.trim()).filter(Boolean);
@@ -98,20 +130,37 @@ function essayAnalysis(c){
 }
 function buildResult(c){
  const a=qs.filter(q=>q.section==="BAHAGIAN A"),b=qs.filter(q=>q.section==="BAHAGIAN B");
- const aScore=a.reduce((s,q)=>s+(answers[q.id]===undefined?0:q.weights[answers[q.id]]),0),aMax=a.reduce((s,q)=>s+Math.max(...q.weights),0);
- const bAnswered=b.filter(q=>answers[q.id]!==undefined).length,bCorrect=b.filter(q=>answers[q.id]!==undefined&&answers[q.id]===q.answer).length,bWrong=bAnswered-bCorrect,bSkip=b.length-bAnswered;
+ const aAnswered=a.filter(q=>answers[q.id]!==undefined).length;
+ const aScore=a.reduce((s,q)=>s+(answers[q.id]===undefined?0:q.weights[answers[q.id]]),0);
+ const aMax=a.reduce((s,q)=>s+Math.max(...q.weights),0);
+ const aIndex=pct(aScore,aMax);
+ const bAnswered=b.filter(q=>answers[q.id]!==undefined).length;
+ const bCorrect=b.filter(q=>answers[q.id]!==undefined&&answers[q.id]===q.answer).length;
+ const bWrong=bAnswered-bCorrect,bSkip=b.length-bAnswered;
  const abElapsed=90*60-timer,cElapsed=45*60-wTimer;
+ const bPct=pct(bCorrect,b.length);
  $("summary").innerHTML=[
-  ["A skor",`${aScore}/${aMax}`],["B betul",`${bCorrect}/${b.length}`],["B salah",bWrong],["B tidak dijawab",bSkip],["A+B ketepatan",`${pct(bCorrect,bAnswered)}%`],["Masa digunakan",`${Math.floor((abElapsed+cElapsed)/60)}m`]
+  ["A item dijawab",`${aAnswered}/30`],
+  ["A indeks keseluruhan",`${aIndex}%`],
+  ["B betul",`${bCorrect}/70`],
+  ["B salah",bWrong],
+  ["B tidak dijawab",bSkip],
+  ["B ketepatan",`${bPct}%`],
+  ["Masa digunakan",`${Math.floor((abElapsed+cElapsed)/60)}m`]
  ].map(x=>`<div class="stat"><span>${x[0]}</span><b>${x[1]}</b></div>`).join("");
- $("aAnalysis").innerHTML=tableA();$("bAnalysis").innerHTML=tableB();$("cAnalysis").innerHTML=essayAnalysis(c);
+ $("aAnalysis").innerHTML=tableA();
+ $("bAnalysis").innerHTML=tableB();
+ $("reviewB").innerHTML=reviewB();
+ $("cAnalysis").innerHTML=essayAnalysis(c);
  const slow=qs.map((q,i)=>({id:q.id,ms:times[i]||0})).filter(x=>x.ms).sort((x,y)=>y.ms-x.ms).slice(0,5);
  $("timeAnalysis").innerHTML=`<div class="table"><div class="row head"><div>Soalan paling lama</div><div>Masa</div><div></div><div></div><div></div></div>`+slow.map(x=>`<div class="row"><div>${x.id}</div><div>${Math.round(x.ms/1000)} saat</div><div></div><div></div><div></div></div>`).join("")+`</div><p class="note">“Tidak dijawab” bermaksud calon tidak memilih jawapan sebelum menghantar atau masa tamat.</p>`;
  const groups={};b.forEach(q=>{groups[q.category]??={a:0,c:0};if(answers[q.id]!==undefined){groups[q.category].a++;if(answers[q.id]===q.answer)groups[q.category].c++}});
  const weak=Object.entries(groups).filter(x=>x[1].a).sort((x,y)=>pct(x[1].c,x[1].a)-pct(y[1].c,y[1].a))[0];
  $("conclusionTitle").textContent=weak?`Fokus latihan: ${weak[0]}`:"Teruskan latihan secara konsisten";
- $("conclusion").textContent=`Anda menjawab ${Object.keys(answers).length} daripada 100 soalan A+B. Bahagian B mencatat ${bCorrect} betul, ${bWrong} salah dan ${bSkip} tidak dijawab. ${weak?`Bidang dengan ketepatan paling rendah dalam jawapan yang sempat dibuat ialah ${weak[0]}. Gunakan analisis di atas untuk menentukan topik latihan seterusnya.`:"Semak setiap bidang dan ulang soalan yang mengambil masa paling lama."} Bahagian C pula dinilai dari segi panjang, relevan, struktur, huraian dan keperluan menyemak fakta.`;
+ $("conclusion").textContent=`Anda menjawab ${Object.keys(answers).length} daripada 100 soalan A+B. Bahagian B mencatat ${bCorrect} betul, ${bWrong} salah dan ${bSkip} tidak dijawab. ${weak?`Bidang dengan ketepatan paling rendah dalam jawapan yang sempat dibuat ialah ${weak[0]}. Gunakan semakan setiap soalan untuk ulang kaji.`:"Semak setiap bidang dan ulang soalan yang mengambil masa paling lama."} Bahagian A dilaporkan sebagai indeks dan konsistensi respons, bukan betul/salah.`;
+ $("progress").innerHTML=progressHistory(bPct);
  show("result");
- localStorage.setItem("pksk-set01-result",JSON.stringify({answers,times,c}))
+ localStorage.setItem("pksk-set01-result",JSON.stringify({answers,times,c,bCorrect,bPct,aIndex}));
+ localStorage.removeItem("pksk-set01-session");
 }
 load();
