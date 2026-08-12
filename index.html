@@ -1,54 +1,122 @@
 <!doctype html>
-<html lang="ms"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#111827"><title>PKSK Simulasi Set 01</title>
-<link rel="stylesheet" href="css/style.css"></head>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1220">
+<title>PKSK Simulasi — Set 01</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
 <body>
 <div id="app">
-<section id="start" class="screen"><div class="panel intro">
-<div class="badge">SIMULASI PKSK · TINGKATAN 1</div>
-<h1>Set 01</h1><p>Simulasi penuh berdasarkan struktur 3 komponen PKSK.</p>
-<div class="info"><b>Fasa 1 — Bahagian C</b><br>Artikulasi Penulisan · 45 minit · pilih 1 daripada 3 tajuk · minimum 100 patah perkataan.</div>
-<div class="info"><b>Fasa 2 — Bahagian A + B</b><br>Kecerdasan Insaniah + Kecerdasan Intelek · 90 minit.</div>
-<button class="primary" onclick="beginBriefing()">MULA SIMULASI</button>
-<p class="note">Ini ialah simulasi latihan, bukan peperiksaan rasmi KPM. Soalan direka baharu berdasarkan konstruk/format yang diterbitkan.</p>
-</div></section>
 
-<section id="briefing" class="screen hidden"><div class="panel briefing">
-<div class="badge">ARAHAN PENGAWAS · FASA 1</div>
-<p id="voiceText" class="voice"></p><div id="count" class="count">3</div>
-</div></section>
+<section id="start" class="screen">
+  <div class="start-shell">
+    <div class="topbar"><span class="brand-mark">PKSK</span><span>SIMULASI TINGKATAN 1</span></div>
+    <div class="start-card">
+      <div class="eyebrow">UJIAN SIMULASI BERKOMPUTER</div>
+      <h1>Set 01</h1>
+      <p class="lead">Latihan penuh dengan suasana dan pengurusan masa seperti sesi ujian berkomputer.</p>
+      <div class="exam-info">
+        <div class="info-card"><span class="num">01</span><div><b>BAHAGIAN A + B</b><small>100 soalan · 90 minit</small></div></div>
+        <div class="info-card"><span class="num">02</span><div><b>BAHAGIAN C</b><small>3 tajuk · pilih 1 · 45 minit</small></div></div>
+      </div>
+      <div class="rules">
+        <b>Sebelum bermula</b>
+        <ul>
+          <li>Pastikan anda berada di tempat yang tenang.</li>
+          <li>Semua jawapan direkod secara automatik.</li>
+          <li>Masa akan berjalan sebaik ujian dimulakan.</li>
+          <li>Apabila masa tamat, sesi akan dikunci secara automatik.</li>
+        </ul>
+      </div>
+      <button class="main-btn" onclick="beginABBriefing()">MULA SIMULASI <span>→</span></button>
+      <div class="disclaimer">Simulasi latihan. Bukan sistem peperiksaan rasmi KPM dan bukan salinan soalan sebenar.</div>
+    </div>
+  </div>
+</section>
 
-<section id="writing" class="hidden">
-<header><div><b>PKSK SIMULASI</b><small>BAHAGIAN C · ARTIKULASI PENULISAN</small></div><div class="timer"><small>MASA BERBAKI</small><strong id="wTimer">45:00</strong></div></header>
-<div class="writing-wrap">
-<div class="panel writing-panel">
-<div class="qtop"><b>Fasa 1</b><span>45 minit</span></div>
-<p>Pilih <b>satu</b> daripada tiga tajuk. Tulis dalam Bahasa Melayu. Minimum 100 patah perkataan.</p>
-<div id="topics" class="topics"></div>
-<textarea id="essay" placeholder="Taip jawapan anda di sini..."></textarea>
-<div class="wordbar"><span>Perkataan: <b id="wordCount">0</b></span><span id="minStatus">Minimum 100 patah perkataan</span></div>
-<button class="primary" onclick="finishWriting()">HANTAR BAHAGIAN C</button>
-</div></div></section>
+<section id="briefing" class="screen hidden">
+  <div class="briefing-shell">
+    <div class="briefing-icon">●</div>
+    <div class="eyebrow">ARAHAN CALON</div>
+    <h1 id="briefingTitle">Bahagian A + B</h1>
+    <p id="voiceText" class="briefing-text"></p>
+    <div id="count" class="count">3</div>
+    <div class="briefing-note">Sila beri perhatian kepada arahan sebelum masa bermula.</div>
+  </div>
+</section>
 
-<section id="exam" class="hidden">
-<header><div><b>PKSK SIMULASI</b><small id="partLabel">BAHAGIAN A · KECERDASAN INSANIAH</small></div><div class="timer"><small>MASA BERBAKI</small><strong id="timer">90:00</strong></div></header>
-<div class="layout">
-<main><div class="qtop"><span id="qnum"></span><span id="cat"></span></div>
-<div class="panel qcard"><div id="qtext" class="qtext"></div><div id="opts"></div></div>
-<div class="nav"><button class="secondary" onclick="prevQ()">← Sebelum</button><button class="primary" onclick="nextQ()">Seterusnya →</button></div></main>
-<aside class="panel navpanel"><h3>Navigasi</h3><div id="grid" class="grid"></div><div class="legend">● Dijawab &nbsp; ○ Belum &nbsp; ◉ Semasa</div><button class="finish" onclick="confirmFinish()">HANTAR</button></aside>
-</div></section>
+<section id="exam" class="hidden exam-page">
+  <header class="exam-header">
+    <div class="exam-brand"><b>PKSK</b><span>SIMULASI SET 01</span></div>
+    <div class="exam-section"><span id="partLabel">BAHAGIAN A + B</span><small>100 SOALAN</small></div>
+    <div class="timer-box"><small>MASA BERBAKI</small><strong id="timer">90:00</strong></div>
+  </header>
+  <div class="exam-body">
+    <main class="question-main">
+      <div class="crumb"><span id="sectionPill">BAHAGIAN A</span><span id="cat"></span></div>
+      <div class="question-head"><b id="qnum">Soalan 1 daripada 100</b><span id="saveStatus">Jawapan disimpan</span></div>
+      <div class="question-card">
+        <div id="qtext" class="qtext"></div>
+        <div id="opts" class="options"></div>
+      </div>
+      <div class="bottom-nav">
+        <button id="prevBtn" class="nav-btn" onclick="prevQ()">← SEBELUM</button>
+        <button id="nextBtn" class="next-btn" onclick="nextQ()">SETERUSNYA →</button>
+      </div>
+    </main>
+    <aside class="side-panel">
+      <div class="side-title"><b>Navigasi Soalan</b><span id="answeredCount">0/100</span></div>
+      <div id="grid" class="grid"></div>
+      <div class="legend"><span><i class="d current"></i> Semasa</span><span><i class="d answered"></i> Dijawab</span><span><i class="d"></i> Belum</span></div>
+      <button class="submit-btn" onclick="confirmFinish()">HANTAR BAHAGIAN A + B</button>
+    </aside>
+  </div>
+</section>
 
-<section id="result" class="screen hidden"><div class="panel result">
-<div class="badge">LAPORAN SIMULASI</div><h1>Set 01 Selesai</h1>
-<div id="summary" class="stats"></div>
-<h2>Analisis Bahagian A</h2><div id="aAnalysis"></div>
-<h2>Analisis Bahagian B</h2><div id="bAnalysis"></div>
-<h2>Analisis Masa</h2><div id="timeAnalysis"></div>
-<h2>Bahagian C — Penulisan</h2><div id="cAnalysis"></div>
-<div class="conclusion"><h2>Kesimpulan</h2><p id="conclusion"></p></div>
-<button class="primary" onclick="location.reload()">ULANG SET</button>
-</div></section>
+<section id="writing" class="hidden exam-page">
+  <header class="exam-header">
+    <div class="exam-brand"><b>PKSK</b><span>SIMULASI SET 01</span></div>
+    <div class="exam-section"><span>BAHAGIAN C</span><small>ARTIKULASI PENULISAN</small></div>
+    <div class="timer-box"><small>MASA BERBAKI</small><strong id="wTimer">45:00</strong></div>
+  </header>
+  <div class="writing-body">
+    <div class="writing-main">
+      <div class="writing-head"><div><span class="section-prompt">BAHAGIAN C</span><h2>Artikulasi Penulisan</h2></div><div class="writing-rule">Pilih 1 daripada 3 tajuk<br>Minimum 100 patah perkataan</div></div>
+      <div id="topics" class="topics"></div>
+      <div class="editor-label"><b>Jawapan anda</b><span id="wordCount">0 patah perkataan</span></div>
+      <textarea id="essay" placeholder="Taip jawapan anda di sini..."></textarea>
+      <div class="editor-footer"><span id="minStatus">Minimum 100 patah perkataan</span><button class="next-btn" onclick="finishWriting()">HANTAR BAHAGIAN C →</button></div>
+    </div>
+    <aside class="writing-side">
+      <b>Arahan</b>
+      <p>Baca ketiga-tiga tajuk. Pilih satu tajuk sahaja dan tulis jawapan yang tersusun, jelas dan relevan.</p>
+      <div class="mini-rule">Masa: <b>45 minit</b></div>
+      <div class="mini-rule">Minimum: <b>100 perkataan</b></div>
+      <div class="mini-rule">Semak jawapan sebelum menghantar.</div>
+    </aside>
+  </div>
+</section>
+
+<section id="result" class="screen hidden">
+  <div class="result-shell">
+    <div class="eyebrow">LAPORAN SIMULASI</div>
+    <h1>Set 01 Selesai</h1>
+    <p class="lead">Ringkasan prestasi anda berdasarkan sesi yang baru tamat.</p>
+    <div id="summary" class="stats"></div>
+    <div class="report-grid">
+      <div><h2>Bahagian A</h2><div id="aAnalysis"></div></div>
+      <div><h2>Bahagian B</h2><div id="bAnalysis"></div></div>
+    </div>
+    <h2>Bahagian C — Penulisan</h2><div id="cAnalysis"></div>
+    <h2>Pengurusan Masa</h2><div id="timeAnalysis"></div>
+    <div class="conclusion"><div class="eyebrow">KESIMPULAN</div><p id="conclusion"></p></div>
+    <button class="main-btn" onclick="location.reload()">ULANG SET 01 ↻</button>
+  </div>
+</section>
+
 </div>
-<script src="js/app.js"></script></body></html>
+<script src="js/app.js"></script>
+</body>
+</html>
