@@ -1,0 +1,1 @@
+{"status":"GENERATION_READY","source":"question-engine/TAHAP2_BLUEPRINT.md + ITEM_MODEL_LIBRARY_V2.md + STIMULUS_LIBRARY_V2.md","target":"Set 01","questions":100,"mix":{"A":{"EQ":10,"SQ":10,"SSQ":10},"B":{"Matematik":18,"Sains":12,"IQ / Logik":12,"Bahasa Melayu":10,"English":10,"Pengetahuan Am":5,"Penyelesaian Masalah":3}},"writing":3,"gate":"CONTROLLED_PILOT","live":false}
