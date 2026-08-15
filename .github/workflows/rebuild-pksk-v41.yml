@@ -1,0 +1,56 @@
+name: Rebuild PKSK V41
+
+on:
+  push:
+    branches: [audit/v41-quality-rebuild]
+    paths-ignore:
+      - 'sets/**'
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate all 100 sets
+        run: python tools/rebuild_pksk_v41.py
+
+      - name: Validate all sets
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from collections import Counter
+          root=Path('sets')
+          files=sorted(root.glob('SET */data/set*.json'))
+          assert len(files)==100, len(files)
+          for p in files:
+              d=json.loads(p.read_text(encoding='utf-8'))
+              qs=d['questions']
+              assert len(qs)==100, (p,len(qs))
+              assert len({q['id'] for q in qs})==100, p
+              assert len({q['question'] for q in qs})==100, p
+              assert all(len(q['options'])==4 for q in qs), p
+              A=Counter(q['category'] for q in qs if q['section']=='BAHAGIAN A')
+              B=Counter(q['category'] for q in qs if q['section']=='BAHAGIAN B')
+              assert A==Counter({'EQ':10,'SQ':10,'SSQ':10}), (p,A)
+              assert B==Counter({'IQ / Logik':10,'Matematik':10,'Bahasa Melayu':10,'English':10,'Sains':10,'Teknologi':10,'Pengetahuan Am':10}), (p,B)
+              for q in qs:
+                  if q['section']=='BAHAGIAN B': assert 0 <= q['answer'] < 4, (p,q['id'])
+                  else: assert sum(q['weights'])==6, (p,q['id'])
+          print('Validation passed for 100 sets.')
+          PY
+
+      - name: Commit rebuilt sets
+        run: |
+          git config user.name 'Reqoo V41 Rebuild Bot'
+          git config user.email 'actions@github.com'
+          git add 'sets/**/data/set*.json'
+          git commit -m 'feat: rebuild all PKSK sets with V41 quality audit' || echo 'No changes to commit'
+          git push
