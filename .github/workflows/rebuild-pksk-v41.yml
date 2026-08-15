@@ -17,45 +17,29 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: Restore generator
-        env:
-          PAYLOAD: H4sIAEcTgGoC/8V9y24cx5bgXl+RqAujSVaRYhUpyZdC3QYpybZMyk2J9DXuFQQhqjKqKpivYj5ElQgCvWrMboBetDc92/mA3tz9+E/8JXNeERmZlUXJ7jHGgMV8REacOHHecU6USZZZXgZXRZYOglylYZY8mOVZEixVuYjNJDDc4BxuHzxIVaKLYBy8/adjk6j0nwYBXKSK/iYm5/tipRZ49VylpnBX1Og7FZmEL1J58Mlc48XLfMb9vfz0iT8/XSiDf8+qaxnqlVrRRz+o0MjFxMR48VqZQuX07I2acY8X8uAim3Hr41DR2Mcxd/MNNFjIhSloAJNLv9VMUcfnValzw/2uVgzGxcoO8Xcc4t2DB6GeBXlWvs+WpcnSYkv+DgKVFjc6HwTFw...
-        run: |
-          python - <<'PY'
-          import os,base64,gzip
-          open('tools/rebuild_pksk_v41.py','wb').write(gzip.decompress(base64.b64decode(os.environ['PAYLOAD'])))
-          PY
-
       - name: Generate all 100 sets
         run: python tools/rebuild_pksk_v41.py
-
       - name: Validate all sets
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
           from collections import Counter
-          root=Path('sets')
-          files=sorted(root.glob('SET */data/set*.json'))
+          files=sorted(Path('sets').glob('SET */data/set*.json'))
           assert len(files)==100, len(files)
           for p in files:
-              d=json.loads(p.read_text(encoding='utf-8'))
-              qs=d['questions']
-              assert len(qs)==100, (p,len(qs))
-              assert len({q['id'] for q in qs})==100, p
-              assert len({q['question'] for q in qs})==100, p
+              d=json.loads(p.read_text(encoding='utf-8')); qs=d['questions']
+              assert len(qs)==100 and len({q['id'] for q in qs})==100 and len({q['question'] for q in qs})==100, p
               assert all(len(q['options'])==4 for q in qs), p
               A=Counter(q['category'] for q in qs if q['section']=='BAHAGIAN A')
               B=Counter(q['category'] for q in qs if q['section']=='BAHAGIAN B')
               assert A==Counter({'EQ':10,'SQ':10,'SSQ':10}), (p,A)
               assert B==Counter({'IQ / Logik':10,'Matematik':10,'Bahasa Melayu':10,'English':10,'Sains':10,'Teknologi':10,'Pengetahuan Am':10}), (p,B)
               for q in qs:
-                  if q['section']=='BAHAGIAN B': assert 0 <= q['answer'] < 4, (p,q['id'])
+                  if q['section']=='BAHAGIAN B': assert 0<=q['answer']<4, (p,q['id'])
                   else: assert sum(q['weights'])==6, (p,q['id'])
           print('Validation passed for 100 sets.')
           PY
-
       - name: Commit rebuilt sets
         run: |
           git config user.name 'Reqoo V41 Rebuild Bot'
