@@ -1,0 +1,48 @@
+name: Rebuild PKSK V41
+
+on:
+  push:
+    branches: [audit/v41-quality-rebuild]
+    paths-ignore:
+      - 'sets/**'
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Generate all 100 sets
+        run: python tools/rebuild_pksk_v41.py
+      - name: Validate all sets
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          files=sorted(Path('sets').glob('SET */data/set*.json'))
+          assert len(files)==100, len(files)
+          for p in files:
+              d=json.loads(p.read_text(encoding='utf-8')); qs=d['questions']
+              assert len(qs)==100, (p,len(qs))
+              assert len({q['id'] for q in qs})==100, p
+              assert len({q['question'] for q in qs})==100, p
+              A=[q for q in qs if q['section']=='BAHAGIAN A']; B=[q for q in qs if q['section']=='BAHAGIAN B']
+              assert len(A)==30 and len(B)==70, (p,len(A),len(B))
+              assert all(len(q['options'])==4 for q in qs), p
+              for q in B: assert 0<=q['answer']<4, (p,q['id'])
+              for q in A: assert len(q['weights'])==4 and sum(q['weights'])==3, (p,q['id'])
+          print('Validation passed for 100 sets.')
+          PY
+      - name: Commit rebuilt sets
+        run: |
+          git config user.name 'Reqoo V41 Rebuild Bot'
+          git config user.email 'actions@github.com'
+          git add 'sets/**/data/set*.json'
+          git commit -m 'feat: rebuild all PKSK sets with V41 quality audit' || echo 'No changes to commit'
+          git push
+      # V41 rerun: base is always origin/main, never the previously rebuilt branch.
