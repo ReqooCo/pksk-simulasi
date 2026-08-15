@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "V2.0",
+  "set": 1,
+  "targetBand": "Tahap 2",
+  "setDifficulty": "L2 controlled pilot",
+  "status": "CONTROLLED_PILOT",
+  "note": "Original practice material; not official KPM/PKSK.",
+  "questionCount": 100,
+  "categoryMix": {
+    "Matematik": 18,
+    "Sains": 12,
+    "IQ / Logik": 12,
+    "EQ": 10,
+    "SQ": 10,
+    "SSQ": 10,
+    "Bahasa Melayu": 10,
+    "English": 10,
+    "Pengetahuan Am": 5,
+    "Penyelesaian Masalah": 3
+  },
+  "qualityStatus": "STRUCTURE_PASS_CONTENT_REVIEW_REQUIRED",
+  "productionRule": "Do not promote to live bank until semantic similarity, distractor, language, factual and expert-style review are complete."
+}
