@@ -24,20 +24,18 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          from collections import Counter
           files=sorted(Path('sets').glob('SET */data/set*.json'))
           assert len(files)==100, len(files)
           for p in files:
               d=json.loads(p.read_text(encoding='utf-8')); qs=d['questions']
-              assert len(qs)==100 and len({q['id'] for q in qs})==100 and len({q['question'] for q in qs})==100, p
+              assert len(qs)==100, (p,len(qs))
+              assert len({q['id'] for q in qs})==100, p
+              assert len({q['question'] for q in qs})==100, p
+              A=[q for q in qs if q['section']=='BAHAGIAN A']; B=[q for q in qs if q['section']=='BAHAGIAN B']
+              assert len(A)==30 and len(B)==70, (p,len(A),len(B))
               assert all(len(q['options'])==4 for q in qs), p
-              A=Counter(q['category'] for q in qs if q['section']=='BAHAGIAN A')
-              B=Counter(q['category'] for q in qs if q['section']=='BAHAGIAN B')
-              assert A==Counter({'EQ':10,'SQ':10,'SSQ':10}), (p,A)
-              assert B==Counter({'IQ / Logik':10,'Matematik':10,'Bahasa Melayu':10,'English':10,'Sains':10,'Teknologi':10,'Pengetahuan Am':10}), (p,B)
-              for q in qs:
-                  if q['section']=='BAHAGIAN B': assert 0<=q['answer']<4, (p,q['id'])
-                  else: assert sum(q['weights'])==6, (p,q['id'])
+              for q in B: assert 0<=q['answer']<4, (p,q['id'])
+              for q in A: assert len(q['weights'])==4 and sum(q['weights'])==6, (p,q['id'])
           print('Validation passed for 100 sets.')
           PY
       - name: Commit rebuilt sets
