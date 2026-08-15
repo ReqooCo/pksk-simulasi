@@ -1,17 +1,15 @@
 {
-  "set": 46,
-  "difficulty": 5,
   "questions": [
     {
       "id": "A01",
       "section": "BAHAGIAN A",
-      "category": "SSQ",
-      "question": "Semasa pameran pendidikan di padang, Adam daripada kumpulan 46-01 menghadapi situasi berikut. Tugas kumpulan tidak seimbang. Apakah tindakan terbaik semasa ketika aktiviti kokurikulum?",
+      "category": "EQ",
+      "question": "Anda mendapati rakan sekelas kelihatan sedih selepas menerima keputusan ujian. Apakah tindakan paling sesuai?",
       "options": [
-        "Bincang semula pembahagian tugas",
-        "Tinggalkan kumpulan",
-        "Biarkan seorang buat semuanya",
-        "Bergaduh"
+        "Bertanya khabarnya dan menawarkan bantuan jika diperlukan.",
+        "Membiarkannya kerana masalah itu bukan urusan anda.",
+        "Mengejeknya supaya dia tidak terlalu serius.",
+        "Terus memberitahu semua rakan tentang keputusannya."
       ],
       "weights": [
         3,
@@ -24,51 +22,51 @@
     {
       "id": "A02",
       "section": "BAHAGIAN A",
-      "category": "EQ",
-      "question": "Dalam sesi aktiviti kemahiran di taman sekolah, kumpulan 46-02 perlu membuat keputusan. Aina berkata: Rakan kelihatan kecewa selepas mendapat markah rendah. Apakah tindakan paling sesuai?",
+      "category": "SSQ",
+      "question": "Apakah tindakan terbaik?",
       "options": [
-        "Memberi galakan dan menawarkan bantuan",
-        "Mengejeknya",
-        "Membiarkannya",
-        "Menyebarkan keputusannya"
+        "Mengeluarkannya daripada kumpulan.",
+        "Membiarkannya kerana dia pendiam.",
+        "Menyiapkan semua tugas tanpa bertanya.",
+        "Memberi peluang kepadanya menyampaikan pendapat."
       ],
       "weights": [
-        3,
         0,
         0,
-        0
+        0,
+        3
       ],
       "type": "graded"
     },
     {
       "id": "A03",
       "section": "BAHAGIAN A",
-      "category": "EQ",
-      "question": "Ketika aktiviti kuiz sekolah, Farah dari kumpulan 46-03 berada di bengkel. Situasinya ialah: Rakan anda berjaya dalam sesuatu yang anda belum kuasai. Apakah respons terbaik?",
+      "category": "SQ",
+      "question": "Anda ternampak sampah di kawasan yang baru dibersihkan walaupun bukan anda yang membuangnya. Apakah tindakan paling wajar?",
       "options": [
-        "Ucap tahniah dan belajar daripadanya",
-        "Cemburu",
-        "Mengejek kejayaannya",
-        "Mengelakkan rakan itu"
+        "Tunggu sehingga ada orang lain membersihkannya.",
+        "Biarkan sahaja.",
+        "Salahkan orang yang berada berhampiran.",
+        "Simpan sampah itu di tempat yang sesuai."
       ],
       "weights": [
-        3,
         0,
         0,
-        0
+        0,
+        3
       ],
       "type": "graded"
     },
     {
       "id": "A04",
       "section": "BAHAGIAN A",
-      "category": "SQ",
-      "question": "Bagi latihan kumpulan 46-04 di perpustakaan, Sara berdepan keadaan berikut semasa program kesihatan: Anda mempunyai dua tugasan dengan tarikh akhir berbeza. Apakah tindakan paling berkesan semasa ketika berada di pusat sumber?",
+      "category": "EQ",
+      "question": "Anda menerima kritikan terhadap hasil kerja anda. Apakah respons yang paling matang?",
       "options": [
-        "Buat yang paling mudah sahaja",
-        "Susun keutamaan berdasarkan tarikh dan keperluan",
-        "Tunggu hingga malam terakhir",
-        "Serahkan kedua-duanya kepada rakan"
+        "Membalas dengan mengkritik orang itu pula.",
+        "Dengar kritikan dan gunakan yang membina untuk memperbaiki kerja.",
+        "Terus berhenti mencuba.",
+        "Marah kerana hasil kerja anda dikritik."
       ],
       "weights": [
         0,
@@ -81,17 +79,17 @@
     {
       "id": "A05",
       "section": "BAHAGIAN A",
-      "category": "SQ",
-      "question": "Situasi kumpulan 46-05: Amir sedang berada di rumah semasa projek STEM. Anda lewat menyiapkan bahagian tugasan kerana kurang merancang. Apakah tindakan terbaik?",
+      "category": "SSQ",
+      "question": "Dua orang rakan anda berselisih faham semasa kerja kumpulan. Anda patut...",
       "options": [
-        "Akui kelewatan dan susun semula kerja",
-        "Beri alasan palsu",
-        "Salahkan ahli lain",
-        "Tidak perlu siapkan"
+        "Menyebarkan cerita kepada rakan lain.",
+        "Membantu mereka berbincang dengan tenang tentang penyelesaian.",
+        "Meninggalkan kumpulan.",
+        "Memihak kepada rakan yang paling rapat."
       ],
       "weights": [
-        3,
         0,
+        3,
         0,
         0
       ],
@@ -100,13 +98,13 @@
     {
       "id": "A06",
       "section": "BAHAGIAN A",
-      "category": "SSQ",
-      "question": "Semasa program membaca di pusat STEM, Haziq daripada kumpulan 46-06 menghadapi situasi berikut. Seorang ahli kumpulan jarang bercakap. Apakah tindakan yang membantu?",
+      "category": "SQ",
+      "question": "Anda diberi amanah menjaga bahan kelas. Apakah tindakan yang menunjukkan amanah?",
       "options": [
-        "Abaikan",
-        "Beri ruang untuk menyampaikan pandangan",
-        "Paksa dia bercakap panjang",
-        "Buat keputusan tanpa dia"
+        "Menyembunyikannya supaya tidak perlu menjaga.",
+        "Menyimpan dan memulangkannya mengikut arahan.",
+        "Menggunakannya sesuka hati.",
+        "Memberikannya kepada rakan tanpa izin."
       ],
       "weights": [
         0,
@@ -119,32 +117,32 @@
     {
       "id": "A07",
       "section": "BAHAGIAN A",
-      "category": "SSQ",
-      "question": "Dalam sesi aktiviti kokurikulum di kelas, kumpulan 46-07 perlu membuat keputusan. Adam berkata: Tugas kumpulan tidak seimbang. Apakah tindakan terbaik semasa sebelum pembentangan?",
+      "category": "EQ",
+      "question": "Anda berasa sangat gementar sebelum pembentangan. Apakah cara terbaik mengurus keadaan itu?",
       "options": [
-        "Tinggalkan kumpulan",
-        "Biarkan seorang buat semuanya",
-        "Bergaduh",
-        "Bincang semula pembahagian tugas"
+        "Mengganggu pembentangan kumpulan lain.",
+        "Menyalahkan ahli kumpulan.",
+        "Tarik nafas, bersedia dan cuba fokus pada tugasan.",
+        "Tidak hadir ke kelas."
       ],
       "weights": [
         0,
         0,
-        0,
-        3
+        3,
+        0
       ],
       "type": "graded"
     },
     {
       "id": "A08",
       "section": "BAHAGIAN A",
-      "category": "EQ",
-      "question": "Ketika aktiviti minggu alam sekitar, Aina dari kumpulan 46-08 berada di makmal. Situasinya ialah: Rakan kelihatan kecewa selepas mendapat markah rendah. Apakah tindakan paling sesuai?",
+      "category": "SSQ",
+      "question": "Rakan baharu anda tidak mengenali sesiapa di sekolah. Apakah tindakan paling sesuai?",
       "options": [
-        "Memberi galakan dan menawarkan bantuan",
-        "Menyebarkan keputusannya",
-        "Mengejeknya",
-        "Membiarkannya"
+        "Mengajaknya berkenalan dan menerangkan peraturan asas sekolah.",
+        "Menyuruhnya mencari rakan lain.",
+        "Mengelakkannya.",
+        "Menunggu dia datang sendiri."
       ],
       "weights": [
         3,
@@ -157,56 +155,56 @@
     {
       "id": "A09",
       "section": "BAHAGIAN A",
-      "category": "EQ",
-      "question": "Bagi latihan kumpulan 46-09 di pusat sumber, Farah berdepan keadaan berikut semasa hari sukan: Rakan anda berjaya dalam sesuatu yang anda belum kuasai. Apakah respons terbaik?",
+      "category": "SQ",
+      "question": "Anda menjumpai wang di lantai sekolah. Apakah tindakan paling wajar?",
       "options": [
-        "Cemburu",
-        "Mengelakkan rakan itu",
-        "Mengejek kejayaannya",
-        "Ucap tahniah dan belajar daripadanya"
+        "Membahagikannya dengan rakan.",
+        "Menyembunyikannya.",
+        "Menyerahkannya kepada guru atau pihak yang bertanggungjawab.",
+        "Mengambilnya untuk kegunaan sendiri."
       ],
       "weights": [
+        3,
         0,
         0,
-        0,
-        3
+        0
       ],
       "type": "graded"
     },
     {
       "id": "A10",
       "section": "BAHAGIAN A",
-      "category": "SQ",
-      "question": "Situasi kumpulan 46-10: Sara sedang berada di koperasi semasa projek kumpulan. Anda mempunyai dua tugasan dengan tarikh akhir berbeza. Apakah tindakan paling berkesan semasa semasa tugasan kelas?",
+      "category": "EQ",
+      "question": "Apabila anda gagal dalam sesuatu yang telah anda usahakan, apakah tindakan terbaik?",
       "options": [
-        "Serahkan kedua-duanya kepada rakan",
-        "Tunggu hingga malam terakhir",
-        "Buat yang paling mudah sahaja",
-        "Susun keutamaan berdasarkan tarikh dan keperluan"
+        "Berhenti mencuba.",
+        "Menyalahkan keadaan.",
+        "Kenal pasti kesilapan dan cuba lagi dengan cara yang lebih baik.",
+        "Menganggap diri tidak mampu selama-lamanya."
       ],
       "weights": [
         0,
         0,
-        0,
-        3
+        3,
+        0
       ],
       "type": "graded"
     },
     {
       "id": "A11",
       "section": "BAHAGIAN A",
-      "category": "SQ",
-      "question": "Semasa pameran pendidikan di kantin, Amir daripada kumpulan 46-11 menghadapi situasi berikut. Anda lewat menyiapkan bahagian tugasan kerana kurang merancang. Apakah tindakan terbaik?",
+      "category": "SSQ",
+      "question": "Semasa perbincangan, pendapat anda berbeza daripada majoriti. Apakah tindakan yang sesuai?",
       "options": [
-        "Salahkan ahli lain",
-        "Akui kelewatan dan susun semula kerja",
-        "Beri alasan palsu",
-        "Tidak perlu siapkan"
+        "Memaksa semua orang menerima pendapat anda.",
+        "Keluar daripada kumpulan.",
+        "Terangkan alasan dengan sopan dan dengar pandangan orang lain.",
+        "Diam dan merajuk."
       ],
       "weights": [
         0,
-        3,
         0,
+        3,
         0
       ],
       "type": "graded"
@@ -214,17 +212,17 @@
     {
       "id": "A12",
       "section": "BAHAGIAN A",
-      "category": "SSQ",
-      "question": "Dalam sesi aktiviti kemahiran di dewan sekolah, kumpulan 46-12 perlu membuat keputusan. Haziq berkata: Seorang ahli kumpulan jarang bercakap. Apakah tindakan yang membantu?",
+      "category": "SQ",
+      "question": "Anda diminta membantu menjaga kebersihan bilik selepas aktiviti. Apakah sikap terbaik?",
       "options": [
-        "Abaikan",
-        "Beri ruang untuk menyampaikan pandangan",
-        "Paksa dia bercakap panjang",
-        "Buat keputusan tanpa dia"
+        "Membantu dengan bersungguh-sungguh kerana itu tanggungjawab bersama.",
+        "Buat sekadar perlu supaya cepat selesai.",
+        "Pergi dahulu.",
+        "Suruh orang lain melakukannya."
       ],
       "weights": [
-        0,
         3,
+        0,
         0,
         0
       ],
@@ -233,18 +231,18 @@
     {
       "id": "A13",
       "section": "BAHAGIAN A",
-      "category": "SSQ",
-      "question": "Ketika aktiviti kuiz sekolah, Adam dari kumpulan 46-13 berada di padang. Situasinya ialah: Tugas kumpulan tidak seimbang. Apakah tindakan terbaik semasa semasa bekerja dalam kumpulan?",
+      "category": "EQ",
+      "question": "Anda tersilap bercakap dan menyebabkan rakan terasa hati. Apa yang patut dilakukan?",
       "options": [
-        "Tinggalkan kumpulan",
-        "Biarkan seorang buat semuanya",
-        "Bincang semula pembahagian tugas",
-        "Bergaduh"
+        "Menyalahkan rakan.",
+        "Meminta maaf dengan ikhlas dan berhati-hati selepas itu.",
+        "Buat-buat tidak tahu.",
+        "Menceritakan kesilapan rakan pula."
       ],
       "weights": [
         0,
-        0,
         3,
+        0,
         0
       ],
       "type": "graded"
@@ -252,36 +250,36 @@
     {
       "id": "A14",
       "section": "BAHAGIAN A",
-      "category": "EQ",
-      "question": "Bagi latihan kumpulan 46-14 di taman sekolah, Aina berdepan keadaan berikut semasa program kesihatan: Rakan kelihatan kecewa selepas mendapat markah rendah. Apakah tindakan paling sesuai?",
+      "category": "SSQ",
+      "question": "Kumpulan anda perlu memilih ketua. Apakah pertimbangan yang paling wajar?",
       "options": [
-        "Memberi galakan dan menawarkan bantuan",
-        "Menyebarkan keputusannya",
-        "Mengejeknya",
-        "Membiarkannya"
+        "Pilih orang yang paling banyak bercakap.",
+        "Pilih kawan baik.",
+        "Pilih orang yang paling popular.",
+        "Pilih calon yang bertanggungjawab dan mampu bekerjasama."
       ],
       "weights": [
-        3,
         0,
         0,
-        0
+        0,
+        3
       ],
       "type": "graded"
     },
     {
       "id": "A15",
       "section": "BAHAGIAN A",
-      "category": "EQ",
-      "question": "Situasi kumpulan 46-15: Farah sedang berada di bengkel semasa projek STEM. Rakan anda berjaya dalam sesuatu yang anda belum kuasai. Apakah respons terbaik?",
+      "category": "SQ",
+      "question": "Apabila menerima sesuatu kejayaan, sikap yang paling baik ialah...",
       "options": [
-        "Ucap tahniah dan belajar daripadanya",
-        "Mengelakkan rakan itu",
-        "Mengejek kejayaannya",
-        "Cemburu"
+        "Berhenti berusaha kerana sudah berjaya.",
+        "Bersyukur dan terus berusaha.",
+        "Menceritakan kejayaan kepada semua orang secara berlebihan.",
+        "Memandang rendah orang lain."
       ],
       "weights": [
-        3,
         0,
+        3,
         0,
         0
       ],
@@ -290,13 +288,13 @@
     {
       "id": "A16",
       "section": "BAHAGIAN A",
-      "category": "SQ",
-      "question": "Semasa program membaca di perpustakaan, Sara daripada kumpulan 46-16 menghadapi situasi berikut. Anda mempunyai dua tugasan dengan tarikh akhir berbeza. Apakah tindakan paling berkesan semasa ketika aktiviti kokurikulum?",
+      "category": "EQ",
+      "question": "Jika anda mula berasa marah ketika berbincang, apakah tindakan paling sesuai?",
       "options": [
-        "Susun keutamaan berdasarkan tarikh dan keperluan",
-        "Buat yang paling mudah sahaja",
-        "Serahkan kedua-duanya kepada rakan",
-        "Tunggu hingga malam terakhir"
+        "Berhenti seketika dan tenangkan diri sebelum meneruskan perbincangan.",
+        "Meninggikan suara.",
+        "Menghentak meja.",
+        "Menghina orang lain."
       ],
       "weights": [
         3,
@@ -309,18 +307,18 @@
     {
       "id": "A17",
       "section": "BAHAGIAN A",
-      "category": "SQ",
-      "question": "Dalam sesi aktiviti kokurikulum di rumah, kumpulan 46-17 perlu membuat keputusan. Amir berkata: Anda lewat menyiapkan bahagian tugasan kerana kurang merancang. Apakah tindakan terbaik?",
+      "category": "SSQ",
+      "question": "Seorang ahli kumpulan tidak dapat hadir kerana urusan keluarga. Apa yang patut dilakukan?",
       "options": [
-        "Akui kelewatan dan susun semula kerja",
-        "Salahkan ahli lain",
-        "Beri alasan palsu",
-        "Tidak perlu siapkan"
+        "Menyalahkannya.",
+        "Mengeluarkannya daripada kumpulan.",
+        "Membahagikan tugasan secara adil dan memaklumkan perkembangan kepadanya.",
+        "Mengabaikannya."
       ],
       "weights": [
+        0,
+        0,
         3,
-        0,
-        0,
         0
       ],
       "type": "graded"
@@ -328,18 +326,18 @@
     {
       "id": "A18",
       "section": "BAHAGIAN A",
-      "category": "SSQ",
-      "question": "Ketika aktiviti minggu alam sekitar, Haziq dari kumpulan 46-18 berada di pusat STEM. Situasinya ialah: Seorang ahli kumpulan jarang bercakap. Apakah tindakan yang membantu?",
+      "category": "SQ",
+      "question": "Anda terlihat rakan meniru kerja orang lain untuk dihantar sebagai tugasan sendiri. Apakah tindakan paling wajar?",
       "options": [
-        "Abaikan",
-        "Buat keputusan tanpa dia",
-        "Beri ruang untuk menyampaikan pandangan",
-        "Paksa dia bercakap panjang"
+        "Menegurnya secara baik dan menggalakkannya menghasilkan kerja sendiri.",
+        "Menyokongnya supaya cepat siap.",
+        "Menyebarkan perkara itu kepada semua rakan.",
+        "Mengikutinya."
       ],
       "weights": [
-        0,
-        0,
         3,
+        0,
+        0,
         0
       ],
       "type": "graded"
@@ -347,32 +345,13 @@
     {
       "id": "A19",
       "section": "BAHAGIAN A",
-      "category": "SSQ",
-      "question": "Bagi latihan kumpulan 46-19 di kelas, Adam berdepan keadaan berikut semasa hari sukan: Tugas kumpulan tidak seimbang. Apakah tindakan terbaik semasa ketika berada di pusat sumber?",
-      "options": [
-        "Tinggalkan kumpulan",
-        "Bergaduh",
-        "Bincang semula pembahagian tugas",
-        "Biarkan seorang buat semuanya"
-      ],
-      "weights": [
-        0,
-        0,
-        3,
-        0
-      ],
-      "type": "graded"
-    },
-    {
-      "id": "A20",
-      "section": "BAHAGIAN A",
       "category": "EQ",
-      "question": "Situasi kumpulan 46-20: Aina sedang berada di makmal semasa projek kumpulan. Rakan kelihatan kecewa selepas mendapat markah rendah. Apakah tindakan paling sesuai?",
+      "question": "Apabila rakan mendapat pujian yang anda harapkan, apakah respons paling matang?",
       "options": [
-        "Membiarkannya",
-        "Mengejeknya",
-        "Menyebarkan keputusannya",
-        "Memberi galakan dan menawarkan bantuan"
+        "Menyebarkan kelemahannya.",
+        "Merendah-rendahkan kejayaannya.",
+        "Tidak bercakap dengannya lagi.",
+        "Mengucapkan tahniah dan menjadikannya motivasi."
       ],
       "weights": [
         0,
@@ -383,20 +362,39 @@
       "type": "graded"
     },
     {
+      "id": "A20",
+      "section": "BAHAGIAN A",
+      "category": "SSQ",
+      "question": "Semasa kerja kumpulan, anda sudah menyiapkan bahagian sendiri lebih awal. Apakah tindakan terbaik?",
+      "options": [
+        "Membantu ahli lain jika bantuan diperlukan.",
+        "Mengkritik mereka kerana lambat.",
+        "Bermain dan membiarkan yang lain.",
+        "Pulang tanpa memaklumkan."
+      ],
+      "weights": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "type": "graded"
+    },
+    {
       "id": "A21",
       "section": "BAHAGIAN A",
-      "category": "EQ",
-      "question": "Semasa pameran pendidikan di pusat sumber, Farah daripada kumpulan 46-21 menghadapi situasi berikut. Rakan anda berjaya dalam sesuatu yang anda belum kuasai. Apakah respons terbaik?",
+      "category": "SQ",
+      "question": "Anda membuat janji untuk menyiapkan tugas pada masa tertentu. Apakah tindakan yang menunjukkan disiplin?",
       "options": [
-        "Mengelakkan rakan itu",
-        "Ucap tahniah dan belajar daripadanya",
-        "Mengejek kejayaannya",
-        "Cemburu"
+        "Mengelak daripada dihubungi.",
+        "Menyiapkannya apabila teringat.",
+        "Menepati masa atau memaklumkan lebih awal jika ada masalah yang munasabah.",
+        "Menyuruh orang lain membuatnya."
       ],
       "weights": [
         0,
-        3,
         0,
+        3,
         0
       ],
       "type": "graded"
@@ -404,37 +402,37 @@
     {
       "id": "A22",
       "section": "BAHAGIAN A",
-      "category": "SQ",
-      "question": "Dalam sesi aktiviti kemahiran di koperasi, kumpulan 46-22 perlu membuat keputusan. Sara berkata: Anda mempunyai dua tugasan dengan tarikh akhir berbeza. Apakah tindakan paling berkesan semasa sebelum pembentangan?",
+      "category": "EQ",
+      "question": "Apabila anda menerima berita yang mengejutkan, apakah tindakan yang wajar?",
       "options": [
-        "Buat yang paling mudah sahaja",
-        "Tunggu hingga malam terakhir",
-        "Serahkan kedua-duanya kepada rakan",
-        "Susun keutamaan berdasarkan tarikh dan keperluan"
+        "Sebarkan berita itu segera.",
+        "Semak maklumat dan bertenang sebelum membuat keputusan.",
+        "Terus bertindak tanpa berfikir.",
+        "Marah kepada orang yang menyampaikan berita."
       ],
       "weights": [
         0,
+        3,
         0,
-        0,
-        3
+        0
       ],
       "type": "graded"
     },
     {
       "id": "A23",
       "section": "BAHAGIAN A",
-      "category": "SQ",
-      "question": "Ketika aktiviti kuiz sekolah, Amir dari kumpulan 46-23 berada di kantin. Situasinya ialah: Anda lewat menyiapkan bahagian tugasan kerana kurang merancang. Apakah tindakan terbaik?",
+      "category": "SSQ",
+      "question": "Rakan anda mempunyai idea yang berbeza tetapi bernas. Apakah tindakan anda?",
       "options": [
-        "Beri alasan palsu",
-        "Akui kelewatan dan susun semula kerja",
-        "Salahkan ahli lain",
-        "Tidak perlu siapkan"
+        "Memotong percakapannya.",
+        "Menolaknya kerana bukan idea anda.",
+        "Dengar dan pertimbangkan kelebihan idea tersebut.",
+        "Menyuruhnya diam."
       ],
       "weights": [
         0,
-        3,
         0,
+        3,
         0
       ],
       "type": "graded"
@@ -442,18 +440,18 @@
     {
       "id": "A24",
       "section": "BAHAGIAN A",
-      "category": "SSQ",
-      "question": "Bagi latihan kumpulan 46-24 di dewan sekolah, Haziq berdepan keadaan berikut semasa program kesihatan: Seorang ahli kumpulan jarang bercakap. Apakah tindakan yang membantu?",
+      "category": "SQ",
+      "question": "Anda melihat kemudahan sekolah rosak akibat kecuaian seseorang. Apakah tindakan yang bertanggungjawab?",
       "options": [
-        "Beri ruang untuk menyampaikan pandangan",
-        "Buat keputusan tanpa dia",
-        "Abaikan",
-        "Paksa dia bercakap panjang"
+        "Biarkan kerana bukan milik sendiri.",
+        "Ambil gambar untuk dijadikan bahan ejekan.",
+        "Maklumkan kepada guru/pihak sekolah dan elakkan kerosakan menjadi lebih teruk.",
+        "Cuba menyembunyikan kerosakan."
       ],
       "weights": [
+        0,
+        0,
         3,
-        0,
-        0,
         0
       ],
       "type": "graded"
@@ -461,36 +459,36 @@
     {
       "id": "A25",
       "section": "BAHAGIAN A",
-      "category": "SSQ",
-      "question": "Situasi kumpulan 46-25: Adam sedang berada di padang semasa projek STEM. Tugas kumpulan tidak seimbang. Apakah tindakan terbaik semasa semasa tugasan kelas?",
+      "category": "EQ",
+      "question": "Anda mendapat tugasan yang sukar dan tidak tahu cara memulakannya. Apakah pilihan terbaik?",
       "options": [
-        "Bergaduh",
-        "Tinggalkan kumpulan",
-        "Biarkan seorang buat semuanya",
-        "Bincang semula pembahagian tugas"
+        "Menyalin jawapan rakan.",
+        "Minta bimbingan dan pecahkan tugasan kepada langkah kecil.",
+        "Menyalahkan guru.",
+        "Tidak buat langsung."
       ],
       "weights": [
         0,
+        3,
         0,
-        0,
-        3
+        0
       ],
       "type": "graded"
     },
     {
       "id": "A26",
       "section": "BAHAGIAN A",
-      "category": "EQ",
-      "question": "Semasa program membaca di taman sekolah, Aina daripada kumpulan 46-26 menghadapi situasi berikut. Rakan kelihatan kecewa selepas mendapat markah rendah. Apakah tindakan paling sesuai?",
+      "category": "SSQ",
+      "question": "Apakah tindakan paling sesuai?",
       "options": [
-        "Memberi galakan dan menawarkan bantuan",
-        "Mengejeknya",
-        "Menyebarkan keputusannya",
-        "Membiarkannya"
+        "Menghentikan penyertaannya.",
+        "Membantunya membetulkan kesilapan dan meneruskan aktiviti.",
+        "Mentertawakannya.",
+        "Mengingatkannya sepanjang hari."
       ],
       "weights": [
-        3,
         0,
+        3,
         0,
         0
       ],
@@ -499,17 +497,17 @@
     {
       "id": "A27",
       "section": "BAHAGIAN A",
-      "category": "EQ",
-      "question": "Dalam sesi aktiviti kokurikulum di bengkel, kumpulan 46-27 perlu membuat keputusan. Farah berkata: Rakan anda berjaya dalam sesuatu yang anda belum kuasai. Apakah respons terbaik?",
+      "category": "SQ",
+      "question": "Anda diberikan tugasan menjaga peralatan yang mahal. Apakah tindakan paling wajar?",
       "options": [
-        "Cemburu",
-        "Ucap tahniah dan belajar daripadanya",
-        "Mengejek kejayaannya",
-        "Mengelakkan rakan itu"
+        "Menggunakannya mengikut arahan dan menyimpannya dengan selamat.",
+        "Meninggalkannya tanpa pengawasan.",
+        "Membawanya pulang.",
+        "Membenarkan semua orang menggunakannya tanpa kawalan."
       ],
       "weights": [
-        0,
         3,
+        0,
         0,
         0
       ],
@@ -518,13 +516,13 @@
     {
       "id": "A28",
       "section": "BAHAGIAN A",
-      "category": "SQ",
-      "question": "Ketika aktiviti minggu alam sekitar, Sara dari kumpulan 46-28 berada di perpustakaan. Situasinya ialah: Anda mempunyai dua tugasan dengan tarikh akhir berbeza. Apakah tindakan paling berkesan semasa semasa bekerja dalam kumpulan?",
+      "category": "EQ",
+      "question": "Anda sedar anda telah membuat keputusan yang salah. Apakah tindakan paling matang?",
       "options": [
-        "Buat yang paling mudah sahaja",
-        "Tunggu hingga malam terakhir",
-        "Susun keutamaan berdasarkan tarikh dan keperluan",
-        "Serahkan kedua-duanya kepada rakan"
+        "Menyalahkan orang lain.",
+        "Menyembunyikannya.",
+        "Mengakui kesilapan, membetulkan jika boleh dan belajar daripadanya.",
+        "Berpura-pura tiada apa berlaku."
       ],
       "weights": [
         0,
@@ -537,17 +535,17 @@
     {
       "id": "A29",
       "section": "BAHAGIAN A",
-      "category": "SQ",
-      "question": "Bagi latihan kumpulan 46-29 di rumah, Amir berdepan keadaan berikut semasa hari sukan: Anda lewat menyiapkan bahagian tugasan kerana kurang merancang. Apakah tindakan terbaik?",
+      "category": "SSQ",
+      "question": "Dalam perbincangan, seorang ahli terlalu banyak bercakap sehingga ahli lain tidak sempat memberi pandangan. Apakah tindakan terbaik?",
       "options": [
-        "Beri alasan palsu",
-        "Akui kelewatan dan susun semula kerja",
-        "Tidak perlu siapkan",
-        "Salahkan ahli lain"
+        "Keluar daripada perbincangan.",
+        "Cadangkan supaya semua ahli diberi giliran bercakap.",
+        "Menyuruhnya diam dengan kasar.",
+        "Biarkan sahaja walaupun masa terhad."
       ],
       "weights": [
-        0,
         3,
+        0,
         0,
         0
       ],
@@ -556,18 +554,18 @@
     {
       "id": "A30",
       "section": "BAHAGIAN A",
-      "category": "SSQ",
-      "question": "Situasi kumpulan 46-30: Haziq sedang berada di pusat STEM semasa projek kumpulan. Seorang ahli kumpulan jarang bercakap. Apakah tindakan yang membantu?",
+      "category": "SQ",
+      "question": "Anda mempunyai masa lapang sebelum aktiviti seterusnya. Apakah penggunaan masa yang paling baik?",
       "options": [
-        "Buat keputusan tanpa dia",
-        "Beri ruang untuk menyampaikan pandangan",
-        "Paksa dia bercakap panjang",
-        "Abaikan"
+        "Tidur sepanjang masa.",
+        "Membuat perkara yang boleh menjejaskan orang lain.",
+        "Menyelesaikan tugasan yang belum siap atau membuat persediaan.",
+        "Mengganggu rakan."
       ],
       "weights": [
         0,
-        3,
         0,
+        3,
         0
       ],
       "type": "graded"
@@ -575,1076 +573,1082 @@
     {
       "id": "B01",
       "section": "BAHAGIAN B",
-      "category": "Matematik",
-      "question": "Semasa kuiz sekolah, Adam berada di pusat sumber untuk kumpulan 46-01. Bilangan buku biru dan merah ialah dalam nisbah 3:1. Jika jumlahnya 12, berapakah buku biru?",
+      "category": "IQ / Pola",
+      "question": "Apakah nombor seterusnya? 4, 8, 16, 32, …",
       "options": [
-        "9",
-        "14",
-        "7",
-        "11"
+        "48",
+        "64",
+        "56",
+        "72"
       ],
-      "answer": 0,
-      "explanation": "12÷4=3; 3×3=9.",
-      "type": "objective"
+      "answer": 1,
+      "type": "dichotomous",
+      "explanation": "Pola berganda 2: setiap nombor didarab 2. 4 × 2 = 8, 8 × 2 = 16, 16 × 2 = 32, jadi nombor seterusnya ialah 32 × 2 = 64."
     },
     {
       "id": "B02",
       "section": "BAHAGIAN B",
-      "category": "Matematik",
-      "question": "Bagi tugasan program kesihatan di koperasi, kumpulan 46-02 perlu menjawab soalan berikut. Purata bagi 17, 20, 23, 26 ialah?",
+      "category": "IQ / Pola",
+      "question": "Apakah nombor yang hilang? 2, 5, 11, 23, …",
       "options": [
-        "23",
-        "19",
-        "21",
-        "26"
+        "49",
+        "41",
+        "47",
+        "35"
       ],
       "answer": 2,
-      "explanation": "86÷4=21.",
-      "type": "objective"
+      "type": "dichotomous",
+      "explanation": "Setiap nombor didarab 2 kemudian ditambah 3: 2×2+1=5, 5×2+1=11, 11×2+1=23. Jadi 23×2+1 = 47."
     },
     {
       "id": "B03",
       "section": "BAHAGIAN B",
-      "category": "Matematik",
-      "question": "Ketika program projek STEM di kantin, Aina daripada kumpulan 46-03 membuat pengiraan. Sebuah kenderaan bergerak pada 43 km/j selama 5 jam. Berapakah jaraknya?",
+      "category": "IQ / Analogi",
+      "question": "Buku : Membaca :: Pensel : …",
       "options": [
-        "215",
-        "217",
-        "213",
-        "220"
+        "Mengira",
+        "Mengukur",
+        "Menulis",
+        "Melukis"
       ],
-      "answer": 0,
-      "explanation": "43×5=215 km.",
-      "type": "objective"
+      "answer": 2,
+      "type": "dichotomous",
+      "explanation": "Buku digunakan untuk membaca; pensel digunakan untuk menulis. Jadi jawapan yang sepadan ialah Menulis."
     },
     {
       "id": "B04",
       "section": "BAHAGIAN B",
-      "category": "Matematik",
-      "question": "Dalam sesi latihan kumpulan 46-04 di dewan sekolah, aktiviti yang dijalankan ialah program membaca. 5/8 daripada 112 bahan digunakan. Berapakah bahan yang digunakan?",
+      "category": "IQ / Logik",
+      "question": "Semua bunga dalam pasu itu berwarna putih. Mawar ialah bunga dalam pasu itu. Kesimpulan yang pasti ialah…",
       "options": [
-        "75",
-        "70",
-        "68",
-        "72"
+        "Mawar berwarna merah",
+        "Mawar bukan bunga",
+        "Mawar berwarna putih",
+        "Semua bunga berwarna merah"
       ],
-      "answer": 1,
-      "explanation": "5/8×112=70.",
-      "type": "objective"
+      "answer": 2,
+      "type": "dichotomous",
+      "explanation": "Jawapan yang betul ialah: Mawar berwarna putih."
     },
     {
       "id": "B05",
       "section": "BAHAGIAN B",
-      "category": "Matematik",
-      "question": "Dalam aktiviti aktiviti kokurikulum di padang, kumpulan 46-05 sedang membuat latihan. Sebuah kotak berukuran 5 cm × 2 cm × 2 cm. Berapakah isipadunya?",
+      "category": "IQ / Susunan",
+      "question": "Aina lebih tua daripada Bina. Bina lebih tua daripada Citra. Siapakah paling muda?",
       "options": [
-        "22",
-        "18",
-        "25",
-        "20"
+        "Bina",
+        "Tidak dapat ditentukan",
+        "Aina",
+        "Citra"
       ],
       "answer": 3,
-      "explanation": "5×2×2=20 cm³.",
-      "type": "objective"
+      "type": "dichotomous",
+      "explanation": "Jika Aina lebih tua daripada Bina dan Bina lebih tua daripada Citra, urutannya Aina, Bina, Citra. Jadi Citra paling muda."
     },
     {
       "id": "B06",
       "section": "BAHAGIAN B",
-      "category": "Penyelesaian Masalah",
-      "question": "Semasa minggu alam sekitar, Danish berada di taman sekolah untuk kumpulan 46-06. Apakah nombor seterusnya: 19, 22, 25, 28, ...?",
+      "category": "IQ / Kod",
+      "question": "Jika setiap huruf ditukar kepada huruf selepasnya dalam abjad, KATA menjadi L B U B. Apakah kod bagi BOLA?",
       "options": [
-        "36",
-        "39",
-        "34",
-        "32"
+        "CNMB",
+        "CPMB",
+        "DQMB",
+        "CPNA"
       ],
-      "answer": 2,
-      "explanation": "Tambah 3 setiap kali.",
-      "type": "objective"
+      "answer": 1,
+      "type": "dichotomous",
+      "explanation": "Setiap huruf digerakkan satu kedudukan ke hadapan: B→C, O→P, L→M, A→B. Maka BOLA menjadi CPMB."
     },
     {
       "id": "B07",
       "section": "BAHAGIAN B",
-      "category": "Matematik",
-      "question": "Bagi tugasan hari sukan di bengkel, kumpulan 46-07 perlu menjawab soalan berikut. Pusat sumber mempunyai 62 buku. 12 dipinjam dan 4 buku baharu diterima. Berapakah jumlah sekarang?",
+      "category": "IQ / Klasifikasi",
+      "question": "Yang manakah paling berbeza daripada yang lain?",
       "options": [
-        "54",
-        "59",
-        "56",
-        "52"
+        "Bulatan",
+        "Segi empat",
+        "Segi lima",
+        "Segi tiga"
       ],
       "answer": 0,
-      "explanation": "62−12+4=54.",
-      "type": "objective"
+      "type": "dichotomous",
+      "explanation": "Bulat mempunyai bentuk melengkung tanpa sisi lurus, manakala pilihan lain ialah bentuk yang mempunyai sisi/struktur garis lurus. Oleh itu Bulatan paling berbeza."
     },
     {
       "id": "B08",
       "section": "BAHAGIAN B",
-      "category": "Penyelesaian Masalah",
-      "question": "Ketika program projek kumpulan di perpustakaan, Iman daripada kumpulan 46-08 membuat pengiraan. Iman mula belajar pada 8:30 pagi selama 53 minit. Pukul berapakah dia selesai?",
+      "category": "IQ / Urutan",
+      "question": "Isnin, Rabu, Jumaat, Ahad, … Hari berikutnya dalam pola ialah…",
       "options": [
-        "9:33 pagi",
-        "10:23 pagi",
-        "9:23 pagi",
-        "8:30 pagi"
+        "Isnin",
+        "Selasa minggu berikutnya",
+        "Khamis",
+        "Selasa"
       ],
-      "answer": 2,
-      "explanation": "Masa akhir ialah 9:23 pagi.",
-      "type": "objective"
+      "answer": 1,
+      "type": "dichotomous",
+      "explanation": "Jawapan yang betul ialah: Selasa minggu berikutnya."
     },
     {
       "id": "B09",
       "section": "BAHAGIAN B",
-      "category": "Matematik",
-      "question": "Dalam sesi latihan kumpulan 46-09 di rumah, aktiviti yang dijalankan ialah pameran pendidikan. 8 kotak mempunyai 4 item setiap satu. Berapakah jumlah item?",
+      "category": "IQ / Operasi",
+      "question": "Jika ▲ = 6 dan ● = 4, berapakah nilai ▲ × ● − 5?",
       "options": [
-        "30",
-        "37",
-        "32",
-        "34"
+        "29",
+        "14",
+        "24",
+        "19"
       ],
-      "answer": 2,
-      "explanation": "8×4=32.",
-      "type": "objective"
+      "answer": 3,
+      "type": "dichotomous",
+      "explanation": "Gantikan nilai simbol: 6 × 4 − 5 = 24 − 5 = 19."
     },
     {
       "id": "B10",
       "section": "BAHAGIAN B",
-      "category": "Matematik",
-      "question": "Dalam aktiviti aktiviti kemahiran di pusat STEM, kumpulan 46-10 sedang membuat latihan. Bilangan peserta meningkat daripada 70 kepada 80. Berapakah pertambahannya?",
+      "category": "IQ / Logik",
+      "question": "Empat kotak disusun mengikut berat: P lebih berat daripada Q, Q lebih berat daripada R, dan R lebih berat daripada S. Kotak manakah paling ringan?",
       "options": [
-        "12",
-        "8",
-        "10",
-        "15"
+        "R",
+        "P",
+        "Q",
+        "S"
       ],
-      "answer": 2,
-      "explanation": "80−70=10.",
-      "type": "objective"
+      "answer": 3,
+      "type": "dichotomous",
+      "explanation": "Jika P>Q>R>S dari segi berat, S berada paling bawah dalam susunan dan merupakan kotak paling ringan."
     },
     {
       "id": "B11",
       "section": "BAHAGIAN B",
       "category": "Matematik",
-      "question": "Semasa kuiz sekolah, Haziq berada di kelas untuk kumpulan 46-11. 15 baris kerusi mempunyai 8 kerusi setiap baris. Berapakah jumlah kerusi?",
+      "question": "Sebuah kelas mempunyai 40 orang murid. Sebanyak 35% ialah perempuan. Berapakah bilangan murid perempuan?",
       "options": [
-        "125",
-        "120",
-        "118",
-        "122"
+        "14",
+        "16",
+        "18",
+        "12"
       ],
-      "answer": 1,
-      "explanation": "15×8=120.",
-      "type": "objective"
+      "answer": 0,
+      "type": "dichotomous",
+      "explanation": "35% daripada 40 = 0.35 × 40 = 14 orang."
     },
     {
       "id": "B12",
       "section": "BAHAGIAN B",
       "category": "Matematik",
-      "question": "Bagi tugasan program kesihatan di makmal, kumpulan 46-12 perlu menjawab soalan berikut. Daripada 187 helaian, satu perempat digunakan. Berapakah helaian digunakan?",
+      "question": "Harga sebuah beg ialah RM80. Kedai memberi diskaun 15%. Berapakah harga selepas diskaun?",
       "options": [
-        "46",
-        "51",
-        "44",
-        "48"
+        "RM74",
+        "RM65",
+        "RM68",
+        "RM72"
       ],
-      "answer": 0,
-      "explanation": "187÷4=46.",
-      "type": "objective"
+      "answer": 2,
+      "type": "dichotomous",
+      "explanation": "Diskaun 15% daripada RM80 ialah RM12. Harga selepas diskaun = RM80 − RM12 = RM68."
     },
     {
       "id": "B13",
       "section": "BAHAGIAN B",
       "category": "Matematik",
-      "question": "Ketika program projek STEM di pusat sumber, Adam daripada kumpulan 46-13 membuat pengiraan. Sebuah pasukan mempunyai 28 mata dan menerima dua kali 4 mata lagi. Berapakah jumlah mata?",
+      "question": "Nisbah bilangan pensel merah kepada biru ialah 3:5. Jika jumlah pensel ialah 32, berapakah pensel biru?",
       "options": [
-        "34",
-        "36",
-        "41",
-        "38"
+        "12",
+        "20",
+        "24",
+        "18"
       ],
       "answer": 1,
-      "explanation": "28+2×4=36.",
-      "type": "objective"
+      "type": "dichotomous",
+      "explanation": "Jumlah bahagian nisbah 3+5=8. Satu bahagian = 32÷8=4. Pensel biru = 5×4=20."
     },
     {
       "id": "B14",
       "section": "BAHAGIAN B",
       "category": "Matematik",
-      "question": "Dalam sesi latihan kumpulan 46-14 di koperasi, aktiviti yang dijalankan ialah program membaca. Jika nombor 9 dikuasakan dua dan kemudian ditolak 5, apakah hasilnya?",
+      "question": "Siti mempunyai RM50. Dia membeli buku RM18.50 dan alat tulis RM7.80. Berapakah baki wangnya?",
       "options": [
-        "76",
-        "81",
-        "78",
-        "74"
+        "RM22.70",
+        "RM24.70",
+        "RM21.70",
+        "RM23.70"
       ],
-      "answer": 0,
-      "explanation": "9²−5=76.",
-      "type": "objective"
+      "answer": 3,
+      "type": "dichotomous",
+      "explanation": "Jumlah belanja = RM18.50 + RM7.80 = RM26.30. Baki = RM50.00 − RM26.30 = RM23.70."
     },
     {
       "id": "B15",
       "section": "BAHAGIAN B",
       "category": "Matematik",
-      "question": "Dalam aktiviti aktiviti kokurikulum di kantin, kumpulan 46-15 sedang membuat latihan. Di kelas, sebuah papan berukuran 16 cm × 9 cm digunakan. Berapakah perimeter papan?",
+      "question": "Rajah menunjukkan sebuah segi empat tepat dengan panjang 12 cm dan lebar 7 cm. Berapakah perimeter bentuk itu?",
       "options": [
-        "55",
-        "52",
-        "48",
-        "50"
+        "42 cm",
+        "19 cm",
+        "38 cm",
+        "84 cm"
       ],
-      "answer": 3,
-      "explanation": "2 × (16+9) = 50 cm.",
-      "type": "objective",
-      "visual": "s46_b15_rect.svg"
+      "answer": 2,
+      "type": "dichotomous",
+      "explanation": "Perimeter segi empat tepat = 2(panjang + lebar) = 2(12+7) = 38 cm.",
+      "visual": "b15_rectangle.svg"
     },
     {
       "id": "B16",
       "section": "BAHAGIAN B",
       "category": "Matematik",
-      "question": "Semasa minggu alam sekitar, Hakim berada di dewan sekolah untuk kumpulan 46-16. Sebuah jubin berbentuk segi empat sama mempunyai sisi 10 cm. Berapakah luasnya?",
+      "question": "Rajah menunjukkan sebuah segi empat sama. Setiap sisinya 9 cm. Berapakah luasnya?",
       "options": [
-        "105",
-        "98",
-        "102",
-        "100"
+        "72 cm²",
+        "18 cm²",
+        "36 cm²",
+        "81 cm²"
       ],
       "answer": 3,
-      "explanation": "10×10=100 cm².",
-      "type": "objective",
-      "visual": "s46_b16_square.svg"
+      "type": "dichotomous",
+      "explanation": "Luas segi empat sama = sisi × sisi = 9×9 = 81 cm².",
+      "visual": "b16_square.svg"
     },
     {
       "id": "B17",
       "section": "BAHAGIAN B",
       "category": "Matematik",
-      "question": "Bagi tugasan hari sukan di padang, kumpulan 46-17 perlu menjawab soalan berikut. Rajah menunjukkan sudut 128° pada garis lurus. Berapakah sudut bersebelahan?",
+      "question": "Sebuah bekas mempunyai 2.5 L air. Sebanyak 750 mL digunakan. Berapakah baki air?",
       "options": [
-        "52",
-        "57",
-        "50",
-        "54"
+        "2.25 L",
+        "1.75 L",
+        "1.25 L",
+        "1.50 L"
       ],
-      "answer": 0,
-      "explanation": "180°−128°=52°.",
-      "type": "objective",
-      "visual": "s46_b17_angle.svg"
+      "answer": 1,
+      "type": "dichotomous",
+      "explanation": "2.5 L = 2500 mL. Baki = 2500 − 750 = 1750 mL = 1.75 L."
     },
     {
       "id": "B18",
       "section": "BAHAGIAN B",
       "category": "Matematik",
-      "question": "Ketika program projek kumpulan di taman sekolah, Danish daripada kumpulan 46-18 membuat pengiraan. Sebuah segi tiga mempunyai sudut 63° dan 59°. Berapakah sudut ketiga?",
+      "question": "Sebuah bas bertolak pada 7:35 pagi dan tiba pada 9:05 pagi. Berapakah tempoh perjalanan?",
       "options": [
-        "63",
-        "58",
-        "60",
-        "56"
+        "1 jam 30 minit",
+        "1 jam 40 minit",
+        "2 jam 30 minit",
+        "1 jam 20 minit"
       ],
-      "answer": 1,
-      "explanation": "180°−63°−59°=58°.",
-      "type": "objective",
-      "visual": "s46_b18_tri.svg"
+      "answer": 0,
+      "type": "dichotomous",
+      "explanation": "Dari 7:35 hingga 8:35 = 1 jam, dan 8:35 hingga 9:05 = 30 minit. Jumlah = 1 jam 30 minit."
     },
     {
       "id": "B19",
       "section": "BAHAGIAN B",
       "category": "Matematik",
-      "question": "Dalam sesi latihan kumpulan 46-19 di bengkel, aktiviti yang dijalankan ialah pameran pendidikan. Daripada 54 peserta aktiviti, 30% memilih kumpulan A. Berapakah peserta itu?",
+      "question": "Purata bagi 12, 15, 18 dan 19 ialah…",
       "options": [
         "16",
-        "18",
-        "21",
-        "14"
+        "16.5",
+        "17",
+        "15"
       ],
       "answer": 0,
-      "explanation": "30% × 54 = 16.",
-      "type": "objective"
+      "type": "dichotomous",
+      "explanation": "Jumlah = 12+15+18+19 = 64. Purata = 64÷4 = 16. Jadi jawapan ialah 16."
     },
     {
       "id": "B20",
       "section": "BAHAGIAN B",
       "category": "Matematik",
-      "question": "Dalam aktiviti aktiviti kemahiran di perpustakaan, kumpulan 46-20 sedang membuat latihan. Harga asal sebuah barang RM135. Selepas diskaun 10%, berapakah harganya?",
+      "question": "Rajah menunjukkan dua sudut bersebelahan pada satu garis lurus. Salah satu sudut ialah 125°. Berapakah sudut yang satu lagi?",
       "options": [
-        "121",
-        "119",
-        "123",
-        "126"
+        "65°",
+        "45°",
+        "75°",
+        "55°"
       ],
-      "answer": 0,
-      "explanation": "RM135 − 10% = RM121.",
-      "type": "objective"
+      "answer": 3,
+      "type": "dichotomous",
+      "explanation": "Sudut pada garis lurus berjumlah 180°. Sudut bersebelahan = 180°−125° = 55°.",
+      "visual": "b20_straight_angle.svg"
     },
     {
       "id": "B21",
       "section": "BAHAGIAN B",
-      "category": "Sains",
-      "question": "Semasa kuiz sekolah, Amir berada di rumah untuk kumpulan 46-21. Antara pilihan berikut, yang manakah benar? Amir sedang menjalankan pameran pendidikan di kantin. Dalam situasi harian, dalam eksperimen, faktor yang sengaja diubah ialah?",
+      "category": "Matematik",
+      "question": "Rajah menunjukkan sebuah segi tiga dengan dua sudut 65° dan 48°. Berapakah nilai sudut yang ditandakan dengan tanda soal?",
       "options": [
-        "Pemerhatian",
-        "Keputusan akhir",
-        "Kesimpulan",
-        "Pemboleh ubah dimanipulasikan"
+        "87°",
+        "77°",
+        "57°",
+        "67°"
       ],
       "answer": 3,
-      "explanation": "Jawapan: Pemboleh ubah dimanipulasikan.",
-      "type": "objective"
+      "type": "dichotomous",
+      "explanation": "Jumlah sudut segi tiga 180°. Sudut ketiga = 180°−65°−48° = 67°. Jadi jawapan ialah 67°.",
+      "visual": "b21_triangle.svg"
     },
     {
       "id": "B22",
       "section": "BAHAGIAN B",
-      "category": "Sains",
-      "question": "Bagi tugasan program kesihatan di pusat STEM, kumpulan 46-22 perlu menjawab soalan berikut. Apakah jawapan yang paling sesuai? Nadia sedang menjalankan program kesihatan di dewan sekolah. Ketika membuat pemerhatian, apakah fungsi akar pada kebanyakan tumbuhan?",
+      "category": "Matematik",
+      "question": "Rajah carta pai menunjukkan 25% data mewakili murid yang memilih Kelab Sains. Berapakah sudut sektor Kelab Sains?",
       "options": [
-        "Menghasilkan cahaya",
-        "Menghasilkan biji tanpa daun",
-        "Menyerap air dan memegang tumbuhan",
-        "Menghasilkan bunyi"
+        "90°",
+        "45°",
+        "120°",
+        "60°"
       ],
-      "answer": 2,
-      "explanation": "Jawapan: Menyerap air dan memegang tumbuhan.",
-      "type": "objective"
+      "answer": 0,
+      "type": "dichotomous",
+      "explanation": "Satu bulatan penuh ialah 360°. 25% = 1/4. Sudut sektor = 360°×25% = 90°.",
+      "visual": "b22_pie25.svg"
     },
     {
       "id": "B23",
       "section": "BAHAGIAN B",
-      "category": "Sains",
-      "question": "Ketika program projek STEM di kelas, Haziq daripada kumpulan 46-23 membuat pengiraan. Berdasarkan situasi tersebut, pilih jawapan yang tepat. Haziq sedang menjalankan aktiviti kokurikulum di padang. Dalam aktiviti STEM, apakah proses wap air menjadi titisan air?",
+      "category": "Matematik",
+      "question": "Sebuah kotak mempunyai 5 baris dengan 8 biji gula-gula setiap baris. Jika 12 biji diberikan kepada rakan, berapa biji tinggal?",
       "options": [
-        "Pembakaran",
-        "Penyejatan",
-        "Pemeluwapan",
-        "Peleburan"
+        "38",
+        "40",
+        "28",
+        "18"
       ],
       "answer": 2,
-      "explanation": "Jawapan: Pemeluwapan.",
-      "type": "objective"
+      "type": "dichotomous",
+      "explanation": "Jumlah gula-gula = 5×8 = 40. Selepas 12 diberi, baki = 40−12 = 28. Jadi jawapan ialah 28."
     },
     {
       "id": "B24",
       "section": "BAHAGIAN B",
-      "category": "Sains",
-      "question": "Dalam sesi latihan kumpulan 46-24 di makmal, aktiviti yang dijalankan ialah program membaca. Yang manakah paling tepat berdasarkan maklumat diberikan? Sofia sedang menjalankan projek kumpulan di taman sekolah. Semasa eksperimen, apakah fungsi jantung manusia?",
+      "category": "Penyelesaian Masalah",
+      "question": "Ali berlari 600 m dalam 4 minit. Pada kadar yang sama, berapakah jarak dalam 7 minit?",
       "options": [
-        "Mengepam darah",
-        "Menghasilkan udara",
-        "Mencerna makanan",
-        "Menyimpan tulang"
+        "1,000 m",
+        "900 m",
+        "1,050 m",
+        "1,200 m"
       ],
-      "answer": 0,
-      "explanation": "Jawapan: Mengepam darah.",
-      "type": "objective"
+      "answer": 2,
+      "type": "dichotomous",
+      "explanation": "Jawapan yang betul ialah: 1,050 m."
     },
     {
       "id": "B25",
       "section": "BAHAGIAN B",
-      "category": "Sains",
-      "question": "Dalam aktiviti aktiviti kokurikulum di pusat sumber, kumpulan 46-25 sedang membuat latihan. Pilih jawapan yang paling tepat. Adam sedang menjalankan kuiz sekolah di bengkel. Dalam situasi harian, apakah yang menyebabkan bunyi terhasil?",
+      "category": "Matematik",
+      "question": "Sebuah tangki diisi 18 L air setiap 6 minit. Pada kadar yang sama, berapa liter dalam 15 minit?",
       "options": [
-        "Cahaya",
-        "Bayang-bayang",
-        "Getaran",
-        "Warna"
+        "45 L",
+        "36 L",
+        "54 L",
+        "60 L"
       ],
-      "answer": 2,
-      "explanation": "Jawapan: Getaran.",
-      "type": "objective"
+      "answer": 0,
+      "type": "dichotomous",
+      "explanation": "18 L dalam 6 minit bermaksud 3 L/minit. Dalam 15 minit: 3×15 = 45 L."
     },
     {
       "id": "B26",
       "section": "BAHAGIAN B",
-      "category": "Sains",
-      "question": "Semasa minggu alam sekitar, Mira berada di koperasi untuk kumpulan 46-26. Antara pilihan berikut, yang manakah benar? Mira sedang menjalankan program membaca di perpustakaan. Ketika membuat pemerhatian, apakah sumber tenaga utama bagi panel solar?",
+      "category": "Matematik",
+      "question": "Sebuah nombor ditambah 17 menghasilkan 52. Apakah nombor itu?",
       "options": [
-        "Cahaya matahari",
-        "Tanah",
-        "Batu",
-        "Bunyi"
+        "69",
+        "35",
+        "45",
+        "25"
       ],
-      "answer": 0,
-      "explanation": "Jawapan: Cahaya matahari.",
-      "type": "objective"
+      "answer": 1,
+      "type": "dichotomous",
+      "explanation": "Nombor +17 = 52. Jadi nombor = 52−17 = 35."
     },
     {
       "id": "B27",
       "section": "BAHAGIAN B",
-      "category": "Sains",
-      "question": "Bagi tugasan hari sukan di kantin, kumpulan 46-27 perlu menjawab soalan berikut. Apakah jawapan yang paling sesuai? Aina sedang menjalankan hari sukan di rumah. Dalam aktiviti STEM, apakah kesan kutub magnet yang sama didekatkan?",
+      "category": "Matematik",
+      "question": "3/5 daripada 50 orang murid menyertai lawatan. Berapakah murid yang menyertai?",
       "options": [
-        "Mencair",
-        "Hilang",
-        "Saling menolak",
-        "Saling menarik"
+        "30",
+        "35",
+        "25",
+        "20"
       ],
-      "answer": 2,
-      "explanation": "Jawapan: Saling menolak.",
-      "type": "objective"
+      "answer": 0,
+      "type": "dichotomous",
+      "explanation": "3/5 daripada 50 = (50÷5)×3 = 10×3 = 30 orang."
     },
     {
       "id": "B28",
       "section": "BAHAGIAN B",
-      "category": "Sains",
-      "question": "Ketika program projek kumpulan di dewan sekolah, Hakim daripada kumpulan 46-28 membuat pengiraan. Berdasarkan situasi tersebut, pilih jawapan yang tepat. Hakim sedang menjalankan aktiviti kemahiran di pusat STEM. Semasa eksperimen, apakah peranan tumbuhan hijau dalam rantai makanan?",
+      "category": "Matematik",
+      "question": "Harga sebuah jam meningkat daripada RM120 kepada RM150. Berapakah peratus kenaikan?",
       "options": [
-        "Pengurai sahaja",
-        "Pengeluar",
-        "Pengguna sekunder",
-        "Pemangsa"
+        "35%",
+        "20%",
+        "25%",
+        "30%"
       ],
-      "answer": 1,
-      "explanation": "Jawapan: Pengeluar.",
-      "type": "objective"
+      "answer": 2,
+      "type": "dichotomous",
+      "explanation": "Kenaikan = RM150−RM120 = RM30. Peratus kenaikan = 30÷120×100% = 25%."
     },
     {
       "id": "B29",
       "section": "BAHAGIAN B",
-      "category": "Sains",
-      "question": "Dalam sesi latihan kumpulan 46-29 di padang, aktiviti yang dijalankan ialah pameran pendidikan. Yang manakah paling tepat berdasarkan maklumat diberikan? Farah sedang menjalankan projek STEM di kelas. Dalam situasi harian, apakah perubahan apabila ais menerima haba?",
+      "category": "Bahasa Melayu",
+      "question": "Pilih perkataan yang paling hampir maksud dengan “gigih”.",
       "options": [
-        "Menjadi logam",
-        "Mencair",
-        "Membeku",
-        "Memeluwap"
+        "Ragu-ragu",
+        "Lalai",
+        "Lemah",
+        "Tekun"
       ],
-      "answer": 1,
-      "explanation": "Jawapan: Mencair.",
-      "type": "objective"
+      "answer": 3,
+      "type": "dichotomous",
+      "explanation": "Gigih bermaksud rajin dan tekun dalam melakukan sesuatu. Jadi perkataan paling hampir ialah Tekun."
     },
     {
       "id": "B30",
       "section": "BAHAGIAN B",
-      "category": "Sains",
-      "question": "Dalam aktiviti aktiviti kemahiran di taman sekolah, kumpulan 46-30 sedang membuat latihan. Pilih jawapan yang paling tepat. Danish sedang menjalankan minggu alam sekitar di makmal. Ketika membuat pemerhatian, apakah fungsi sensor dalam sistem automatik?",
+      "category": "Bahasa Melayu",
+      "question": "Pilih ayat yang paling gramatis.",
       "options": [
-        "Mengesan perubahan persekitaran",
-        "Mencetak",
-        "Menggantikan bateri",
-        "Menghasilkan semua tenaga"
+        "Mereka sedang bincang mengenai tentang pertandingan itu.",
+        "Mereka sedang berbincang tentang pertandingan itu.",
+        "Mereka sedang berbincang mengenai tentang pertandingan itu.",
+        "Mereka sedang membincangkan tentang akan pertandingan itu."
       ],
-      "answer": 0,
-      "explanation": "Jawapan: Mengesan perubahan persekitaran.",
-      "type": "objective"
+      "answer": 1,
+      "type": "dichotomous",
+      "explanation": "Jawapan yang betul ialah: Mereka sedang berbincang tentang pertandingan itu.."
     },
     {
       "id": "B31",
       "section": "BAHAGIAN B",
-      "category": "Sains",
-      "question": "Semasa kuiz sekolah, Sara berada di bengkel untuk kumpulan 46-31. Antara pilihan berikut, yang manakah benar? Sara sedang menjalankan pameran pendidikan di pusat sumber. Dalam aktiviti STEM, apakah organ utama untuk pertukaran gas?",
+      "category": "Bahasa Melayu",
+      "question": "Antonim bagi perkataan “luas” ialah…",
       "options": [
-        "Paru-paru",
-        "Perut",
-        "Tulang",
-        "Jantung"
+        "Panjang",
+        "Sempit",
+        "Tinggi",
+        "Dalam"
       ],
-      "answer": 0,
-      "explanation": "Jawapan: Paru-paru.",
-      "type": "objective"
+      "answer": 1,
+      "type": "dichotomous",
+      "explanation": "Antonim bermaksud perkataan yang berlawanan makna. Lawan bagi luas ialah sempit."
     },
     {
       "id": "B32",
       "section": "BAHAGIAN B",
-      "category": "Sains",
-      "question": "Bagi tugasan program kesihatan di perpustakaan, kumpulan 46-32 perlu menjawab soalan berikut. Apakah jawapan yang paling sesuai? Iman sedang menjalankan program kesihatan di koperasi. Semasa eksperimen, apakah keadaan jirim yang mempunyai isipadu tetap tetapi bentuk berubah?",
+      "category": "Bahasa Melayu",
+      "question": "“Bagai aur dengan tebing” membawa maksud…",
       "options": [
-        "Gas",
-        "Vakum",
-        "Pepejal",
-        "Cecair"
+        "Bekerja seorang diri",
+        "Bercakap tanpa berfikir",
+        "Saling membantu",
+        "Mudah berubah"
       ],
-      "answer": 3,
-      "explanation": "Jawapan: Cecair.",
-      "type": "objective"
+      "answer": 2,
+      "type": "dichotomous",
+      "explanation": "“Bagai aur dengan tebing” menggambarkan hubungan yang saling membantu dan bekerjasama."
     },
     {
       "id": "B33",
       "section": "BAHAGIAN B",
       "category": "Bahasa Melayu",
-      "question": "Ketika program projek STEM di rumah, Amir daripada kumpulan 46-33 membuat pengiraan. Pilih ayat yang gramatis.",
+      "question": "Pilih kata yang paling sesuai: “Murid-murid itu ___ arahan guru sebelum memulakan eksperimen.”",
       "options": [
-        "Murid itu membaca kepada buku.",
-        "Adik saya menghantar kepada guru.",
-        "Murid itu membaca dengan buku.",
-        "Murid itu membaca di buku."
+        "mematuhi kepada",
+        "dipatuhi oleh",
+        "mematuhkan",
+        "mematuhi"
       ],
-      "answer": 1,
-      "explanation": "Ayat yang dipilih menggunakan struktur tatabahasa yang tepat.",
-      "type": "objective"
+      "answer": 3,
+      "type": "dichotomous",
+      "explanation": "Kata kerja yang sesuai ialah “mematuhi”: murid-murid itu mematuhi arahan guru."
     },
     {
       "id": "B34",
       "section": "BAHAGIAN B",
       "category": "Bahasa Melayu",
-      "question": "Dalam sesi latihan kumpulan 46-34 di pusat STEM, aktiviti yang dijalankan ialah program membaca. Pilih ayat yang gramatis.",
+      "question": "Apakah maksud “buah tangan”?",
       "options": [
-        "Murid itu membaca kepada buku.",
-        "Murid itu membaca di buku.",
-        "Murid itu membaca dengan buku.",
-        "Kumpulan kami membaca dengan teliti."
+        "Tangan yang kuat",
+        "Buah yang dibawa dengan tangan",
+        "Hadiah yang dibawa ketika berkunjung",
+        "Hasil tanaman"
       ],
-      "answer": 3,
-      "explanation": "Ayat yang dipilih menggunakan struktur tatabahasa yang tepat.",
-      "type": "objective"
+      "answer": 2,
+      "type": "dichotomous",
+      "explanation": "Jawapan yang betul ialah: Hadiah yang dibawa ketika berkunjung."
     },
     {
       "id": "B35",
       "section": "BAHAGIAN B",
       "category": "Bahasa Melayu",
-      "question": "Dalam aktiviti aktiviti kokurikulum di kelas, kumpulan 46-35 sedang membuat latihan. Pilih ayat yang gramatis.",
+      "question": "Pilih ayat yang menggunakan kata “terhadap” dengan tepat.",
       "options": [
-        "Murid itu membaca di buku.",
-        "Murid itu membaca dengan buku.",
-        "Murid itu membaca kepada buku.",
-        "Murid itu menghantar di perpustakaan."
+        "Murid itu memberi perhatian terhadap penerangan guru.",
+        "Kami membeli makanan terhadap kantin.",
+        "Dia sangat sayang terhadap ibunya.",
+        "Ali berjalan terhadap rumahnya."
       ],
-      "answer": 3,
-      "explanation": "Ayat yang dipilih menggunakan struktur tatabahasa yang tepat.",
-      "type": "objective"
+      "answer": 0,
+      "type": "dichotomous",
+      "explanation": "Jawapan yang betul ialah: Murid itu memberi perhatian terhadap penerangan guru.."
     },
     {
       "id": "B36",
       "section": "BAHAGIAN B",
       "category": "Bahasa Melayu",
-      "question": "Semasa minggu alam sekitar, Sofia berada di makmal untuk kumpulan 46-36. Apakah kata nama yang sesuai terbit daripada kata kerja “membaca”?",
+      "question": "Pilih simpulan bahasa yang sesuai untuk seseorang yang suka membantu orang lain.",
       "options": [
-        "tulisan",
-        "bacaan",
-        "pelajaran",
-        "nyanyian"
+        "Besar kepala",
+        "Ringan tulang",
+        "Kaki bangku",
+        "Panjang tangan"
       ],
       "answer": 1,
-      "explanation": "Kata nama yang sesuai ialah “bacaan”.",
-      "type": "objective"
+      "type": "dichotomous",
+      "explanation": "“Ringan tulang” bermaksud suka menolong atau rajin membantu."
     },
     {
       "id": "B37",
       "section": "BAHAGIAN B",
-      "category": "Bahasa Melayu",
-      "question": "Bagi tugasan hari sukan di pusat sumber, kumpulan 46-37 perlu menjawab soalan berikut. Apakah kata nama yang sesuai terbit daripada kata kerja “menulis”?",
+      "category": "English",
+      "question": "Choose the correct sentence.",
       "options": [
-        "pengajaran",
-        "pelajaran",
-        "tulisan",
-        "nyanyian"
+        "She go to school every day.",
+        "She gone to school every day.",
+        "She goes to school every day.",
+        "She going to school every day."
       ],
       "answer": 2,
-      "explanation": "Kata nama yang sesuai ialah “tulisan”.",
-      "type": "objective"
+      "type": "dichotomous",
+      "explanation": "Jawapan yang betul ialah: She goes to school every day.."
     },
     {
       "id": "B38",
       "section": "BAHAGIAN B",
-      "category": "Bahasa Melayu",
-      "question": "Ketika program projek kumpulan di koperasi, Mira daripada kumpulan 46-38 membuat pengiraan. Apakah kata nama yang sesuai terbit daripada kata kerja “menyanyi”?",
+      "category": "English",
+      "question": "Choose the word closest in meaning to “rapid”.",
       "options": [
-        "pelajaran",
-        "permainan",
-        "pengajaran",
-        "nyanyian"
+        "Heavy",
+        "Quiet",
+        "Slow",
+        "Quick"
       ],
       "answer": 3,
-      "explanation": "Kata nama yang sesuai ialah “nyanyian”.",
-      "type": "objective"
+      "type": "dichotomous",
+      "explanation": "Rapid bermaksud berlaku dengan cepat. Perkataan paling hampir ialah Quick."
     },
     {
       "id": "B39",
       "section": "BAHAGIAN B",
-      "category": "Bahasa Melayu",
-      "question": "Dalam sesi latihan kumpulan 46-39 di kantin, aktiviti yang dijalankan ialah pameran pendidikan. Pilih perkataan yang paling hampir maksudnya dengan “indah”.",
+      "category": "English",
+      "question": "“The children were tired because they had walked for two hours.” Why were they tired?",
       "options": [
-        "marah",
-        "cantik",
-        "lambat",
-        "cuai"
+        "They had been eating.",
+        "They had been sleeping.",
+        "They had been swimming.",
+        "They had been walking for two hours."
       ],
-      "answer": 1,
-      "explanation": "“cantik” ialah perkataan yang hampir sama maksud dengan “indah”.",
-      "type": "objective"
+      "answer": 3,
+      "type": "dichotomous",
+      "explanation": "Jawapan yang betul ialah: They had been walking for two hours.."
     },
     {
       "id": "B40",
       "section": "BAHAGIAN B",
-      "category": "Bahasa Melayu",
-      "question": "Dalam aktiviti aktiviti kemahiran di dewan sekolah, kumpulan 46-40 sedang membuat latihan. Pilih perkataan yang paling hampir maksudnya dengan “jujur”.",
+      "category": "English",
+      "question": "Choose the best word: “My brother is ___ than me.”",
       "options": [
-        "marah",
-        "lambat",
-        "ikhlas",
-        "cuai"
+        "tallest",
+        "more tall",
+        "taller",
+        "tall"
       ],
       "answer": 2,
-      "explanation": "“ikhlas” ialah perkataan yang hampir sama maksud dengan “jujur”.",
-      "type": "objective"
+      "type": "dichotomous",
+      "explanation": "Perbandingan dua orang menggunakan comparative adjective: tall menjadi taller."
     },
     {
       "id": "B41",
       "section": "BAHAGIAN B",
-      "category": "Bahasa Melayu",
-      "question": "Semasa kuiz sekolah, Farah berada di padang untuk kumpulan 46-41. Pilih perkataan yang paling hampir maksudnya dengan “rapi”.",
+      "category": "English",
+      "question": "Which sentence is in the past tense?",
       "options": [
-        "cuai",
-        "lambat",
-        "kemas",
-        "marah"
+        "Aina writes a letter.",
+        "Aina is writing a letter.",
+        "Aina will write a letter.",
+        "Aina wrote a letter."
       ],
-      "answer": 2,
-      "explanation": "“kemas” ialah perkataan yang hampir sama maksud dengan “rapi”.",
-      "type": "objective"
+      "answer": 3,
+      "type": "dichotomous",
+      "explanation": "Jawapan yang betul ialah: Aina wrote a letter.."
     },
     {
       "id": "B42",
       "section": "BAHAGIAN B",
-      "category": "Bahasa Melayu",
-      "question": "Bagi tugasan program kesihatan di taman sekolah, kumpulan 46-42 perlu menjawab soalan berikut. Apakah peribahasa yang menggambarkan kerjasama yang erat?",
+      "category": "English",
+      "question": "Choose the correct meaning of “borrow”.",
       "options": [
-        "bagai mencurah air ke daun keladi",
-        "bagai aur dengan tebing",
-        "besar pasak daripada tiang",
-        "harapkan pagar, pagar makan padi"
+        "To break something",
+        "To take something temporarily and return it",
+        "To buy something cheaply",
+        "To give something away"
       ],
       "answer": 1,
-      "explanation": "“Bagai aur dengan tebing” menggambarkan kerjasama yang erat.",
-      "type": "objective"
+      "type": "dichotomous",
+      "explanation": "Jawapan yang betul ialah: To take something temporarily and return it."
     },
     {
       "id": "B43",
       "section": "BAHAGIAN B",
       "category": "English",
-      "question": "Ketika program projek STEM di bengkel, Sara daripada kumpulan 46-43 membuat pengiraan. Choose the best word: I stayed indoors ___ it was raining.",
+      "question": "Complete the sentence: “If it rains, we ___ indoors.”",
       "options": [
-        "but",
-        "because",
-        "or",
-        "and"
+        "staying",
+        "stay",
+        "stayed",
+        "will stay"
       ],
-      "answer": 1,
-      "explanation": "“because” gives the correct meaning and grammar.",
-      "type": "objective"
+      "answer": 3,
+      "type": "dichotomous",
+      "explanation": "Dalam first conditional, “If it rains” diikuti “will + verb”: we will stay indoors."
     },
     {
       "id": "B44",
       "section": "BAHAGIAN B",
       "category": "English",
-      "question": "Dalam sesi latihan kumpulan 46-44 di perpustakaan, aktiviti yang dijalankan ialah program membaca. Choose the best word: ___ he was tired, he finished the task.",
+      "question": "Which word is a noun?",
       "options": [
-        "although",
-        "or",
-        "and",
-        "but"
+        "Carefully",
+        "Quickly",
+        "Beautiful",
+        "Teacher"
       ],
-      "answer": 0,
-      "explanation": "“although” gives the correct meaning and grammar.",
-      "type": "objective"
+      "answer": 3,
+      "type": "dichotomous",
+      "explanation": "Teacher ialah kata nama (noun) kerana menamakan seseorang."
     },
     {
       "id": "B45",
       "section": "BAHAGIAN B",
-      "category": "English",
-      "question": "Dalam aktiviti aktiviti kokurikulum di rumah, kumpulan 46-45 sedang membuat latihan. Choose the word closest in meaning to “rapid”.",
+      "category": "Sains",
+      "question": "Tumbuhan memerlukan cahaya matahari untuk menjalankan proses…",
       "options": [
-        "quick",
-        "heavy",
-        "start",
-        "small"
+        "Perkumuhan",
+        "Pencernaan",
+        "Respirasi",
+        "Fotosintesis"
       ],
-      "answer": 0,
-      "explanation": "“quick” is closest in meaning to “rapid”.",
-      "type": "objective"
+      "answer": 3,
+      "type": "dichotomous",
+      "explanation": "Tumbuhan menggunakan cahaya untuk fotosintesis, iaitu proses menghasilkan makanan."
     },
     {
       "id": "B46",
       "section": "BAHAGIAN B",
-      "category": "English",
-      "question": "Semasa minggu alam sekitar, Nadia berada di pusat STEM untuk kumpulan 46-46. Choose the word closest in meaning to “tiny”.",
+      "category": "Sains",
+      "question": "Rajah menunjukkan objek berada di antara sumber cahaya dan skrin. Apakah yang biasanya berlaku kepada bayang-bayang apabila objek didekatkan kepada sumber cahaya?",
       "options": [
-        "start",
-        "small",
-        "heavy",
-        "quiet"
+        "Tidak berubah langsung",
+        "Menjadi lebih kecil",
+        "Sentiasa hilang",
+        "Biasanya menjadi lebih besar"
       ],
-      "answer": 1,
-      "explanation": "“small” is closest in meaning to “tiny”.",
-      "type": "objective"
+      "answer": 3,
+      "type": "dichotomous",
+      "explanation": "Apabila objek didekatkan kepada sumber cahaya, bayang-bayang biasanya menjadi lebih besar pada skrin kerana objek menghalang lebih banyak laluan cahaya.",
+      "visual": "b46_shadow.svg"
     },
     {
       "id": "B47",
       "section": "BAHAGIAN B",
-      "category": "English",
-      "question": "Bagi tugasan hari sukan di kelas, kumpulan 46-47 perlu menjawab soalan berikut. Choose the word closest in meaning to “begin”.",
+      "category": "Sains",
+      "question": "Antara berikut, yang manakah sumber tenaga boleh diperbaharui?",
       "options": [
-        "heavy",
-        "quiet",
-        "smart",
-        "start"
+        "Arang batu",
+        "Tenaga suria",
+        "Petroleum",
+        "Gas asli"
       ],
-      "answer": 3,
-      "explanation": "“start” is closest in meaning to “begin”.",
-      "type": "objective"
+      "answer": 1,
+      "type": "dichotomous",
+      "explanation": "Tenaga suria ialah sumber tenaga boleh diperbaharui kerana datang daripada cahaya Matahari yang berterusan."
     },
     {
       "id": "B48",
       "section": "BAHAGIAN B",
-      "category": "English",
-      "question": "Ketika program projek kumpulan di makmal, Sofia daripada kumpulan 46-48 membuat pengiraan. Choose the correct verb: The boy ___ to school every day.",
+      "category": "Sains",
+      "question": "Apakah fungsi utama rangka manusia?",
       "options": [
-        "readed",
-        "reads",
-        "read",
-        "reading"
+        "Mengalirkan darah",
+        "Menyokong dan melindungi badan",
+        "Menghasilkan makanan",
+        "Mencerna makanan"
       ],
       "answer": 1,
-      "explanation": "The singular subject “The boy” takes “reads” in the simple present tense.",
-      "type": "objective"
+      "type": "dichotomous",
+      "explanation": "Jawapan yang betul ialah: Menyokong dan melindungi badan."
     },
     {
       "id": "B49",
       "section": "BAHAGIAN B",
-      "category": "English",
-      "question": "Dalam sesi latihan kumpulan 46-49 di pusat sumber, aktiviti yang dijalankan ialah pameran pendidikan. Choose the correct verb: My sister ___ to school every day.",
+      "category": "Sains",
+      "question": "Air berubah daripada cecair kepada gas melalui proses…",
       "options": [
-        "watching",
-        "watch",
-        "watches",
-        "watched"
+        "Pembekuan",
+        "Pemeluwapan",
+        "Peleburan",
+        "Penyejatan"
       ],
-      "answer": 2,
-      "explanation": "The singular subject “My sister” takes “watches” in the simple present tense.",
-      "type": "objective"
+      "answer": 3,
+      "type": "dichotomous",
+      "explanation": "Perubahan cecair kepada gas dipanggil penyejatan."
     },
     {
       "id": "B50",
       "section": "BAHAGIAN B",
-      "category": "English",
-      "question": "Dalam aktiviti aktiviti kemahiran di koperasi, kumpulan 46-50 sedang membuat latihan. Choose the correct verb: She ___ to school every day.",
+      "category": "Sains",
+      "question": "Rajah menunjukkan satu litar elektrik yang lengkap. Mengapakah mentol boleh menyala?",
       "options": [
-        "studying",
-        "study",
-        "studyed",
-        "studies"
+        "Tiada arus mengalir",
+        "Bateri menjadi lebih besar",
+        "Wayar menjadi magnet",
+        "Arus elektrik dapat mengalir"
       ],
       "answer": 3,
-      "explanation": "The singular subject “She” takes “studies” in the simple present tense.",
-      "type": "objective"
+      "type": "dichotomous",
+      "explanation": "Litar lengkap menyediakan laluan tertutup supaya arus elektrik dapat mengalir melalui mentol.",
+      "visual": "b50_circuit.svg"
     },
     {
       "id": "B51",
       "section": "BAHAGIAN B",
-      "category": "English",
-      "question": "Semasa kuiz sekolah, Aina berada di kantin untuk kumpulan 46-51. Choose the past tense of “make”.",
+      "category": "Sains",
+      "question": "Apakah organ yang mengepam darah ke seluruh badan?",
       "options": [
-        "made",
-        "makeing",
-        "make",
-        "makes"
+        "Paru-paru",
+        "Buah pinggang",
+        "Perut",
+        "Jantung"
       ],
-      "answer": 0,
-      "explanation": "The past tense of “make” is “made”.",
-      "type": "objective"
+      "answer": 3,
+      "type": "dichotomous",
+      "explanation": "Jantung mengepam darah ke seluruh badan melalui sistem peredaran darah."
     },
     {
       "id": "B52",
       "section": "BAHAGIAN B",
-      "category": "English",
-      "question": "Bagi tugasan program kesihatan di dewan sekolah, kumpulan 46-52 perlu menjawab soalan berikut. Choose the past tense of “find”.",
+      "category": "Teknologi",
+      "question": "Apakah fungsi utama gear dalam sesuatu mekanisme?",
       "options": [
-        "finding",
-        "found",
-        "find",
-        "finds"
+        "Menyimpan air",
+        "Menghasilkan makanan",
+        "Memindahkan gerakan dan daya",
+        "Mengukur suhu"
       ],
-      "answer": 1,
-      "explanation": "The past tense of “find” is “found”.",
-      "type": "objective"
+      "answer": 2,
+      "type": "dichotomous",
+      "explanation": "Gear digunakan untuk memindahkan gerakan dan daya serta boleh mengubah kelajuan atau arah putaran."
     },
     {
       "id": "B53",
       "section": "BAHAGIAN B",
-      "category": "IQ / Logik",
-      "question": "Ketika program projek STEM di padang, Farah daripada kumpulan 46-53 membuat pengiraan. Berdasarkan situasi tersebut, pilih jawapan yang tepat. Farah sedang menjalankan aktiviti kokurikulum di kelas. Apakah nombor seterusnya dalam pola 25, 27, 29, 31, ...?",
+      "category": "Teknologi",
+      "question": "Bahan yang sesuai untuk menghasilkan model yang ringan dan mudah dipotong ialah…",
       "options": [
-        "35",
-        "38",
-        "31",
-        "33"
+        "Kadbod",
+        "Besi padu",
+        "Kaca tebal",
+        "Batu granit"
       ],
-      "answer": 3,
-      "explanation": "Pola bertambah 2.",
-      "type": "objective"
+      "answer": 0,
+      "type": "dichotomous",
+      "explanation": "Kadbod ringan dan mudah dipotong, jadi sesuai untuk menghasilkan model ringkas."
     },
     {
       "id": "B54",
       "section": "BAHAGIAN B",
-      "category": "IQ / Logik",
-      "question": "Dalam sesi latihan kumpulan 46-54 di taman sekolah, aktiviti yang dijalankan ialah program membaca. Yang manakah paling tepat berdasarkan maklumat diberikan? Danish sedang menjalankan projek kumpulan di makmal. Apakah nombor seterusnya dalam pola 26, 29, 32, 35, ...?",
+      "category": "Teknologi",
+      "question": "Apakah tujuan lakaran awal sebelum menghasilkan produk?",
       "options": [
-        "40",
-        "43",
-        "36",
-        "38"
+        "Menentukan harga pasaran sahaja",
+        "Menghapuskan semua idea",
+        "Membantu merancang rupa dan ciri produk",
+        "Menggantikan produk siap"
       ],
-      "answer": 3,
-      "explanation": "Pola bertambah 3.",
-      "type": "objective"
+      "answer": 2,
+      "type": "dichotomous",
+      "explanation": "Jawapan yang betul ialah: Membantu merancang rupa dan ciri produk."
     },
     {
       "id": "B55",
       "section": "BAHAGIAN B",
-      "category": "IQ / Logik",
-      "question": "Dalam aktiviti aktiviti kokurikulum di bengkel, kumpulan 46-55 sedang membuat latihan. Pilih jawapan yang paling tepat. Sara sedang menjalankan kuiz sekolah di pusat sumber. Jika 3 kumpulan mempunyai 8 objek setiap satu, berapakah jumlah objek?",
+      "category": "Teknologi",
+      "question": "Rajah menunjukkan sensor menghantar maklumat kepada sistem. Apakah fungsi utama sensor dalam sistem automasi?",
       "options": [
-        "22",
-        "24",
-        "29",
-        "26"
+        "Menyimpan makanan",
+        "Mewarnakan produk",
+        "Mengesan perubahan atau keadaan persekitaran",
+        "Menambah berat produk"
       ],
-      "answer": 1,
-      "explanation": "3×8=24.",
-      "type": "objective"
+      "answer": 2,
+      "type": "dichotomous",
+      "explanation": "Sensor mengesan perubahan atau keadaan persekitaran seperti cahaya, suhu atau jarak dan menghantar maklumat kepada sistem.",
+      "visual": "b55_sensor.svg"
     },
     {
       "id": "B56",
       "section": "BAHAGIAN B",
-      "category": "IQ / Logik",
-      "question": "Semasa minggu alam sekitar, Iman berada di perpustakaan untuk kumpulan 46-56. Antara pilihan berikut, yang manakah benar? Iman sedang menjalankan program membaca di koperasi. Jika 21 ditolak 7, apakah hasilnya?",
+      "category": "Teknologi",
+      "question": "Apakah amalan paling sesuai ketika menggunakan alatan tajam?",
       "options": [
-        "14",
-        "16",
-        "19",
-        "12"
+        "Mengikut arahan keselamatan dan mengendalikan dengan cermat",
+        "Meninggalkannya terbuka selepas digunakan",
+        "Menghalakannya kepada rakan",
+        "Menggunakannya sambil berlari"
       ],
       "answer": 0,
-      "explanation": "21−7=14.",
-      "type": "objective"
+      "type": "dichotomous",
+      "explanation": "Jawapan yang betul ialah: Mengikut arahan keselamatan dan mengendalikan dengan cermat."
     },
     {
       "id": "B57",
       "section": "BAHAGIAN B",
-      "category": "IQ / Logik",
-      "question": "Bagi tugasan hari sukan di rumah, kumpulan 46-57 perlu menjawab soalan berikut. Apakah jawapan yang paling sesuai? Amir sedang menjalankan hari sukan di kantin. Yang manakah tidak tergolong bersama epal, oren, mangga?",
+      "category": "Teknologi",
+      "question": "Apakah kelebihan prototaip sebelum produk sebenar dihasilkan?",
       "options": [
-        "epal",
-        "kilogram",
-        "mangga",
-        "oren"
+        "Menjadikan semua produk sama",
+        "Menghapuskan keperluan menguji produk",
+        "Memastikan produk tidak boleh diubah",
+        "Membolehkan reka bentuk diuji dan diperbaiki"
       ],
-      "answer": 1,
-      "explanation": "kilogram bukan buah.",
-      "type": "objective"
+      "answer": 3,
+      "type": "dichotomous",
+      "explanation": "Jawapan yang betul ialah: Membolehkan reka bentuk diuji dan diperbaiki."
     },
     {
       "id": "B58",
       "section": "BAHAGIAN B",
-      "category": "IQ / Logik",
-      "question": "Ketika program projek kumpulan di pusat STEM, Nadia daripada kumpulan 46-58 membuat pengiraan. Berdasarkan situasi tersebut, pilih jawapan yang tepat. Nadia sedang menjalankan aktiviti kemahiran di dewan sekolah. Apakah nombor seterusnya dalam pola 10, 17, 24, 31, ...?",
+      "category": "Pengetahuan Am",
+      "question": "Apakah ibu negara Malaysia?",
       "options": [
-        "38",
-        "36",
-        "43",
-        "40"
+        "Johor Bahru",
+        "Kuala Lumpur",
+        "Kuching",
+        "Shah Alam"
       ],
-      "answer": 0,
-      "explanation": "Pola bertambah 7.",
-      "type": "objective"
+      "answer": 1,
+      "type": "dichotomous",
+      "explanation": "Kuala Lumpur ialah ibu negara Malaysia."
     },
     {
       "id": "B59",
       "section": "BAHAGIAN B",
-      "category": "IQ / Logik",
-      "question": "Dalam sesi latihan kumpulan 46-59 di kelas, aktiviti yang dijalankan ialah pameran pendidikan. Yang manakah paling tepat berdasarkan maklumat diberikan? Haziq sedang menjalankan projek STEM di padang. Apakah nombor seterusnya dalam pola 11, 19, 27, 35, ...?",
+      "category": "Pengetahuan Am",
+      "question": "Apakah bunga kebangsaan Malaysia?",
       "options": [
-        "45",
-        "43",
-        "41",
-        "48"
+        "Anggerik",
+        "Bunga raya",
+        "Melur",
+        "Orkid"
       ],
       "answer": 1,
-      "explanation": "Pola bertambah 8.",
-      "type": "objective"
+      "type": "dichotomous",
+      "explanation": "Bunga raya ialah bunga kebangsaan Malaysia."
     },
     {
       "id": "B60",
       "section": "BAHAGIAN B",
-      "category": "IQ / Logik",
-      "question": "Dalam aktiviti aktiviti kemahiran di makmal, kumpulan 46-60 sedang membuat latihan. Pilih jawapan yang paling tepat. Sofia sedang menjalankan minggu alam sekitar di taman sekolah. Apakah nombor seterusnya dalam pola 12, 21, 30, 39, ...?",
+      "category": "Pengetahuan Am",
+      "question": "Berapakah bilangan negeri di Malaysia?",
       "options": [
-        "46",
-        "53",
-        "48",
-        "50"
+        "11",
+        "13",
+        "12",
+        "14"
       ],
-      "answer": 2,
-      "explanation": "Pola bertambah 9.",
-      "type": "objective"
+      "answer": 1,
+      "type": "dichotomous",
+      "explanation": "Malaysia mempunyai 13 negeri. Tiga wilayah persekutuan tidak termasuk dalam kiraan negeri."
     },
     {
       "id": "B61",
       "section": "BAHAGIAN B",
-      "category": "IQ / Logik",
-      "question": "Semasa kuiz sekolah, Adam berada di pusat sumber untuk kumpulan 46-61. Antara pilihan berikut, yang manakah benar? Adam sedang menjalankan pameran pendidikan di bengkel. Jika 3 kumpulan mempunyai 6 objek setiap satu, berapakah jumlah objek?",
+      "category": "Pengetahuan Am",
+      "question": "Apakah laut yang memisahkan Semenanjung Malaysia dengan Sabah dan Sarawak?",
       "options": [
-        "23",
-        "20",
-        "16",
-        "18"
+        "Laut Jawa",
+        "Laut China Selatan",
+        "Laut Sulu",
+        "Laut Andaman"
       ],
-      "answer": 3,
-      "explanation": "3×6=18.",
-      "type": "objective"
+      "answer": 1,
+      "type": "dichotomous",
+      "explanation": "Laut China Selatan terletak antara Semenanjung Malaysia dengan Sabah dan Sarawak."
     },
     {
       "id": "B62",
       "section": "BAHAGIAN B",
-      "category": "IQ / Logik",
-      "question": "Bagi tugasan program kesihatan di koperasi, kumpulan 46-62 perlu menjawab soalan berikut. Apakah jawapan yang paling sesuai? Mira sedang menjalankan program kesihatan di perpustakaan. Jika 12 ditolak 5, apakah hasilnya?",
+      "category": "Pengetahuan Am",
+      "question": "Apakah nama mata wang Malaysia?",
       "options": [
-        "9",
-        "5",
-        "12",
-        "7"
+        "Ringgit Malaysia",
+        "Baht",
+        "Peso",
+        "Rupiah"
       ],
-      "answer": 3,
-      "explanation": "12−5=7.",
-      "type": "objective"
+      "answer": 0,
+      "type": "dichotomous",
+      "explanation": "Mata wang Malaysia ialah Ringgit Malaysia (RM)."
     },
     {
       "id": "B63",
       "section": "BAHAGIAN B",
-      "category": "IQ / Logik",
-      "question": "Ketika program projek STEM di kantin, Aina daripada kumpulan 46-63 membuat pengiraan. Berdasarkan situasi tersebut, pilih jawapan yang tepat. Aina sedang menjalankan aktiviti kokurikulum di rumah. Yang manakah tidak tergolong bersama epal, oren, mangga?",
+      "category": "Pengetahuan Am",
+      "question": "Rukun Negara mempunyai berapa prinsip?",
       "options": [
-        "epal",
-        "mangga",
-        "kerusi",
-        "oren"
+        "4",
+        "3",
+        "5",
+        "6"
       ],
       "answer": 2,
-      "explanation": "kerusi bukan buah.",
-      "type": "objective"
+      "type": "dichotomous",
+      "explanation": "Jawapan yang betul ialah: 5."
     },
     {
       "id": "B64",
       "section": "BAHAGIAN B",
-      "category": "IQ / Logik",
-      "question": "Dalam sesi latihan kumpulan 46-64 di dewan sekolah, aktiviti yang dijalankan ialah program membaca. Yang manakah paling tepat berdasarkan maklumat diberikan? Hakim sedang menjalankan projek kumpulan di pusat STEM. Apakah nombor seterusnya dalam pola 16, 21, 26, 31, ...?",
+      "category": "Pengetahuan Am",
+      "question": "Apakah warna yang melambangkan keberanian pada Jalur Gemilang?",
       "options": [
-        "34",
-        "38",
-        "36",
-        "41"
+        "Kuning",
+        "Biru",
+        "Putih",
+        "Merah"
       ],
-      "answer": 2,
-      "explanation": "Pola bertambah 5.",
-      "type": "objective"
+      "answer": 3,
+      "type": "dichotomous",
+      "explanation": "Warna merah pada Jalur Gemilang melambangkan keberanian."
     },
     {
       "id": "B65",
       "section": "BAHAGIAN B",
       "category": "Pengetahuan Am",
-      "question": "Dalam aktiviti aktiviti kokurikulum di padang, kumpulan 46-65 sedang membuat latihan. Pilih jawapan yang paling tepat. Farah sedang menjalankan kuiz sekolah di kelas. Apakah planet ketiga dari Matahari?",
+      "question": "Malaysia terletak di rantau…",
       "options": [
-        "Musytari",
-        "Zuhrah",
-        "Marikh",
-        "Bumi"
+        "Asia Barat",
+        "Amerika Selatan",
+        "Eropah",
+        "Asia Tenggara"
       ],
       "answer": 3,
-      "explanation": "Jawapan tepat ialah Bumi.",
-      "type": "objective"
+      "type": "dichotomous",
+      "explanation": "Malaysia terletak di rantau Asia Tenggara."
     },
     {
       "id": "B66",
       "section": "BAHAGIAN B",
       "category": "Pengetahuan Am",
-      "question": "Semasa minggu alam sekitar, Danish berada di taman sekolah untuk kumpulan 46-66. Antara pilihan berikut, yang manakah benar? Danish sedang menjalankan program membaca di makmal. Apakah alat untuk mengukur suhu?",
+      "question": "Apakah nama rumah rasmi Yang di-Pertuan Agong?",
       "options": [
-        "Termometer",
-        "Speedometer",
-        "Barometer",
-        "Ammeter"
+        "Dewan Bahasa",
+        "Istana Negara",
+        "Istana Budaya",
+        "Bangunan Parlimen"
       ],
-      "answer": 0,
-      "explanation": "Jawapan tepat ialah Termometer.",
-      "type": "objective"
+      "answer": 1,
+      "type": "dichotomous",
+      "explanation": "Istana Negara ialah kediaman rasmi Yang di-Pertuan Agong."
     },
     {
       "id": "B67",
       "section": "BAHAGIAN B",
       "category": "Pengetahuan Am",
-      "question": "Bagi tugasan hari sukan di bengkel, kumpulan 46-67 perlu menjawab soalan berikut. Apakah jawapan yang paling sesuai? Sara sedang menjalankan hari sukan di pusat sumber. Apakah sumber tenaga boleh baharu?",
+      "question": "Apakah bahasa kebangsaan Malaysia?",
       "options": [
-        "Gas asli",
-        "Petroleum",
-        "Arang batu",
-        "Tenaga suria"
+        "Bahasa Melayu",
+        "Bahasa Mandarin",
+        "Bahasa Tamil",
+        "Bahasa Inggeris"
       ],
-      "answer": 3,
-      "explanation": "Jawapan tepat ialah Tenaga suria.",
-      "type": "objective"
+      "answer": 0,
+      "type": "dichotomous",
+      "explanation": "Bahasa Melayu ialah bahasa kebangsaan Malaysia."
     },
     {
       "id": "B68",
       "section": "BAHAGIAN B",
       "category": "Pengetahuan Am",
-      "question": "Ketika program projek kumpulan di perpustakaan, Iman daripada kumpulan 46-68 membuat pengiraan. Berdasarkan situasi tersebut, pilih jawapan yang tepat. Iman sedang menjalankan aktiviti kemahiran di koperasi. Apakah lautan terbesar di dunia?",
+      "question": "Apakah nama bendera Malaysia?",
       "options": [
-        "Hindi",
-        "Artik",
-        "Lautan Pasifik",
-        "Atlantik"
+        "Jalur Gemilang",
+        "Panji Negara",
+        "Sang Saka",
+        "Bendera Perpaduan"
       ],
-      "answer": 2,
-      "explanation": "Jawapan tepat ialah Lautan Pasifik.",
-      "type": "objective"
+      "answer": 0,
+      "type": "dichotomous",
+      "explanation": "Bendera Malaysia dikenali sebagai Jalur Gemilang."
     },
     {
       "id": "B69",
       "section": "BAHAGIAN B",
       "category": "Pengetahuan Am",
-      "question": "Dalam sesi latihan kumpulan 46-69 di rumah, aktiviti yang dijalankan ialah pameran pendidikan. Yang manakah paling tepat berdasarkan maklumat diberikan? Amir sedang menjalankan projek STEM di kantin. Apakah ibu negara Malaysia?",
+      "question": "Gunung Kinabalu terletak di negeri…",
       "options": [
-        "Putrajaya",
-        "Kuala Lumpur",
-        "Johor Bahru",
-        "Ipoh"
+        "Sabah",
+        "Pahang",
+        "Sarawak",
+        "Perak"
       ],
-      "answer": 1,
-      "explanation": "Jawapan tepat ialah Kuala Lumpur.",
-      "type": "objective"
+      "answer": 0,
+      "type": "dichotomous",
+      "explanation": "Gunung Kinabalu terletak di Sabah."
     },
     {
       "id": "B70",
       "section": "BAHAGIAN B",
       "category": "Penyelesaian Masalah",
-      "question": "Dalam aktiviti aktiviti kemahiran di pusat STEM, kumpulan 46-70 sedang membuat latihan. Sebuah stor mempunyai 18 kotak. 3 diterima dan 8 dihantar. Berapakah baki?",
+      "question": "Sebuah rak mempunyai 6 tingkat. Setiap tingkat boleh memuatkan 14 buku. Jika 17 ruang buku masih kosong, berapa buku telah diletakkan?",
       "options": [
-        "18",
-        "15",
-        "11",
-        "13"
+        "68",
+        "70",
+        "69",
+        "67"
       ],
       "answer": 3,
-      "explanation": "18+3−8=13.",
-      "type": "objective"
+      "type": "dichotomous",
+      "explanation": "Jumlah kapasiti = 6×14 = 84 buku. Jika 17 ruang masih kosong, buku yang telah diletakkan = 84−17 = 67."
     }
   ],
   "writing": [
     {
       "id": "C01",
-      "title": "Kejujuran",
-      "prompt": "Huraikan kepentingan bersikap jujur dalam kehidupan.",
+      "title": "Teknologi dalam kehidupan murid",
+      "prompt": "Teknologi boleh membantu murid belajar dengan lebih mudah, tetapi penggunaannya perlu dikawal. Huraikan cara murid menggunakan teknologi secara bijak untuk pembelajaran dan kehidupan seharian.",
       "min_words": 100
     },
     {
       "id": "C02",
-      "title": "Amalan membaca berita",
-      "prompt": "Huraikan cara mendapatkan maklumat daripada sumber yang boleh dipercayai.",
+      "title": "Pengalaman bekerjasama",
+      "prompt": "Sesuatu tugasan menjadi lebih mudah apabila semua ahli bekerjasama. Ceritakan satu pengalaman bekerjasama atau huraikan cara kerjasama dapat membantu mencapai kejayaan.",
       "min_words": 100
     },
     {
       "id": "C03",
-      "title": "Amalan hidup sihat",
-      "prompt": "Huraikan langkah menjaga kesihatan fizikal dan mental dalam kehidupan harian.",
+      "title": "Sekolah yang bersih dan selesa",
+      "prompt": "Sekolah yang bersih dan selesa dapat mewujudkan suasana pembelajaran yang baik. Huraikan tindakan yang boleh dilakukan oleh murid untuk memastikan persekitaran sekolah sentiasa terjaga.",
       "min_words": 100
     }
-  ]
+  ],
+  "rebuildVersion": "V41_QUALITY_REBUILD",
+  "researchStructure": "A=30 (10 EQ/10 SQ/10 SSQ); B=70 (10 IQ/10 BM/10 BI/10 Math/10 Science/10 Tech/10 GK)."
 }
