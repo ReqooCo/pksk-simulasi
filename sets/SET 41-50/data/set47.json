@@ -6,16 +6,16 @@
       "category": "EQ",
       "question": "Anda mendapati rakan sekelas kelihatan sedih selepas menerima keputusan ujian. Apakah tindakan paling sesuai?",
       "options": [
-        "Membiarkannya kerana masalah itu bukan urusan anda.",
         "Mengejeknya supaya dia tidak terlalu serius.",
         "Terus memberitahu semua rakan tentang keputusannya.",
-        "Bertanya khabarnya dan menawarkan bantuan jika diperlukan."
+        "Bertanya khabarnya dan menawarkan bantuan jika diperlukan.",
+        "Membiarkannya kerana masalah itu bukan urusan anda."
       ],
       "weights": [
         0,
         0,
-        0,
-        3
+        3,
+        0
       ],
       "type": "graded"
     },
@@ -25,15 +25,15 @@
       "category": "SSQ",
       "question": "Apakah tindakan terbaik?",
       "options": [
-        "Membiarkannya kerana dia pendiam.",
-        "Menyiapkan semua tugas tanpa bertanya.",
         "Memberi peluang kepadanya menyampaikan pendapat.",
-        "Mengeluarkannya daripada kumpulan."
+        "Mengeluarkannya daripada kumpulan.",
+        "Membiarkannya kerana dia pendiam.",
+        "Menyiapkan semua tugas tanpa bertanya."
       ],
       "weights": [
-        0,
-        0,
         3,
+        0,
+        0,
         0
       ],
       "type": "graded"
@@ -44,16 +44,16 @@
       "category": "SQ",
       "question": "Anda ternampak sampah di kawasan yang baru dibersihkan walaupun bukan anda yang membuangnya. Apakah tindakan paling wajar?",
       "options": [
+        "Tunggu sehingga ada orang lain membersihkannya.",
         "Biarkan sahaja.",
         "Salahkan orang yang berada berhampiran.",
-        "Simpan sampah itu di tempat yang sesuai.",
-        "Tunggu sehingga ada orang lain membersihkannya."
+        "Simpan sampah itu di tempat yang sesuai."
       ],
       "weights": [
         0,
         0,
-        3,
-        0
+        0,
+        3
       ],
       "type": "graded"
     },
@@ -82,16 +82,16 @@
       "category": "SSQ",
       "question": "Dua orang rakan anda berselisih faham semasa kerja kumpulan. Anda patut...",
       "options": [
-        "Membantu mereka berbincang dengan tenang tentang penyelesaian.",
         "Meninggalkan kumpulan.",
         "Memihak kepada rakan yang paling rapat.",
-        "Menyebarkan cerita kepada rakan lain."
+        "Menyebarkan cerita kepada rakan lain.",
+        "Membantu mereka berbincang dengan tenang tentang penyelesaian."
       ],
       "weights": [
-        3,
         0,
         0,
-        0
+        0,
+        3
       ],
       "type": "graded"
     },
@@ -101,15 +101,15 @@
       "category": "SQ",
       "question": "Anda diberi amanah menjaga bahan kelas. Apakah tindakan yang menunjukkan amanah?",
       "options": [
-        "Menyimpan dan memulangkannya mengikut arahan.",
-        "Menggunakannya sesuka hati.",
         "Memberikannya kepada rakan tanpa izin.",
-        "Menyembunyikannya supaya tidak perlu menjaga."
+        "Menyembunyikannya supaya tidak perlu menjaga.",
+        "Menyimpan dan memulangkannya mengikut arahan.",
+        "Menggunakannya sesuka hati."
       ],
       "weights": [
+        0,
+        0,
         3,
-        0,
-        0,
         0
       ],
       "type": "graded"
@@ -120,15 +120,15 @@
       "category": "EQ",
       "question": "Anda berasa sangat gementar sebelum pembentangan. Apakah cara terbaik mengurus keadaan itu?",
       "options": [
+        "Mengganggu pembentangan kumpulan lain.",
         "Menyalahkan ahli kumpulan.",
         "Tarik nafas, bersedia dan cuba fokus pada tugasan.",
-        "Tidak hadir ke kelas.",
-        "Mengganggu pembentangan kumpulan lain."
+        "Tidak hadir ke kelas."
       ],
       "weights": [
         0,
-        3,
         0,
+        3,
         0
       ],
       "type": "graded"
@@ -158,10 +158,29 @@
       "category": "SQ",
       "question": "Anda menjumpai wang di lantai sekolah. Apakah tindakan paling wajar?",
       "options": [
-        "Menyembunyikannya.",
         "Menyerahkannya kepada guru atau pihak yang bertanggungjawab.",
         "Mengambilnya untuk kegunaan sendiri.",
-        "Membahagikannya dengan rakan."
+        "Membahagikannya dengan rakan.",
+        "Menyembunyikannya."
+      ],
+      "weights": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A10",
+      "section": "BAHAGIAN A",
+      "category": "EQ",
+      "question": "Apabila anda gagal dalam sesuatu yang telah anda usahakan, apakah tindakan terbaik?",
+      "options": [
+        "Menganggap diri tidak mampu selama-lamanya.",
+        "Berhenti mencuba.",
+        "Menyalahkan keadaan.",
+        "Kenal pasti kesilapan dan cuba lagi dengan cara yang lebih baik."
       ],
       "weights": [
         0,
@@ -172,39 +191,20 @@
       "type": "graded"
     },
     {
-      "id": "A10",
-      "section": "BAHAGIAN A",
-      "category": "EQ",
-      "question": "Apabila anda gagal dalam sesuatu yang telah anda usahakan, apakah tindakan terbaik?",
-      "options": [
-        "Menyalahkan keadaan.",
-        "Kenal pasti kesilapan dan cuba lagi dengan cara yang lebih baik.",
-        "Menganggap diri tidak mampu selama-lamanya.",
-        "Berhenti mencuba."
-      ],
-      "weights": [
-        0,
-        3,
-        0,
-        0
-      ],
-      "type": "graded"
-    },
-    {
       "id": "A11",
       "section": "BAHAGIAN A",
       "category": "SSQ",
       "question": "Semasa perbincangan, pendapat anda berbeza daripada majoriti. Apakah tindakan yang sesuai?",
       "options": [
+        "Memaksa semua orang menerima pendapat anda.",
         "Keluar daripada kumpulan.",
         "Terangkan alasan dengan sopan dan dengar pandangan orang lain.",
-        "Diam dan merajuk.",
-        "Memaksa semua orang menerima pendapat anda."
+        "Diam dan merajuk."
       ],
       "weights": [
         0,
-        3,
         0,
+        3,
         0
       ],
       "type": "graded"
@@ -234,16 +234,16 @@
       "category": "EQ",
       "question": "Anda tersilap bercakap dan menyebabkan rakan terasa hati. Apa yang patut dilakukan?",
       "options": [
-        "Meminta maaf dengan ikhlas dan berhati-hati selepas itu.",
         "Buat-buat tidak tahu.",
         "Menceritakan kesilapan rakan pula.",
-        "Menyalahkan rakan."
+        "Menyalahkan rakan.",
+        "Meminta maaf dengan ikhlas dan berhati-hati selepas itu."
       ],
       "weights": [
-        3,
         0,
         0,
-        0
+        0,
+        3
       ],
       "type": "graded"
     },
@@ -253,15 +253,15 @@
       "category": "SSQ",
       "question": "Kumpulan anda perlu memilih ketua. Apakah pertimbangan yang paling wajar?",
       "options": [
-        "Pilih kawan baik.",
-        "Pilih orang yang paling popular.",
         "Pilih calon yang bertanggungjawab dan mampu bekerjasama.",
-        "Pilih orang yang paling banyak bercakap."
+        "Pilih orang yang paling banyak bercakap.",
+        "Pilih kawan baik.",
+        "Pilih orang yang paling popular."
       ],
       "weights": [
-        0,
-        0,
         3,
+        0,
+        0,
         0
       ],
       "type": "graded"
@@ -272,14 +272,14 @@
       "category": "SQ",
       "question": "Apabila menerima sesuatu kejayaan, sikap yang paling baik ialah...",
       "options": [
+        "Berhenti berusaha kerana sudah berjaya.",
         "Bersyukur dan terus berusaha.",
         "Menceritakan kejayaan kepada semua orang secara berlebihan.",
-        "Memandang rendah orang lain.",
-        "Berhenti berusaha kerana sudah berjaya."
+        "Memandang rendah orang lain."
       ],
       "weights": [
-        3,
         0,
+        3,
         0,
         0
       ],
@@ -310,14 +310,14 @@
       "category": "SSQ",
       "question": "Seorang ahli kumpulan tidak dapat hadir kerana urusan keluarga. Apa yang patut dilakukan?",
       "options": [
-        "Mengeluarkannya daripada kumpulan.",
         "Membahagikan tugasan secara adil dan memaklumkan perkembangan kepadanya.",
         "Mengabaikannya.",
-        "Menyalahkannya."
+        "Menyalahkannya.",
+        "Mengeluarkannya daripada kumpulan."
       ],
       "weights": [
-        0,
         3,
+        0,
         0,
         0
       ],
@@ -329,16 +329,16 @@
       "category": "SQ",
       "question": "Anda terlihat rakan meniru kerja orang lain untuk dihantar sebagai tugasan sendiri. Apakah tindakan paling wajar?",
       "options": [
-        "Menyokongnya supaya cepat siap.",
-        "Menyebarkan perkara itu kepada semua rakan.",
         "Mengikutinya.",
-        "Menegurnya secara baik dan menggalakkannya menghasilkan kerja sendiri."
+        "Menegurnya secara baik dan menggalakkannya menghasilkan kerja sendiri.",
+        "Menyokongnya supaya cepat siap.",
+        "Menyebarkan perkara itu kepada semua rakan."
       ],
       "weights": [
         0,
+        3,
         0,
-        0,
-        3
+        0
       ],
       "type": "graded"
     },
@@ -348,16 +348,16 @@
       "category": "EQ",
       "question": "Apabila rakan mendapat pujian yang anda harapkan, apakah respons paling matang?",
       "options": [
+        "Menyebarkan kelemahannya.",
         "Merendah-rendahkan kejayaannya.",
         "Tidak bercakap dengannya lagi.",
-        "Mengucapkan tahniah dan menjadikannya motivasi.",
-        "Menyebarkan kelemahannya."
+        "Mengucapkan tahniah dan menjadikannya motivasi."
       ],
       "weights": [
         0,
         0,
-        3,
-        0
+        0,
+        3
       ],
       "type": "graded"
     },
@@ -386,14 +386,14 @@
       "category": "SQ",
       "question": "Anda membuat janji untuk menyiapkan tugas pada masa tertentu. Apakah tindakan yang menunjukkan disiplin?",
       "options": [
-        "Menyiapkannya apabila teringat.",
         "Menepati masa atau memaklumkan lebih awal jika ada masalah yang munasabah.",
         "Menyuruh orang lain membuatnya.",
-        "Mengelak daripada dihubungi."
+        "Mengelak daripada dihubungi.",
+        "Menyiapkannya apabila teringat."
       ],
       "weights": [
-        0,
         3,
+        0,
         0,
         0
       ],
@@ -405,15 +405,15 @@
       "category": "EQ",
       "question": "Apabila anda menerima berita yang mengejutkan, apakah tindakan yang wajar?",
       "options": [
-        "Semak maklumat dan bertenang sebelum membuat keputusan.",
-        "Terus bertindak tanpa berfikir.",
         "Marah kepada orang yang menyampaikan berita.",
-        "Sebarkan berita itu segera."
+        "Sebarkan berita itu segera.",
+        "Semak maklumat dan bertenang sebelum membuat keputusan.",
+        "Terus bertindak tanpa berfikir."
       ],
       "weights": [
+        0,
+        0,
         3,
-        0,
-        0,
         0
       ],
       "type": "graded"
@@ -424,15 +424,15 @@
       "category": "SSQ",
       "question": "Rakan anda mempunyai idea yang berbeza tetapi bernas. Apakah tindakan anda?",
       "options": [
+        "Memotong percakapannya.",
         "Menolaknya kerana bukan idea anda.",
         "Dengar dan pertimbangkan kelebihan idea tersebut.",
-        "Menyuruhnya diam.",
-        "Memotong percakapannya."
+        "Menyuruhnya diam."
       ],
       "weights": [
         0,
-        3,
         0,
+        3,
         0
       ],
       "type": "graded"
@@ -462,16 +462,16 @@
       "category": "EQ",
       "question": "Anda mendapat tugasan yang sukar dan tidak tahu cara memulakannya. Apakah pilihan terbaik?",
       "options": [
-        "Minta bimbingan dan pecahkan tugasan kepada langkah kecil.",
         "Menyalahkan guru.",
         "Tidak buat langsung.",
-        "Menyalin jawapan rakan."
+        "Menyalin jawapan rakan.",
+        "Minta bimbingan dan pecahkan tugasan kepada langkah kecil."
       ],
       "weights": [
-        3,
         0,
         0,
-        0
+        0,
+        3
       ],
       "type": "graded"
     },
@@ -481,15 +481,15 @@
       "category": "SSQ",
       "question": "Apakah tindakan paling sesuai?",
       "options": [
-        "Membantunya membetulkan kesilapan dan meneruskan aktiviti.",
-        "Mentertawakannya.",
         "Mengingatkannya sepanjang hari.",
-        "Menghentikan penyertaannya."
+        "Menghentikan penyertaannya.",
+        "Membantunya membetulkan kesilapan dan meneruskan aktiviti.",
+        "Mentertawakannya."
       ],
       "weights": [
+        0,
+        0,
         3,
-        0,
-        0,
         0
       ],
       "type": "graded"
@@ -500,16 +500,16 @@
       "category": "SQ",
       "question": "Anda diberikan tugasan menjaga peralatan yang mahal. Apakah tindakan paling wajar?",
       "options": [
+        "Menggunakannya mengikut arahan dan menyimpannya dengan selamat.",
         "Meninggalkannya tanpa pengawasan.",
         "Membawanya pulang.",
-        "Membenarkan semua orang menggunakannya tanpa kawalan.",
-        "Menggunakannya mengikut arahan dan menyimpannya dengan selamat."
+        "Membenarkan semua orang menggunakannya tanpa kawalan."
       ],
       "weights": [
+        3,
         0,
         0,
-        0,
-        3
+        0
       ],
       "type": "graded"
     },
@@ -538,10 +538,29 @@
       "category": "SSQ",
       "question": "Dalam perbincangan, seorang ahli terlalu banyak bercakap sehingga ahli lain tidak sempat memberi pandangan. Apakah tindakan terbaik?",
       "options": [
-        "Cadangkan supaya semua ahli diberi giliran bercakap.",
         "Menyuruhnya diam dengan kasar.",
         "Biarkan sahaja walaupun masa terhad.",
-        "Keluar daripada perbincangan."
+        "Keluar daripada perbincangan.",
+        "Cadangkan supaya semua ahli diberi giliran bercakap."
+      ],
+      "weights": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "type": "graded"
+    },
+    {
+      "id": "A30",
+      "section": "BAHAGIAN A",
+      "category": "SQ",
+      "question": "Anda mempunyai masa lapang sebelum aktiviti seterusnya. Apakah penggunaan masa yang paling baik?",
+      "options": [
+        "Mengganggu rakan.",
+        "Tidur sepanjang masa.",
+        "Membuat perkara yang boleh menjejaskan orang lain.",
+        "Menyelesaikan tugasan yang belum siap atau membuat persediaan."
       ],
       "weights": [
         0,
@@ -552,36 +571,17 @@
       "type": "graded"
     },
     {
-      "id": "A30",
-      "section": "BAHAGIAN A",
-      "category": "SQ",
-      "question": "Anda mempunyai masa lapang sebelum aktiviti seterusnya. Apakah penggunaan masa yang paling baik?",
-      "options": [
-        "Membuat perkara yang boleh menjejaskan orang lain.",
-        "Menyelesaikan tugasan yang belum siap atau membuat persediaan.",
-        "Mengganggu rakan.",
-        "Tidur sepanjang masa."
-      ],
-      "weights": [
-        0,
-        3,
-        0,
-        0
-      ],
-      "type": "graded"
-    },
-    {
       "id": "B01",
       "section": "BAHAGIAN B",
       "category": "IQ / Pola",
       "question": "Apakah nombor seterusnya? 4, 8, 16, 32, …",
       "options": [
+        "48",
         "64",
         "56",
-        "72",
-        "48"
+        "72"
       ],
-      "answer": 0,
+      "answer": 1,
       "type": "dichotomous",
       "explanation": "Pola berganda 2: setiap nombor didarab 2. 4 × 2 = 8, 8 × 2 = 16, 16 × 2 = 32, jadi nombor seterusnya ialah 32 × 2 = 64."
     },
@@ -606,12 +606,12 @@
       "category": "IQ / Analogi",
       "question": "Buku : Membaca :: Pensel : …",
       "options": [
-        "Mengukur",
         "Menulis",
         "Melukis",
-        "Mengira"
+        "Mengira",
+        "Mengukur"
       ],
-      "answer": 1,
+      "answer": 0,
       "type": "dichotomous",
       "explanation": "Buku digunakan untuk membaca; pensel digunakan untuk menulis. Jadi jawapan yang sepadan ialah Menulis."
     },
@@ -621,12 +621,12 @@
       "category": "IQ / Logik",
       "question": "Semua bunga dalam pasu itu berwarna putih. Mawar ialah bunga dalam pasu itu. Kesimpulan yang pasti ialah…",
       "options": [
-        "Mawar bukan bunga",
-        "Mawar berwarna putih",
         "Semua bunga berwarna merah",
-        "Mawar berwarna merah"
+        "Mawar berwarna merah",
+        "Mawar bukan bunga",
+        "Mawar berwarna putih"
       ],
-      "answer": 1,
+      "answer": 3,
       "type": "dichotomous",
       "explanation": "Jawapan yang betul ialah: Mawar berwarna putih."
     },
@@ -636,12 +636,12 @@
       "category": "IQ / Susunan",
       "question": "Aina lebih tua daripada Bina. Bina lebih tua daripada Citra. Siapakah paling muda?",
       "options": [
+        "Bina",
         "Tidak dapat ditentukan",
         "Aina",
-        "Citra",
-        "Bina"
+        "Citra"
       ],
-      "answer": 2,
+      "answer": 3,
       "type": "dichotomous",
       "explanation": "Jika Aina lebih tua daripada Bina dan Bina lebih tua daripada Citra, urutannya Aina, Bina, Citra. Jadi Citra paling muda."
     },
@@ -666,12 +666,12 @@
       "category": "IQ / Klasifikasi",
       "question": "Yang manakah paling berbeza daripada yang lain?",
       "options": [
-        "Segi empat",
         "Segi lima",
         "Segi tiga",
-        "Bulatan"
+        "Bulatan",
+        "Segi empat"
       ],
-      "answer": 3,
+      "answer": 2,
       "type": "dichotomous",
       "explanation": "Bulat mempunyai bentuk melengkung tanpa sisi lurus, manakala pilihan lain ialah bentuk yang mempunyai sisi/struktur garis lurus. Oleh itu Bulatan paling berbeza."
     },
@@ -681,12 +681,12 @@
       "category": "IQ / Urutan",
       "question": "Isnin, Rabu, Jumaat, Ahad, … Hari berikutnya dalam pola ialah…",
       "options": [
-        "Selasa minggu berikutnya",
-        "Khamis",
         "Selasa",
-        "Isnin"
+        "Isnin",
+        "Selasa minggu berikutnya",
+        "Khamis"
       ],
-      "answer": 0,
+      "answer": 2,
       "type": "dichotomous",
       "explanation": "Jawapan yang betul ialah: Selasa minggu berikutnya."
     },
@@ -696,12 +696,12 @@
       "category": "IQ / Operasi",
       "question": "Jika ▲ = 6 dan ● = 4, berapakah nilai ▲ × ● − 5?",
       "options": [
+        "29",
         "14",
         "24",
-        "19",
-        "29"
+        "19"
       ],
-      "answer": 2,
+      "answer": 3,
       "type": "dichotomous",
       "explanation": "Gantikan nilai simbol: 6 × 4 − 5 = 24 − 5 = 19."
     },
@@ -726,12 +726,12 @@
       "category": "Matematik",
       "question": "Sebuah kelas mempunyai 40 orang murid. Sebanyak 35% ialah perempuan. Berapakah bilangan murid perempuan?",
       "options": [
-        "16",
         "18",
         "12",
-        "14"
+        "14",
+        "16"
       ],
-      "answer": 3,
+      "answer": 2,
       "type": "dichotomous",
       "explanation": "35% daripada 40 = 0.35 × 40 = 14 orang."
     },
@@ -741,12 +741,12 @@
       "category": "Matematik",
       "question": "Harga sebuah beg ialah RM80. Kedai memberi diskaun 15%. Berapakah harga selepas diskaun?",
       "options": [
-        "RM65",
-        "RM68",
         "RM72",
-        "RM74"
+        "RM74",
+        "RM65",
+        "RM68"
       ],
-      "answer": 1,
+      "answer": 3,
       "type": "dichotomous",
       "explanation": "Diskaun 15% daripada RM80 ialah RM12. Harga selepas diskaun = RM80 − RM12 = RM68."
     },
@@ -756,12 +756,12 @@
       "category": "Matematik",
       "question": "Nisbah bilangan pensel merah kepada biru ialah 3:5. Jika jumlah pensel ialah 32, berapakah pensel biru?",
       "options": [
+        "12",
         "20",
         "24",
-        "18",
-        "12"
+        "18"
       ],
-      "answer": 0,
+      "answer": 1,
       "type": "dichotomous",
       "explanation": "Jumlah bahagian nisbah 3+5=8. Satu bahagian = 32÷8=4. Pensel biru = 5×4=20."
     },
@@ -786,12 +786,12 @@
       "category": "Matematik",
       "question": "Rajah menunjukkan sebuah segi empat tepat dengan panjang 12 cm dan lebar 7 cm. Berapakah perimeter bentuk itu?",
       "options": [
-        "19 cm",
         "38 cm",
         "84 cm",
-        "42 cm"
+        "42 cm",
+        "19 cm"
       ],
-      "answer": 1,
+      "answer": 0,
       "type": "dichotomous",
       "explanation": "Perimeter segi empat tepat = 2(panjang + lebar) = 2(12+7) = 38 cm.",
       "visual": "b15_rectangle.svg"
@@ -802,12 +802,12 @@
       "category": "Matematik",
       "question": "Rajah menunjukkan sebuah segi empat sama. Setiap sisinya 9 cm. Berapakah luasnya?",
       "options": [
-        "18 cm²",
-        "36 cm²",
         "81 cm²",
-        "72 cm²"
+        "72 cm²",
+        "18 cm²",
+        "36 cm²"
       ],
-      "answer": 2,
+      "answer": 0,
       "type": "dichotomous",
       "explanation": "Luas segi empat sama = sisi × sisi = 9×9 = 81 cm².",
       "visual": "b16_square.svg"
@@ -818,12 +818,12 @@
       "category": "Matematik",
       "question": "Sebuah bekas mempunyai 2.5 L air. Sebanyak 750 mL digunakan. Berapakah baki air?",
       "options": [
+        "2.25 L",
         "1.75 L",
         "1.25 L",
-        "1.50 L",
-        "2.25 L"
+        "1.50 L"
       ],
-      "answer": 0,
+      "answer": 1,
       "type": "dichotomous",
       "explanation": "2.5 L = 2500 mL. Baki = 2500 − 750 = 1750 mL = 1.75 L."
     },
@@ -848,12 +848,12 @@
       "category": "Matematik",
       "question": "Purata bagi 12, 15, 18 dan 19 ialah…",
       "options": [
-        "16.5",
         "17",
         "15",
-        "16"
+        "16",
+        "16.5"
       ],
-      "answer": 3,
+      "answer": 2,
       "type": "dichotomous",
       "explanation": "Jumlah = 12+15+18+19 = 64. Purata = 64÷4 = 16. Jadi jawapan ialah 16."
     },
@@ -863,12 +863,12 @@
       "category": "Matematik",
       "question": "Rajah menunjukkan dua sudut bersebelahan pada satu garis lurus. Salah satu sudut ialah 125°. Berapakah sudut yang satu lagi?",
       "options": [
-        "45°",
-        "75°",
         "55°",
-        "65°"
+        "65°",
+        "45°",
+        "75°"
       ],
-      "answer": 2,
+      "answer": 0,
       "type": "dichotomous",
       "explanation": "Sudut pada garis lurus berjumlah 180°. Sudut bersebelahan = 180°−125° = 55°.",
       "visual": "b20_straight_angle.svg"
@@ -879,12 +879,12 @@
       "category": "Matematik",
       "question": "Rajah menunjukkan sebuah segi tiga dengan dua sudut 65° dan 48°. Berapakah nilai sudut yang ditandakan dengan tanda soal?",
       "options": [
+        "87°",
         "77°",
         "57°",
-        "67°",
-        "87°"
+        "67°"
       ],
-      "answer": 2,
+      "answer": 3,
       "type": "dichotomous",
       "explanation": "Jumlah sudut segi tiga 180°. Sudut ketiga = 180°−65°−48° = 67°. Jadi jawapan ialah 67°.",
       "visual": "b21_triangle.svg"
@@ -911,12 +911,12 @@
       "category": "Matematik",
       "question": "Sebuah kotak mempunyai 5 baris dengan 8 biji gula-gula setiap baris. Jika 12 biji diberikan kepada rakan, berapa biji tinggal?",
       "options": [
-        "40",
         "28",
         "18",
-        "38"
+        "38",
+        "40"
       ],
-      "answer": 1,
+      "answer": 0,
       "type": "dichotomous",
       "explanation": "Jumlah gula-gula = 5×8 = 40. Selepas 12 diberi, baki = 40−12 = 28. Jadi jawapan ialah 28."
     },
@@ -926,12 +926,12 @@
       "category": "Penyelesaian Masalah",
       "question": "Ali berlari 600 m dalam 4 minit. Pada kadar yang sama, berapakah jarak dalam 7 minit?",
       "options": [
-        "900 m",
-        "1,050 m",
         "1,200 m",
-        "1,000 m"
+        "1,000 m",
+        "900 m",
+        "1,050 m"
       ],
-      "answer": 1,
+      "answer": 3,
       "type": "dichotomous",
       "explanation": "Jawapan yang betul ialah: 1,050 m."
     },
@@ -941,12 +941,12 @@
       "category": "Matematik",
       "question": "Sebuah tangki diisi 18 L air setiap 6 minit. Pada kadar yang sama, berapa liter dalam 15 minit?",
       "options": [
+        "45 L",
         "36 L",
         "54 L",
-        "60 L",
-        "45 L"
+        "60 L"
       ],
-      "answer": 3,
+      "answer": 0,
       "type": "dichotomous",
       "explanation": "18 L dalam 6 minit bermaksud 3 L/minit. Dalam 15 minit: 3×15 = 45 L."
     },
@@ -971,12 +971,12 @@
       "category": "Matematik",
       "question": "3/5 daripada 50 orang murid menyertai lawatan. Berapakah murid yang menyertai?",
       "options": [
-        "35",
         "25",
         "20",
-        "30"
+        "30",
+        "35"
       ],
-      "answer": 3,
+      "answer": 2,
       "type": "dichotomous",
       "explanation": "3/5 daripada 50 = (50÷5)×3 = 10×3 = 30 orang."
     },
@@ -986,12 +986,12 @@
       "category": "Matematik",
       "question": "Harga sebuah jam meningkat daripada RM120 kepada RM150. Berapakah peratus kenaikan?",
       "options": [
-        "20%",
-        "25%",
         "30%",
-        "35%"
+        "35%",
+        "20%",
+        "25%"
       ],
-      "answer": 1,
+      "answer": 3,
       "type": "dichotomous",
       "explanation": "Kenaikan = RM150−RM120 = RM30. Peratus kenaikan = 30÷120×100% = 25%."
     },
@@ -1001,12 +1001,12 @@
       "category": "Bahasa Melayu",
       "question": "Pilih perkataan yang paling hampir maksud dengan “gigih”.",
       "options": [
+        "Ragu-ragu",
         "Lalai",
         "Lemah",
-        "Tekun",
-        "Ragu-ragu"
+        "Tekun"
       ],
-      "answer": 2,
+      "answer": 3,
       "type": "dichotomous",
       "explanation": "Gigih bermaksud rajin dan tekun dalam melakukan sesuatu. Jadi perkataan paling hampir ialah Tekun."
     },
@@ -1031,12 +1031,12 @@
       "category": "Bahasa Melayu",
       "question": "Antonim bagi perkataan “luas” ialah…",
       "options": [
-        "Sempit",
         "Tinggi",
         "Dalam",
-        "Panjang"
+        "Panjang",
+        "Sempit"
       ],
-      "answer": 0,
+      "answer": 3,
       "type": "dichotomous",
       "explanation": "Antonim bermaksud perkataan yang berlawanan makna. Lawan bagi luas ialah sempit."
     },
@@ -1046,12 +1046,12 @@
       "category": "Bahasa Melayu",
       "question": "“Bagai aur dengan tebing” membawa maksud…",
       "options": [
-        "Bercakap tanpa berfikir",
-        "Saling membantu",
         "Mudah berubah",
-        "Bekerja seorang diri"
+        "Bekerja seorang diri",
+        "Bercakap tanpa berfikir",
+        "Saling membantu"
       ],
-      "answer": 1,
+      "answer": 3,
       "type": "dichotomous",
       "explanation": "“Bagai aur dengan tebing” menggambarkan hubungan yang saling membantu dan bekerjasama."
     },
@@ -1061,12 +1061,12 @@
       "category": "Bahasa Melayu",
       "question": "Pilih kata yang paling sesuai: “Murid-murid itu ___ arahan guru sebelum memulakan eksperimen.”",
       "options": [
+        "mematuhi kepada",
         "dipatuhi oleh",
         "mematuhkan",
-        "mematuhi",
-        "mematuhi kepada"
+        "mematuhi"
       ],
-      "answer": 2,
+      "answer": 3,
       "type": "dichotomous",
       "explanation": "Kata kerja yang sesuai ialah “mematuhi”: murid-murid itu mematuhi arahan guru."
     },
@@ -1091,12 +1091,12 @@
       "category": "Bahasa Melayu",
       "question": "Pilih ayat yang menggunakan kata “terhadap” dengan tepat.",
       "options": [
-        "Kami membeli makanan terhadap kantin.",
         "Dia sangat sayang terhadap ibunya.",
         "Ali berjalan terhadap rumahnya.",
-        "Murid itu memberi perhatian terhadap penerangan guru."
+        "Murid itu memberi perhatian terhadap penerangan guru.",
+        "Kami membeli makanan terhadap kantin."
       ],
-      "answer": 3,
+      "answer": 2,
       "type": "dichotomous",
       "explanation": "Jawapan yang betul ialah: Murid itu memberi perhatian terhadap penerangan guru.."
     },
@@ -1106,12 +1106,12 @@
       "category": "Bahasa Melayu",
       "question": "Pilih simpulan bahasa yang sesuai untuk seseorang yang suka membantu orang lain.",
       "options": [
-        "Ringan tulang",
-        "Kaki bangku",
         "Panjang tangan",
-        "Besar kepala"
+        "Besar kepala",
+        "Ringan tulang",
+        "Kaki bangku"
       ],
-      "answer": 0,
+      "answer": 2,
       "type": "dichotomous",
       "explanation": "“Ringan tulang” bermaksud suka menolong atau rajin membantu."
     },
@@ -1121,12 +1121,12 @@
       "category": "English",
       "question": "Choose the correct sentence.",
       "options": [
+        "She go to school every day.",
         "She gone to school every day.",
         "She goes to school every day.",
-        "She going to school every day.",
-        "She go to school every day."
+        "She going to school every day."
       ],
-      "answer": 1,
+      "answer": 2,
       "type": "dichotomous",
       "explanation": "Jawapan yang betul ialah: She goes to school every day.."
     },
@@ -1151,12 +1151,12 @@
       "category": "English",
       "question": "“The children were tired because they had walked for two hours.” Why were they tired?",
       "options": [
-        "They had been sleeping.",
         "They had been swimming.",
         "They had been walking for two hours.",
-        "They had been eating."
+        "They had been eating.",
+        "They had been sleeping."
       ],
-      "answer": 2,
+      "answer": 1,
       "type": "dichotomous",
       "explanation": "Jawapan yang betul ialah: They had been walking for two hours.."
     },
@@ -1166,12 +1166,12 @@
       "category": "English",
       "question": "Choose the best word: “My brother is ___ than me.”",
       "options": [
-        "more tall",
-        "taller",
         "tall",
-        "tallest"
+        "tallest",
+        "more tall",
+        "taller"
       ],
-      "answer": 1,
+      "answer": 3,
       "type": "dichotomous",
       "explanation": "Perbandingan dua orang menggunakan comparative adjective: tall menjadi taller."
     },
@@ -1181,12 +1181,12 @@
       "category": "English",
       "question": "Which sentence is in the past tense?",
       "options": [
+        "Aina writes a letter.",
         "Aina is writing a letter.",
         "Aina will write a letter.",
-        "Aina wrote a letter.",
-        "Aina writes a letter."
+        "Aina wrote a letter."
       ],
-      "answer": 2,
+      "answer": 3,
       "type": "dichotomous",
       "explanation": "Jawapan yang betul ialah: Aina wrote a letter.."
     },
@@ -1211,12 +1211,12 @@
       "category": "English",
       "question": "Complete the sentence: “If it rains, we ___ indoors.”",
       "options": [
-        "stay",
         "stayed",
         "will stay",
-        "staying"
+        "staying",
+        "stay"
       ],
-      "answer": 2,
+      "answer": 1,
       "type": "dichotomous",
       "explanation": "Dalam first conditional, “If it rains” diikuti “will + verb”: we will stay indoors."
     },
@@ -1226,12 +1226,12 @@
       "category": "English",
       "question": "Which word is a noun?",
       "options": [
-        "Quickly",
-        "Beautiful",
         "Teacher",
-        "Carefully"
+        "Carefully",
+        "Quickly",
+        "Beautiful"
       ],
-      "answer": 2,
+      "answer": 0,
       "type": "dichotomous",
       "explanation": "Teacher ialah kata nama (noun) kerana menamakan seseorang."
     },
@@ -1241,12 +1241,12 @@
       "category": "Sains",
       "question": "Tumbuhan memerlukan cahaya matahari untuk menjalankan proses…",
       "options": [
+        "Perkumuhan",
         "Pencernaan",
         "Respirasi",
-        "Fotosintesis",
-        "Perkumuhan"
+        "Fotosintesis"
       ],
-      "answer": 2,
+      "answer": 3,
       "type": "dichotomous",
       "explanation": "Tumbuhan menggunakan cahaya untuk fotosintesis, iaitu proses menghasilkan makanan."
     },
@@ -1272,12 +1272,12 @@
       "category": "Sains",
       "question": "Antara berikut, yang manakah sumber tenaga boleh diperbaharui?",
       "options": [
-        "Tenaga suria",
         "Petroleum",
         "Gas asli",
-        "Arang batu"
+        "Arang batu",
+        "Tenaga suria"
       ],
-      "answer": 0,
+      "answer": 3,
       "type": "dichotomous",
       "explanation": "Tenaga suria ialah sumber tenaga boleh diperbaharui kerana datang daripada cahaya Matahari yang berterusan."
     },
@@ -1287,12 +1287,12 @@
       "category": "Sains",
       "question": "Apakah fungsi utama rangka manusia?",
       "options": [
-        "Menyokong dan melindungi badan",
-        "Menghasilkan makanan",
         "Mencerna makanan",
-        "Mengalirkan darah"
+        "Mengalirkan darah",
+        "Menyokong dan melindungi badan",
+        "Menghasilkan makanan"
       ],
-      "answer": 0,
+      "answer": 2,
       "type": "dichotomous",
       "explanation": "Jawapan yang betul ialah: Menyokong dan melindungi badan."
     },
@@ -1302,12 +1302,12 @@
       "category": "Sains",
       "question": "Air berubah daripada cecair kepada gas melalui proses…",
       "options": [
+        "Pembekuan",
         "Pemeluwapan",
         "Peleburan",
-        "Penyejatan",
-        "Pembekuan"
+        "Penyejatan"
       ],
-      "answer": 2,
+      "answer": 3,
       "type": "dichotomous",
       "explanation": "Perubahan cecair kepada gas dipanggil penyejatan."
     },
@@ -1333,12 +1333,12 @@
       "category": "Sains",
       "question": "Apakah organ yang mengepam darah ke seluruh badan?",
       "options": [
-        "Buah pinggang",
         "Perut",
         "Jantung",
-        "Paru-paru"
+        "Paru-paru",
+        "Buah pinggang"
       ],
-      "answer": 2,
+      "answer": 1,
       "type": "dichotomous",
       "explanation": "Jantung mengepam darah ke seluruh badan melalui sistem peredaran darah."
     },
@@ -1348,12 +1348,12 @@
       "category": "Teknologi",
       "question": "Apakah fungsi utama gear dalam sesuatu mekanisme?",
       "options": [
-        "Menghasilkan makanan",
-        "Memindahkan gerakan dan daya",
         "Mengukur suhu",
-        "Menyimpan air"
+        "Menyimpan air",
+        "Menghasilkan makanan",
+        "Memindahkan gerakan dan daya"
       ],
-      "answer": 1,
+      "answer": 3,
       "type": "dichotomous",
       "explanation": "Gear digunakan untuk memindahkan gerakan dan daya serta boleh mengubah kelajuan atau arah putaran."
     },
@@ -1363,12 +1363,12 @@
       "category": "Teknologi",
       "question": "Bahan yang sesuai untuk menghasilkan model yang ringan dan mudah dipotong ialah…",
       "options": [
+        "Kadbod",
         "Besi padu",
         "Kaca tebal",
-        "Batu granit",
-        "Kadbod"
+        "Batu granit"
       ],
-      "answer": 3,
+      "answer": 0,
       "type": "dichotomous",
       "explanation": "Kadbod ringan dan mudah dipotong, jadi sesuai untuk menghasilkan model ringkas."
     },
@@ -1393,12 +1393,12 @@
       "category": "Teknologi",
       "question": "Rajah menunjukkan sensor menghantar maklumat kepada sistem. Apakah fungsi utama sensor dalam sistem automasi?",
       "options": [
-        "Mewarnakan produk",
         "Mengesan perubahan atau keadaan persekitaran",
         "Menambah berat produk",
-        "Menyimpan makanan"
+        "Menyimpan makanan",
+        "Mewarnakan produk"
       ],
-      "answer": 1,
+      "answer": 0,
       "type": "dichotomous",
       "explanation": "Sensor mengesan perubahan atau keadaan persekitaran seperti cahaya, suhu atau jarak dan menghantar maklumat kepada sistem.",
       "visual": "b55_sensor.svg"
@@ -1409,12 +1409,12 @@
       "category": "Teknologi",
       "question": "Apakah amalan paling sesuai ketika menggunakan alatan tajam?",
       "options": [
-        "Meninggalkannya terbuka selepas digunakan",
-        "Menghalakannya kepada rakan",
         "Menggunakannya sambil berlari",
-        "Mengikut arahan keselamatan dan mengendalikan dengan cermat"
+        "Mengikut arahan keselamatan dan mengendalikan dengan cermat",
+        "Meninggalkannya terbuka selepas digunakan",
+        "Menghalakannya kepada rakan"
       ],
-      "answer": 3,
+      "answer": 1,
       "type": "dichotomous",
       "explanation": "Jawapan yang betul ialah: Mengikut arahan keselamatan dan mengendalikan dengan cermat."
     },
@@ -1424,12 +1424,12 @@
       "category": "Teknologi",
       "question": "Apakah kelebihan prototaip sebelum produk sebenar dihasilkan?",
       "options": [
+        "Menjadikan semua produk sama",
         "Menghapuskan keperluan menguji produk",
         "Memastikan produk tidak boleh diubah",
-        "Membolehkan reka bentuk diuji dan diperbaiki",
-        "Menjadikan semua produk sama"
+        "Membolehkan reka bentuk diuji dan diperbaiki"
       ],
-      "answer": 2,
+      "answer": 3,
       "type": "dichotomous",
       "explanation": "Jawapan yang betul ialah: Membolehkan reka bentuk diuji dan diperbaiki."
     },
@@ -1454,12 +1454,12 @@
       "category": "Pengetahuan Am",
       "question": "Apakah bunga kebangsaan Malaysia?",
       "options": [
-        "Bunga raya",
         "Melur",
         "Orkid",
-        "Anggerik"
+        "Anggerik",
+        "Bunga raya"
       ],
-      "answer": 0,
+      "answer": 3,
       "type": "dichotomous",
       "explanation": "Bunga raya ialah bunga kebangsaan Malaysia."
     },
@@ -1469,12 +1469,12 @@
       "category": "Pengetahuan Am",
       "question": "Berapakah bilangan negeri di Malaysia?",
       "options": [
-        "13",
-        "12",
         "14",
-        "11"
+        "11",
+        "13",
+        "12"
       ],
-      "answer": 0,
+      "answer": 2,
       "type": "dichotomous",
       "explanation": "Malaysia mempunyai 13 negeri. Tiga wilayah persekutuan tidak termasuk dalam kiraan negeri."
     },
@@ -1484,12 +1484,12 @@
       "category": "Pengetahuan Am",
       "question": "Apakah laut yang memisahkan Semenanjung Malaysia dengan Sabah dan Sarawak?",
       "options": [
+        "Laut Jawa",
         "Laut China Selatan",
         "Laut Sulu",
-        "Laut Andaman",
-        "Laut Jawa"
+        "Laut Andaman"
       ],
-      "answer": 0,
+      "answer": 1,
       "type": "dichotomous",
       "explanation": "Laut China Selatan terletak antara Semenanjung Malaysia dengan Sabah dan Sarawak."
     },
@@ -1514,12 +1514,12 @@
       "category": "Pengetahuan Am",
       "question": "Rukun Negara mempunyai berapa prinsip?",
       "options": [
-        "3",
         "5",
         "6",
-        "4"
+        "4",
+        "3"
       ],
-      "answer": 1,
+      "answer": 0,
       "type": "dichotomous",
       "explanation": "Jawapan yang betul ialah: 5."
     },
@@ -1529,12 +1529,12 @@
       "category": "Pengetahuan Am",
       "question": "Apakah warna yang melambangkan keberanian pada Jalur Gemilang?",
       "options": [
-        "Biru",
-        "Putih",
         "Merah",
-        "Kuning"
+        "Kuning",
+        "Biru",
+        "Putih"
       ],
-      "answer": 2,
+      "answer": 0,
       "type": "dichotomous",
       "explanation": "Warna merah pada Jalur Gemilang melambangkan keberanian."
     },
@@ -1544,12 +1544,12 @@
       "category": "Pengetahuan Am",
       "question": "Malaysia terletak di rantau…",
       "options": [
+        "Asia Barat",
         "Amerika Selatan",
         "Eropah",
-        "Asia Tenggara",
-        "Asia Barat"
+        "Asia Tenggara"
       ],
-      "answer": 2,
+      "answer": 3,
       "type": "dichotomous",
       "explanation": "Malaysia terletak di rantau Asia Tenggara."
     },
@@ -1574,12 +1574,12 @@
       "category": "Pengetahuan Am",
       "question": "Apakah bahasa kebangsaan Malaysia?",
       "options": [
-        "Bahasa Mandarin",
         "Bahasa Tamil",
         "Bahasa Inggeris",
-        "Bahasa Melayu"
+        "Bahasa Melayu",
+        "Bahasa Mandarin"
       ],
-      "answer": 3,
+      "answer": 2,
       "type": "dichotomous",
       "explanation": "Bahasa Melayu ialah bahasa kebangsaan Malaysia."
     },
@@ -1589,12 +1589,12 @@
       "category": "Pengetahuan Am",
       "question": "Apakah nama bendera Malaysia?",
       "options": [
-        "Panji Negara",
-        "Sang Saka",
         "Bendera Perpaduan",
-        "Jalur Gemilang"
+        "Jalur Gemilang",
+        "Panji Negara",
+        "Sang Saka"
       ],
-      "answer": 3,
+      "answer": 1,
       "type": "dichotomous",
       "explanation": "Bendera Malaysia dikenali sebagai Jalur Gemilang."
     },
@@ -1604,12 +1604,12 @@
       "category": "Pengetahuan Am",
       "question": "Gunung Kinabalu terletak di negeri…",
       "options": [
+        "Sabah",
         "Pahang",
         "Sarawak",
-        "Perak",
-        "Sabah"
+        "Perak"
       ],
-      "answer": 3,
+      "answer": 0,
       "type": "dichotomous",
       "explanation": "Gunung Kinabalu terletak di Sabah."
     },
