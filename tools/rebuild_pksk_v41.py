@@ -11,9 +11,12 @@ def rebuild_explanation(q):
     ans=q['options'][q['answer']];old=q.get('explanation','')
     if not old or ans.lower() not in old.lower():q['explanation']=f'Jawapan yang betul ialah: {ans}.'
 def clean_context(q):
-    s=q['question'].strip()
+    original=q['question'].strip();s=original
     s=re.sub(r'^(Dalam|Semasa|Ketika|Bagi) (aktiviti|sesi|program|projek|tugasan|persediaan)[^.?]*[.?]\s*','',s,flags=re.I)
     s=re.sub(r'^(Antara pilihan berikut, yang manakah benar\?\s*)','',s,flags=re.I)
+    # Never leave a generic stem such as “Apakah tindakan terbaik?” after stripping.
+    if len(s)<45 or s.lower().rstrip(' ?.') in {'apakah tindakan terbaik','apakah tindakan paling sesuai','pilih jawapan yang paling tepat','apakah jawapan yang paling sesuai'}:
+        s=original
     q['question']=s.strip()
 d=json.loads(BASE.read_text(encoding='utf-8'));assert len(d['questions'])==100
 for s in range(1,101):
