@@ -1,0 +1,1 @@
+Set 01 V2 content has been drafted as a controlled pilot in the model workspace. The repository gate intentionally remains LIVE=false until the full 18-gate content review is completed. This prevents another premature 100-item bank from reaching the simulator.
