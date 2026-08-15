@@ -35,7 +35,7 @@ jobs:
               assert len(A)==30 and len(B)==70, (p,len(A),len(B))
               assert all(len(q['options'])==4 for q in qs), p
               for q in B: assert 0<=q['answer']<4, (p,q['id'])
-              for q in A: assert len(q['weights'])==4 and sum(q['weights'])==6, (p,q['id'])
+              for q in A: assert len(q['weights'])==4 and sum(q['weights'])==3, (p,q['id'])
           print('Validation passed for 100 sets.')
           PY
       - name: Commit rebuilt sets
